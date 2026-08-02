@@ -1,0 +1,32 @@
+---
+description: CFMI priority order — mission and online presence before legislation; prompt-native workflow.
+alwaysApply: true
+---
+
+# CFMI — Priority Order (Prompt-Native)
+
+The founder runs this project through Cursor prompts. Obey this **sequence** unless the founder explicitly reprioritizes.
+
+## Current priority (do in order)
+
+1. **Mission lock** — Short public mission + principles consistent with `CHARTER.md`. No drift.
+2. **Online presence** — Deployable public site (from `website/`), README as repo face, pitch one-pager aligned to mission—not to a flagship bill.
+3. **Formation readiness** — Checklists, draft bylaws/conflict policy marked attorney-review; do not claim tax status.
+4. **Only then** — AI-driven bill reviews and model legislation as secondary products.
+
+## What is secondary right now
+
+- Flagship model acts (licensing, housing, water, AI markets)
+- Deep legislative drafting
+- Issue-ranking as the donor lead
+
+Existing drafts in `model-legislation/` and `ai-reviews/` are **retained as method samples**, not the homepage lead.
+
+## Standing rules
+
+- Obey `CHARTER.md` and `METHODOLOGY.md` when drafting or reviewing.
+- Plain language, non-partisan, precise. No hype. No pay-for-play.
+- Prefer least-coercive instruments; flag rents, barriers, opaque discretion.
+- After substantive work, give **copy-paste next prompts**.
+- Do not commit or push unless the founder explicitly asks.
+- Manual-only steps (GitHub login, counsel, IRS, banking, donor calls) get a short checklist + an in-repo artifact when possible.
