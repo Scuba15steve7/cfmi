@@ -5,6 +5,7 @@
 **Companions:** [`ops/anti-narrative-capture.md`](../ops/anti-narrative-capture.md) · [`METHODOLOGY.md`](../METHODOLOGY.md) §7.5–§7.6  
 **Parent stall dig:** [`save-act-senate-stall-stress-test.md`](save-act-senate-stall-stress-test.md)  
 **Deep-records companion:** [`influence-save-act-senate-stall.md`](influence-save-act-senate-stall.md)  
+**Deep adversarial companion:** [`claim-triage-thune-save-act-deep.md`](claim-triage-thune-save-act-deep.md) — starts from sandbagging/hidden-driver leads; does **not** treat leadership self-description as sufficient  
 **Pass date:** 2026-08-02  
 **Human editor:** CFMI bootstrap  
 **Interest disclosure (editor):** none
@@ -20,6 +21,8 @@ Educational research only—not legal advice, voting instructions, or counsel to
 **What looks like “blocking” to critics is mostly a leadership choice about procedure:** he has repeatedly said Republicans lack the votes to pass the bill under the filibuster **and** lack the votes to abolish or replace the 60-vote rule (including a “talking filibuster” rules change). Summer 2026 conference messaging and his public comments still say staying in session or canceling August recess will not create Democratic crossover votes. That is **vote-counting and institutional-rules strategy**, not a public record of sabotage-for-hire.
 
 **Corrupt / special-interest “Thune is paid to kill SAVE”:** **not established** from LDA, FEC, or OpenSecrets in this pass. His disclosed donor mix is ordinary leadership-era aggregate finance—not a bill-specific bribe chain. Pressure on him runs mostly from **pro-passage** Trump/MAGA actors who want him to nuke the filibuster—not from a documented anti-SAVE paymaster.
+
+**For sandbagging / hidden-driver leads** (theater, Trump conflict, institutional incentives beyond the press release): see **[Deep adversarial companion](claim-triage-thune-save-act-deep.md)** — this first pass is too credulous of stated vote-count reasons if used alone for motive questions.
 
 ---
 
@@ -216,6 +219,7 @@ Cross-link parent stall products for full Democratic / Murkowski / Tillis / advo
 
 | Product | Path |
 |---------|------|
+| **Deep adversarial companion** | [`claim-triage-thune-save-act-deep.md`](claim-triage-thune-save-act-deep.md) |
 | Parent stall stress-test | [`save-act-senate-stall-stress-test.md`](save-act-senate-stall-stress-test.md) |
 | Influence / deep records | [`influence-save-act-senate-stall.md`](influence-save-act-senate-stall.md) |
 | Claim-triage playbook | [`ops/claim-triage-from-viral-sources.md`](../ops/claim-triage-from-viral-sources.md) |

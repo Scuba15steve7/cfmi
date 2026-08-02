@@ -59,6 +59,7 @@ Falsifiable sub-claims graded against public records under [`ops/claim-triage-fr
 | Origin claim / question | Result | Product |
 |-------------------------|--------|---------|
 | “Why is Sen. Thune blocking / not helping pass the SAVE Act?” | **NARROW** — supports + lacks 60 (**Supported**); policy opposition (**Contradicted**); corrupt blocking (**Not established**) | [claim-triage-thune-save-act.md](claim-triage-thune-save-act.md) |
+| Adversarial: sandbagging / Trump conflict / institutional incentives / paid opposition | **NARROW** — institutional incentives (**Supported**); theater + Trump-history (**Partially supported**); donor burial / quid pro quo (**Not established**) | [claim-triage-thune-save-act-deep.md](claim-triage-thune-save-act-deep.md) |
 
 Related SAVE stall digs: [stress-test](save-act-senate-stall-stress-test.md) · [influence companion](influence-save-act-senate-stall.md)
 

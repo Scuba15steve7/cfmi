@@ -21,6 +21,8 @@ One of the best ways to find **real** issues is to treat conspiracy theories, in
 
 **Rule:** High-virality is a signal to *investigate*, not a reason to *amplify* or to *dismiss*.
 
+**Adversarial pass required:** Do **not** treat leadership or institutional **self-description** (“we lack the votes,” job-title explanations, press-release process stories) as a sufficient close. Start from critical/conspiracy leads; hunt suspicious public data (schedule gaps, priority inversion, rhetoric vs action timeline); grade suspicion flags separately from proven corruption / quid pro quo. Example product: [`ai-reviews/claim-triage-thune-save-act-deep.md`](../ai-reviews/claim-triage-thune-save-act-deep.md).
+
 ---
 
 ## 2. Hard bans
@@ -176,4 +178,4 @@ Do not write the final publish package.
 
 ## 9. Version
 
-*Claim-triage-from-viral-sources version: 0.1.0 — viral claims as leads; falsifiable sub-claims; dual steelman; §7.6 grades; no rumor laundering / no reflexive dismissal.*
+*Claim-triage-from-viral-sources version: 0.1.1 — viral claims as leads; adversarial pass required (no leadership self-description close); falsifiable sub-claims; dual steelman; §7.6 grades; no rumor laundering / no reflexive dismissal.*

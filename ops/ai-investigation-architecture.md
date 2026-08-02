@@ -110,6 +110,8 @@ When intake is a **viral, influencer, or conspiracy-framed** claim—or Stage 2 
 
 **Mandate:** Treat the claim as a **lead/hypothesis**, not evidence. Extract falsifiable sub-claims → Deep public-records dig (§3.3a / METHODOLOGY §7.5–§7.6) → grade each **Supported / Partially supported / Not established / Contradicted**. Steelman mainstream denial **and** the claim.
 
+**Adversarial pass required:** Leadership / institutional **self-description** is never a sufficient close. Run (or require) an adversarial pass that starts from critical leads and hunts suspicious public data—schedule gaps, priority inversion, Action vs Rhetoric timelines—before accepting “vote count” or role-title explanations. Suspicion flags ≠ quid pro quo. See [claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md); example: [`ai-reviews/claim-triage-thune-save-act-deep.md`](../ai-reviews/claim-triage-thune-save-act-deep.md).
+
 **Hard bans:** laundering rumor into CFMI voice; reflexive “conspiracy theory = false”; motive fiction without a public-record chain.
 
 **Output must include:** what would need to be true; what records would prove it; what was checked; open FOIA/journalist handoffs when records do not exist publicly. Civic Action Packs may carry an optional **Origin claim** field with triage grades.
@@ -376,4 +378,4 @@ Worked example: election administration / list accuracy / mail custody / citizen
 
 ## 10. Version
 
-*Architecture version: 0.2.3 — bounded hierarchy + anti-narrative-capture + viral claim triage (§3.2b) + Deep public-records layer (§3.3a) + optional external-source pointer (Grokipedia lead-only).*
+*Architecture version: 0.2.4 — bounded hierarchy + anti-narrative-capture + viral claim triage (§3.2b, adversarial pass required) + Deep public-records layer (§3.3a) + optional external-source pointer (Grokipedia lead-only).*

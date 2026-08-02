@@ -182,6 +182,7 @@ These are **campaign-finance industry codes**, not SAVE-specific earmarks. Usefu
 |---------|------|
 | Parent stall stress-test | [`save-act-senate-stall-stress-test.md`](save-act-senate-stall-stress-test.md) |
 | Claim triage: Thune “blocking” SAVE | [`claim-triage-thune-save-act.md`](claim-triage-thune-save-act.md) |
+| Deep adversarial Thune dig | [`claim-triage-thune-save-act-deep.md`](claim-triage-thune-save-act-deep.md) |
 | Election administration brief | [`issues/election-administration-integrity.md`](issues/election-administration-integrity.md) |
 | Influence template | [`influence-template.md`](influence-template.md) |
 | Architecture deep-records layer | [`ops/ai-investigation-architecture.md`](../ops/ai-investigation-architecture.md) §3.3a |
