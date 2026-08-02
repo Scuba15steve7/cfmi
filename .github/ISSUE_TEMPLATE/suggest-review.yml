@@ -1,0 +1,79 @@
+name: Suggest a review
+description: Propose a bill, regulation, or topic for CFMI to screen against the Charter
+title: "[Suggest]: "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting work for CFMI. Suggestions are public. AI screens and ranks them against [CHARTER.md](https://github.com/scuba15steve7/cfmi/blob/main/CHARTER.md) and [METHODOLOGY.md](https://github.com/scuba15steve7/cfmi/blob/main/METHODOLOGY.md). Results appear in the [public queue](https://github.com/scuba15steve7/cfmi/blob/main/ai-reviews/suggestions/QUEUE.md).
+
+        **Interest disclosure is mandatory.** Educational research only—not legal advice or voting instructions. Party affiliation does not help or hurt a suggestion.
+
+  - type: textarea
+    id: what-to-look-at
+    attributes:
+      label: What to look at
+      description: Bill, regulation, topic, or link (include bill numbers, URLs, or clear identifiers when you have them).
+      placeholder: e.g. H.R. ____ (119th Cong.); state bill S.B. ____; or a clear topic with a public source link
+    validations:
+      required: true
+
+  - type: textarea
+    id: why-it-matters
+    attributes:
+      label: Why it matters
+      description: In plain language—who is harmed or constrained, and how government rules (barriers, subsidies, opaque discretion, or constitutional stretch) may be involved.
+      placeholder: Focus on the public problem, not a private ask for privilege.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: jurisdiction
+    attributes:
+      label: Jurisdiction
+      description: Where the rule or bill lives.
+      options:
+        - Federal (U.S.)
+        - State
+        - Local / municipal
+        - Multi-state / regional
+        - Other / unclear
+    validations:
+      required: true
+
+  - type: input
+    id: jurisdiction-detail
+    attributes:
+      label: Jurisdiction detail (optional)
+      description: State, locality, or session if not obvious from the bill link.
+      placeholder: e.g. Colorado; 2026 session
+
+  - type: textarea
+    id: interest-disclosure
+    attributes:
+      label: Interest disclosure (required)
+      description: Per Charter and Methodology—state employment, client relationships, subsidies received, or other material interests related to this subject within the prior 24 months. Write “None” if you have none.
+      placeholder: e.g. Employed by ____; client of ____; none
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: charter-principles
+    attributes:
+      label: Suggested Charter principles implicated (optional)
+      description: Check any that seem relevant. CFMI will re-score against the full Charter.
+      options:
+        - label: Constitutional fidelity (enumerated powers, federalism, separation of powers, property/contract)
+        - label: Free markets (prices, voluntary exchange, open entry)
+        - label: Opposition to artificial manipulation (subsidies, barriers, opaque discretion, privileges)
+        - label: Minimal intervention (least-coercive instrument)
+        - label: Radical transparency
+        - label: Anti-capture
+        - label: Competitive federalism (no federal commandeering)
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else (optional)
+      description: Sources, prior reviews, or context that helps screening—not lobbying for a private rent.

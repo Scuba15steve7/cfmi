@@ -48,6 +48,8 @@ Playbook: [ops/prompt-playbook.md](ops/prompt-playbook.md)
 | [CHARTER.md](CHARTER.md) | Binding founding charter |
 | [METHODOLOGY.md](METHODOLOGY.md) | Scoring, fix language, bipartisan comment, unintended consequences |
 | [Live site (`docs/`)](docs/index.html) | GitHub Pages HTML (deploy from `/docs`) |
+| [Examples (live)](docs/examples.html) | Public list: government-as-bottleneck issue areas |
+| [Issue briefs](ai-reviews/issues/README.md) | Short research briefs behind the Examples page |
 | [Website sources](website/index.md) | Markdown sources kept in sync conceptually |
 | [About](website/about.md) | Bootstrap story |
 | [Go live](ops/go-live.md) | $0 GitHub Pages steps |
@@ -56,7 +58,8 @@ Playbook: [ops/prompt-playbook.md](ops/prompt-playbook.md)
 
 ## Work product (later / samples)
 
-- [AI review template & examples](ai-reviews/sample-bill-review-template.md)  
+- [Issue briefs — government as bottleneck](ai-reviews/issues/README.md)  
+- [AI review template](ai-reviews/sample-bill-review-template.md)  
 - [Model legislation index](model-legislation/README.md)  
 
 ## Seeking aligned support
