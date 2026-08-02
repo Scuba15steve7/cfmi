@@ -74,7 +74,7 @@ Do not push or commit unless I ask.
 
 ## Phase 2 — Scoring & sample acts (after presence)
 
-Only after Phase 1 feels solid. Investigation design: [`ops/ai-investigation-architecture.md`](ai-investigation-architecture.md) (bounded hierarchy—orchestrator + six specialist lanes + depth-limited digs) and [`ops/anti-narrative-capture.md`](anti-narrative-capture.md) (consensus claim tester).
+Only after Phase 1 feels solid. Investigation design: [`ops/ai-investigation-architecture.md`](ai-investigation-architecture.md) (bounded hierarchy—orchestrator + six specialist lanes + depth-limited digs), [`ops/anti-narrative-capture.md`](anti-narrative-capture.md) (consensus claim tester), and [`ops/claim-triage-from-viral-sources.md`](claim-triage-from-viral-sources.md) (viral/conspiracy claim triage).
 
 ### L1 — Start scoring cadence
 ```
@@ -131,6 +131,28 @@ Mark gaps "not established from public sources in this pass." Do not publish—h
 Worked example domain: ai-reviews/issues/election-administration-integrity.md
 ```
 
+### I5 — Triage viral claim
+```
+Run CFMI viral / conspiracy claim triage on this origin claim (quote verbatim):
+
+"[PASTE CLAIM — e.g. influencer or viral assertion about SAVE Act stall / election process]"
+
+Source / date: [URL or description]
+Scope: [jurisdiction / bill / process facet]
+
+Obey ops/claim-triage-from-viral-sources.md and METHODOLOGY §7.5–§7.6.
+Use the copy-paste prompt in claim-triage-from-viral-sources.md §8.
+
+Hard bans: do not launder rumor into CFMI voice; do not dismiss as false merely because it is
+labeled a conspiracy theory; no quid pro quo without a public-record chain.
+Require: falsifiable sub-claims; steelman of mainstream denial AND steelman of the claim;
+deep public-records dig; grade each sub-claim Supported / Partially supported / Not established /
+Contradicted; what would need to be true; what records would prove it; what was checked;
+FOIA/journalist handoffs when public records do not exist.
+Return the structured triage block only. Optional Civic Action Pack field: Origin claim + grades.
+Do not publish—hand off for human edit. Method sample (not an endorsement): claim-triage §7.
+```
+
 Full older drafting prompts (B1–B4, C1–C3, etc.) remain valid in git history / ask the agent to restore them when Phase 2 starts. Prefer the Phase 1 prompts above until then.
 
 ---
@@ -147,4 +169,4 @@ Prompt: `Prepare everything in-repo for [step]; give me the shortest manual chec
 
 ---
 
-*Playbook version: 0.3.2 — mission locked to score/conflicts/fix/sample; formation default 501(c)(3); Phase 2 I1–I4 (adds consensus claim stress-test).*
+*Playbook version: 0.3.3 — mission locked to score/conflicts/fix/sample; formation default 501(c)(3); Phase 2 I1–I5 (adds consensus claim stress-test + viral claim triage).*

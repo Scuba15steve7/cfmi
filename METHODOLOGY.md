@@ -87,7 +87,7 @@ A named human editor accepts, revises, or rejects AI draft reviews before public
 
 ### 2.5 Multi-agent investigation (operating design)
 
-For deeper issue and bill work, CFMI uses a **bounded hierarchical investigation**: one orchestrator agent, six fixed specialist lanes (text/mechanism, root cause, influence, steelman, safeguards, fix language), and depth-limited digs (max 2–3) when Hard Flags fire—not unconstrained agent trees. Root-cause analysis asks whether the design **shifts power to bureaucracy/privileged interests or to accountable people under clear rules** (see architecture). Pipeline, stop conditions, and copy-paste prompts live in [`ops/ai-investigation-architecture.md`](ops/ai-investigation-architecture.md). Human editor gate still applies (§2.4). Influence work remains bound by §7; hidden-barrier analysis by §4.7.
+For deeper issue and bill work, CFMI uses a **bounded hierarchical investigation**: one orchestrator agent, six fixed specialist lanes (text/mechanism, root cause, influence, steelman, safeguards, fix language), and depth-limited digs (max 2–3) when Hard Flags fire—not unconstrained agent trees. Root-cause analysis asks whether the design **shifts power to bureaucracy/privileged interests or to accountable people under clear rules** (see architecture). Pipeline, stop conditions, and copy-paste prompts live in [`ops/ai-investigation-architecture.md`](ops/ai-investigation-architecture.md). Parallel lanes when triggered: consensus claim tester ([`ops/anti-narrative-capture.md`](ops/anti-narrative-capture.md)); viral/conspiracy claim triage—leads/hypotheses graded against §7.5–§7.6 public records ([`ops/claim-triage-from-viral-sources.md`](ops/claim-triage-from-viral-sources.md)). Human editor gate still applies (§2.4). Influence work remains bound by §7; hidden-barrier analysis by §4.7.
 
 ---
 
@@ -316,7 +316,7 @@ If a check yields nothing usable, write **“not established from public filings
 
 Evidence-grade meanings: **strong** = multi-source public chain to the contested act; **moderate** = clear disclosed interest + temporal/issue overlap without causation proof; **weak** = aggregate industry or org funding with no act-specific link; **not established** = no public chain (default for quid-pro-quo claims).
 
-Pipeline placement and dig prompts: [`ops/ai-investigation-architecture.md`](ops/ai-investigation-architecture.md) (Deep public-records layer). Publish gate: [`ops/civic-action-pack.md`](ops/civic-action-pack.md) — deep records layer completed before publishing influence claims.
+Pipeline placement and dig prompts: [`ops/ai-investigation-architecture.md`](ops/ai-investigation-architecture.md) (Deep public-records layer). Publish gate: [`ops/civic-action-pack.md`](ops/civic-action-pack.md) — deep records layer completed before publishing influence claims. Viral/influencer/conspiracy-framed intake uses the same records layer after falsifiable sub-claims are extracted: [`ops/claim-triage-from-viral-sources.md`](ops/claim-triage-from-viral-sources.md).
 
 ### 7.7 Product placement
 
@@ -336,4 +336,4 @@ Until funded:
 
 ---
 
-*Methodology version: 0.6.2 (bootstrap) — scoring + conflict publish + open fix language + influence/transparency research + §7.6 deep public-records layer (after stated reasons) + bipartisan sample-act comment + issue-brief steelman / counterevidence loop + §4.7 hidden barrier analysis + §2.5 bounded multi-agent investigation pointer.*
+*Methodology version: 0.6.3 (bootstrap) — scoring + conflict publish + open fix language + influence/transparency research + §7.6 deep public-records layer (after stated reasons) + viral claim triage pointer + bipartisan sample-act comment + issue-brief steelman / counterevidence loop + §4.7 hidden barrier analysis + §2.5 bounded multi-agent investigation pointer.*

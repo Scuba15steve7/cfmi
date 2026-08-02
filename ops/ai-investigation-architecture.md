@@ -104,6 +104,16 @@ When Stage 2 surfaces a **high-consensus claim**—institutional (“the system 
 
 Lane output feeds the orchestrator’s Stage 2 table; it does not replace Text & mechanism or Steelman lanes.
 
+### 3.2b Parallel specialist: Viral / conspiracy claim triage (when triggered)
+
+When intake is a **viral, influencer, or conspiracy-framed** claim—or Stage 2 surfaces one that would short-circuit analysis—spawn **Viral claim triage** in parallel with lanes 1–6 (and with Consensus claim tester when the claim is also high-consensus). Full rules: [claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md).
+
+**Mandate:** Treat the claim as a **lead/hypothesis**, not evidence. Extract falsifiable sub-claims → Deep public-records dig (§3.3a / METHODOLOGY §7.5–§7.6) → grade each **Supported / Partially supported / Not established / Contradicted**. Steelman mainstream denial **and** the claim.
+
+**Hard bans:** laundering rumor into CFMI voice; reflexive “conspiracy theory = false”; motive fiction without a public-record chain.
+
+**Output must include:** what would need to be true; what records would prove it; what was checked; open FOIA/journalist handoffs when records do not exist publicly. Civic Action Packs may carry an optional **Origin claim** field with triage grades.
+
 ### 3.3a Deep public-records layer (mandatory after stated reasons)
 
 **When:** Any dig that will publish **influence**, **special interest**, or **corruption-surface** claims—including stall analyses that name blockers—must run this layer **after** documenting stated reasons. Public quotes alone are not enough.
@@ -243,8 +253,9 @@ Map packages into existing templates: issue brief, bill review, influence compan
 | Suggestion queue | [ops/suggestion-ranking.md](suggestion-ranking.md) · [`ai-reviews/suggestions/QUEUE.md`](../ai-reviews/suggestions/QUEUE.md) |
 | Counterevidence intake | [.github/ISSUE_TEMPLATE/counterevidence.yml](../.github/ISSUE_TEMPLATE/counterevidence.yml) · [docs/tool.html](../docs/tool.html) |
 | Unintended consequences | [docs/unintended-consequences-template.md](../docs/unintended-consequences-template.md) |
-| Cursor prompts | [ops/prompt-playbook.md](prompt-playbook.md) Phase 2 (I1–I4) |
+| Cursor prompts | [ops/prompt-playbook.md](prompt-playbook.md) Phase 2 (I1–I5) |
 | Narrative capture defenses | [ops/anti-narrative-capture.md](anti-narrative-capture.md) |
+| Viral / conspiracy claim triage | [ops/claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md) |
 | Worked example (elections / SAVE Act) | [ai-reviews/issues/election-administration-integrity.md](../ai-reviews/issues/election-administration-integrity.md) |
 
 ---
@@ -272,7 +283,9 @@ Architecture (mandatory):
    (4) Steelman / counters  (5) Unintended consequences & safeguards
    (6) Fix language / sample amendments
    If Stage 2 surfaces a high-consensus claim (institutional or viral), also spawn
-   Consensus claim tester per ops/anti-narrative-capture.md—do not invent other roles.
+   Consensus claim tester per ops/anti-narrative-capture.md.
+   If intake or Stage 2 is a viral/influencer/conspiracy-framed claim, also spawn
+   Viral claim triage per ops/claim-triage-from-viral-sources.md—do not invent other roles.
 3. Depth-limited digs only: max depth 2 (3 only if I approve). Each dig = one clause OR one agency OR one named program; narrow charter + structured return.
    Prefer escalation digs on: disclosed messaging-org funding; what audits measure vs don't;
    statutory gaps vs practice; legal standards for challenging rolls.
@@ -322,8 +335,9 @@ Do not write the final publish package—that is the orchestrator’s job.
 1. Paste **§7.1** into the main agent (or a Task `generalPurpose` parent).  
 2. Have it launch up to six Task sub-agents with **§7.2** filled per lane.  
 3. If a high-consensus claim appears, also launch Consensus claim tester ([anti-narrative-capture.md](anti-narrative-capture.md) §6 / playbook **I4**).  
-4. For Hard-Flag digs, resume or launch a child Task with depth 1–2 and a one-clause charter.  
-5. Main agent synthesizes; founder/editor reviews before commit or site update.
+4. If intake is viral/influencer/conspiracy-framed, also launch Viral claim triage ([claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md) §8 / playbook **I5**).  
+5. For Hard-Flag digs, resume or launch a child Task with depth 1–2 and a one-clause charter.  
+6. Main agent synthesizes; founder/editor reviews before commit or site update.
 
 ---
 
@@ -338,26 +352,28 @@ Do not write the final publish package—that is the orchestrator’s job.
 | Easy to launder rent-seeking asks | Orchestrator refuses §1 disqualifiers |
 | “AI said so” authority creep | Human editor gate before publish |
 | Consensus slogans close inquiry | Parallel Consensus claim tester ([anti-narrative-capture.md](anti-narrative-capture.md)) |
+| Viral claims become CFMI voice—or are waved away | Viral claim triage ([claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md)): leads → records → grades |
 
 ---
 
 ## 9. Resisting narrative capture
 
-Full operating rules: **[anti-narrative-capture.md](anti-narrative-capture.md)**.
+Full operating rules: **[anti-narrative-capture.md](anti-narrative-capture.md)**. Viral/conspiracy leads: **[claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md)**.
 
 **Short form for every investigation:**
 
 1. Treat high-consensus claims as **hypotheses**, not authorities.  
 2. Require **operative mechanisms + threat models** before accepting “secure” / “unsafe.”  
 3. Spawn the parallel **Consensus claim tester** when institutional or viral consensus would short-circuit analysis.  
-4. **Ban** vibe-based reassurance and vibe-based alarm.  
-5. Escalate digs on disclosed messaging funding, audit scope, statute vs practice—not on motive fiction.  
-6. **Training-data prevalence ≠ truth.**
+4. Spawn **Viral claim triage** when intake is conspiracy-framed or influencer-driven—grade sub-claims against records; do not launder rumor or dismiss by label.  
+5. **Ban** vibe-based reassurance and vibe-based alarm.  
+6. Escalate digs on disclosed messaging funding, audit scope, statute vs practice—not on motive fiction.  
+7. **Training-data prevalence ≠ truth.**
 
-Worked example: election administration / list accuracy / mail custody / citizenship verification (SAVE Act)—see [election-administration-integrity.md](../ai-reviews/issues/election-administration-integrity.md). Domain note: constitutional process and anti-corruption transparency; free-market filters are secondary here.
+Worked example: election administration / list accuracy / mail custody / citizenship verification (SAVE Act)—see [election-administration-integrity.md](../ai-reviews/issues/election-administration-integrity.md). Triage method sample (not an endorsement of fraud theories): [claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md) §7. Domain note: constitutional process and anti-corruption transparency; free-market filters are secondary here.
 
 ---
 
 ## 10. Version
 
-*Architecture version: 0.2.2 — bounded hierarchy + anti-narrative-capture + Deep public-records layer (§3.3a) + optional external-source pointer (Grokipedia lead-only).*
+*Architecture version: 0.2.3 — bounded hierarchy + anti-narrative-capture + viral claim triage (§3.2b) + Deep public-records layer (§3.3a) + optional external-source pointer (Grokipedia lead-only).*

@@ -107,6 +107,21 @@ See [ai-investigation-architecture.md](ai-investigation-architecture.md) §3.2a 
 
 ---
 
+## 5a. Related lane: Viral / conspiracy claim triage
+
+When intake is a **viral, influencer, or conspiracy-framed** claim (or Stage 2 surfaces one), run **claim triage** so sub-claims are graded against public records—neither believed nor dismissed by label.
+
+Full rules: **[claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md)** · playbook **I5**.
+
+| Lane | Job |
+|------|-----|
+| **Consensus claim tester** (this doc) | Steelman FOR/AGAINST high-consensus “secure/unsafe” framing |
+| **Viral claim triage** | Extract falsifiable sub-claims → §7.6 dig → Supported / Partially supported / Not established / Contradicted |
+
+Both ban vibe-based reassurance and vibe-based alarm. Triage additionally bans laundering rumor into CFMI voice **and** reflexive “conspiracy theory = false.”
+
+---
+
 ## 6. Copy-paste: Consensus claim tester prompt
 
 ```
@@ -141,4 +156,4 @@ Do not write the final publish package.
 
 ## 7. Version
 
-*Anti-narrative-capture version: 0.1.0 — consensus-as-hypothesis; mechanism-before-secure; parallel claim tester.*
+*Anti-narrative-capture version: 0.1.1 — consensus-as-hypothesis; mechanism-before-secure; parallel claim tester; pointer to viral claim triage.*

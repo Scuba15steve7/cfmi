@@ -4,6 +4,7 @@
 **Implements:** [CHARTER.md](../CHARTER.md), [METHODOLOGY.md](../METHODOLOGY.md)  
 **Architecture:** [ai-investigation-architecture.md](ai-investigation-architecture.md)  
 **Narrative discipline:** [anti-narrative-capture.md](anti-narrative-capture.md)  
+**Viral / conspiracy leads:** [claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md)  
 **Sources:** [external-sources-and-grokipedia.md](external-sources-and-grokipedia.md)
 
 Educational research only—not legal advice, voting instructions, or counsel to any person. **CFMI does not claim IRS tax-exempt status.**
@@ -35,6 +36,7 @@ When a dig is accepted for publication (human editor required), the pack include
 | **Fix language** | Open alignment / amendment / least-coercive rollback language that does not create new rents, barriers, or opaque discretion |
 | **Legislator letter** | Sample constituent letter (educational template)—facts, Charter conflicts, asked fix; user adapts and sends |
 | **Social blurb** | Short shareable summary with links to the pack and sources—not a whip or GOTV script |
+| **Origin claim** *(optional)* | When the dig started from a viral/influencer/conspiracy-framed lead: short quote + link labeled as **lead, not CFMI finding**, plus per-sub-claim triage grades (Supported / Partially supported / Not established / Contradicted)—see [claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md) |
 
 Optional companions when the dig warrants them: issue brief, influence memo, sample act outline for bipartisan comment.
 
@@ -48,8 +50,9 @@ Bounded hierarchical investigation ([ai-investigation-architecture.md](ai-invest
 2. **Specialist lanes** (in parallel as needed): text/mechanism, root cause, influence/money from public records, counters, safeguards, fix language.  
 3. **Source discipline** — primary filings and statutes first; encyclopedias and secondary explainers (including Grokipedia when used) are **non-authoritative** context under [external-sources-and-grokipedia.md](external-sources-and-grokipedia.md).  
 4. **Anti-narrative filter** — high-consensus and viral claims are hypotheses to test ([anti-narrative-capture.md](anti-narrative-capture.md)).  
-5. **Deep public-records layer** — after stated reasons, attempt LDA/OpenSecrets, FEC, disclosed IE/opaque vehicles, 990 funders, revolving door, STOCK Act/PFDs where findable ([METHODOLOGY.md](../METHODOLOGY.md) §7.6 · architecture §3.3a).  
-6. **Human editor** accepts, revises, or rejects before anything is a public CFMI product.
+5. **Viral claim triage** (when intake is conspiracy-framed or influencer-driven) — falsifiable sub-claims → records dig → grades; dual steelman; no rumor laundering and no reflexive dismissal ([claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md)).  
+6. **Deep public-records layer** — after stated reasons, attempt LDA/OpenSecrets, FEC, disclosed IE/opaque vehicles, 990 funders, revolving door, STOCK Act/PFDs where findable ([METHODOLOGY.md](../METHODOLOGY.md) §7.6 · architecture §3.3a).  
+7. **Human editor** accepts, revises, or rejects before anything is a public CFMI product.
 
 Public intake: GitHub Issues — suggest a review, request an action pack dig, or submit counterevidence (see [docs/tool.html](../docs/tool.html)).
 
@@ -72,6 +75,7 @@ Before any Civic Action Pack (or companion) publishes influence, special-interes
 - Asks for subsidies, entry barriers, opaque discretion, or named private privileges are **declined and logged**.  
 - Interest disclosure is mandatory on public suggestions (Methodology).  
 - Influence leads never become private investigation, harassment, or conspiracy fiction.  
+- Viral/conspiracy intake is a **lead** only—publish graded public-record facts, not unverified theories ([claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md)).  
 - Open bipartisan comment never means adding rents to buy support.
 
 Full rules: Charter § Funding and Anti-Capture; Methodology stakeholder rules.
@@ -100,6 +104,7 @@ Until counsel advises otherwise, treat Civic Action Packs as **educational resea
 |----------|------|
 | [ai-investigation-architecture.md](ai-investigation-architecture.md) | How digs are orchestrated |
 | [anti-narrative-capture.md](anti-narrative-capture.md) | Resist vibe capture from either side |
+| [claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md) | Viral/conspiracy claims as leads; records grades; optional Origin claim field |
 | [external-sources-and-grokipedia.md](external-sources-and-grokipedia.md) | Source hierarchy; Grokipedia as non-API secondary |
 | [suggestion-ranking.md](suggestion-ranking.md) | How public suggestions are screened |
 | [docs/tool.html](../docs/tool.html) | Public Tool page |
