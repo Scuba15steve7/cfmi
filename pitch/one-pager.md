@@ -48,4 +48,4 @@ If this mission matches your principles, fund **presence, formation, and researc
 
 ---
 
-*Independent · Transparent · Least coercive instruments first*
+*Independent · Transparent · People over bureaucracy · Free markets as core instrument*
