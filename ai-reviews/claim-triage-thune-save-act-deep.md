@@ -73,17 +73,19 @@ Sources for timeline cells: [Thune Mar 12](https://www.thune.senate.gov/news/pre
 
 ---
 
-## 4. Suspicion flags (graded separately from corruption)
+## 4. Suspicion flags (dual output — Flag + Proof-status)
 
-| Flag | Evidence | Grade as *suspicion* | Corruption upgrade? |
-|------|----------|----------------------|---------------------|
-| **Scheduling theater** | Pre-announced lack of talking-filibuster votes; “put Democrats on record”; press “doomed” / mock filibuster | **High** as process suspicion | No — does not imply pay-to-kill |
-| **Priority inversion** | Summer sprint: funding/crypto/sanctions/recess vs Trump’s SAVE-first demand | **Moderate–High** | No — consistent with H3 |
-| **Weak / selective whip** | No public whip sheet showing 50+ for nuke; public refusals; conference memo manages narrative | **Moderate** (opacity) | No without leaked majority for rules change that he buried |
-| **Poisoned process** | Amendment-tree / referral maneuvers Mar 24; pivot to DHS same week | **Moderate** (procedural) | Ambiguous — can be floor management or stall craft |
-| **Trump conflict residue** | 2016 / 2020–22 / late endorse / Scott loss / 2026 public jabs | **Moderate** as background incentive | No — correlation ≠ purchase |
-| **Donor burial** | OS industries: securities, retired, real estate, leadership PACs, lobbyists | **Low** for SAVE-specific conflict | **Not established** |
-| **Paid opposition** | No LDA/FEC chain Thune paid to kill SAVE | **None found** | **Not established** |
+Publishable by design (METHODOLOGY §7.5). Quid pro quo remains **not established** unless a public-record chain exists—do not bury flags under that bar.
+
+| Flag (what looks off) | Public label | Proof-status | Evidence |
+|-----------------------|--------------|--------------|----------|
+| **Scheduling theater** — pre-announced lack of talking-filibuster votes; “put Democrats on record”; press “doomed” / mock filibuster | Suspicion flag | **Strong** as suspicion; quid pro quo: **not established** | Washington Examiner mock-filibuster / doomed-vote reporting; Thune Mar 12 framing |
+| **Priority inversion** — summer sprint: funding / crypto / sanctions / recess vs Trump’s SAVE-first demand | Suspicion flag | **Moderate–strong** as suspicion; quid pro quo: **not established** | AP/PBS recess; TIME / conference calendar reporting |
+| **Weak / selective whip** — no public whip sheet showing 50+ for nuke; public refusals; conference memo manages narrative | Suspicion flag | **Moderate** as suspicion (opacity); quid pro quo: **not established** | USA TODAY conference memo; no published nuke majority |
+| **Poisoned process** — amendment-tree / referral maneuvers Mar 24; pivot to DHS same week | Suspicion flag | **Moderate** as suspicion; quid pro quo: **not established** | Senate Daily Press Mar 24–26 |
+| **Trump conflict residue** — 2016 / 2020–22 / late endorse / Scott loss / 2026 public jabs | Suspicion flag | **Moderate** as suspicion (incentive coloring); quid pro quo: **not established** | Forbes / SD Searchlight / TIME / CNN |
+| **Donor burial** — OS industries: securities, retired, real estate, leadership PACs, lobbyists → SAVE burial | Supported conflict (disclosed aggregates only) + weak Suspicion flag | Filings support **aggregate** disclosed finance (**weak** as SAVE-specific conflict); quid pro quo: **not established** | OpenSecrets N00004572; FEC S2SD00068 |
+| **Paid opposition** — LDA/FEC chain that Thune was paid to kill SAVE | Corruption / quid pro quo (claimed) | **Not established** — no chain found | LDA / FEC / influence companion |
 
 ---
 
@@ -150,11 +152,11 @@ Sources for timeline cells: [Thune Mar 12](https://www.thune.senate.gov/news/pre
 | Quid pro quo chain | **None found** | H5 default **Not established** |
 | Trump–Thune history | Documented ruptures + 2026 public tension ([TIME](https://time.com/article/2026/07/27/trump-thune-senate-republicans-save-america-act/); [CNN/Leavitt](https://www.cnn.com/2026/07/23/politics/trump-thune-jabs-save-act-hnk)) | H2 **Partially supported** |
 
-**§7.6 row:**
+**§7.6 dual-output row:**
 
-| Actor | Stated reason (B) | Disclosed $ / org ties (A) | Conflict hypothesis | Evidence grade |
-|-------|-------------------|----------------------------|---------------------|----------------|
-| Sen. John Thune (Majority Leader) | Supports SAVE America; lacks votes to pass or change filibuster; recess won’t manufacture Dems | OS aggregate finance + FEC; no SAVE-specific anti payor found | **(1)** Sandbags via theater while citing math; **(2)** won’t burn filibuster/capital given Trump conflict + institutional incentives; **(3)** donor burial | **(1)** moderate for theater/process; **(2)** moderate–strong for institutional incentives, moderate for Trump-history coloring; **(3)** weak / **not established** for donor→act; **not established** quid pro quo |
+| Actor | Stated reason (B) | Disclosed $ / org ties (A) | Flag | Proof-status |
+|-------|-------------------|----------------------------|------|--------------|
+| Sen. John Thune (Majority Leader) | Supports SAVE America; lacks votes to pass or change filibuster; recess won’t manufacture Dems | OS aggregate finance + FEC; no SAVE-specific anti payor found | **Suspicion flags:** scheduling theater; priority inversion; whip opacity; process pivot; Trump-history coloring. **Supported conflict (disclosed):** aggregate finance/lobbyist totals only (noisy). **Corruption claim:** paid burial | Theater/process: **moderate–strong** as suspicion; institutional incentives: **moderate–strong**; Trump coloring: **moderate**; donor→act: **weak**; quid pro quo: **not established** |
 
 ---
 
@@ -192,7 +194,7 @@ No indictment, plea, or filing chain payment → Thune act killing SAVE.
 | **(A) Disclosed interest** | Ordinary leadership-era aggregates; H.R. 22 LDA ecosystem at bill level (both sides) |
 | **(B) Stated reason** | Vote math + filibuster preservation + recess for midterms |
 | **(C) Quid pro quo** | **Not established** |
-| **(D) Suspicion / process** *(adversarial add-on)* | Theater, priority inversion, coordinated messaging — **flagged**, not equated to (C) |
+| **(D) Suspicion flag** *(publishable)* | Theater, priority inversion, coordinated messaging — dual Flag + Proof-status (§4 / §15); not equated to (C) |
 
 ---
 
@@ -228,14 +230,28 @@ Use this file—not the first-pass triage—when the question is *hidden drivers
 
 ---
 
-## 15. Grades table (summary)
+## 15. Dual output + hypothesis grades (summary)
+
+### Flag + Proof-status (primary publishable output)
+
+| Flag | Proof-status |
+|------|--------------|
+| Scheduling theater (mock filibuster / messaging cloture) | **Strong** as Suspicion flag; quid pro quo: **not established** |
+| Priority inversion (funding/crypto/sanctions/recess over SAVE-first) | **Moderate–strong** as Suspicion flag; quid pro quo: **not established** |
+| Weak / selective whip + conference vote-count messaging | **Moderate** as Suspicion flag; quid pro quo: **not established** |
+| Poisoned process (Mar 24 tree / DHS pivot) | **Moderate** as Suspicion flag; quid pro quo: **not established** |
+| Trump–Thune conflict residue as incentive coloring | **Moderate** as Suspicion flag; causal primacy: **not established**; quid pro quo: **not established** |
+| Aggregate donor industries (finance / lobbyists / etc.) | **Supported conflict (disclosed)** at aggregate level only — **weak** for SAVE-specific burial; quid pro quo: **not established** |
+| Paid opposition / bribe chain | Corruption / quid pro quo: **not established** |
+
+### Hypothesis grades (mechanism check)
 
 | Hypothesis | Grade |
 |------------|-------|
 | H1 Sandbagging / theater while pretending support | **Partially supported** |
 | H2 Trump conflict explains reluctance | **Partially supported** |
 | H3 Institutional Majority Leader incentives | **Supported** |
-| H4 Donor/industry conflict → burial | **Not established** |
+| H4 Donor/industry conflict → burial | **Not established** (as burial chain); aggregates = weak disclosed conflict only |
 | H5 Quid pro quo / paid opposition | **Not established** |
 
 ---
