@@ -8,7 +8,7 @@ Public intake for bills, regulations, and topics people want CFMI to look at. Su
 | **Process** | [ops/suggestion-ranking.md](../../ops/suggestion-ranking.md) |
 | **Weights** | [METHODOLOGY.md](../../METHODOLOGY.md) §1 |
 | **Principles** | [CHARTER.md](../../CHARTER.md) |
-| **Site page** | [docs/feedback.html](../../docs/feedback.html) |
+| **Site page** | [docs/tool.html](../../docs/tool.html) |
 | **Open issues** | [github.com/scuba15steve7/cfmi/issues](https://github.com/scuba15steve7/cfmi/issues?q=is%3Aissue+label%3Asuggestion) |
 | **New suggestion** | [Open with template](https://github.com/scuba15steve7/cfmi/issues/new?template=suggest-review.yml) |
 

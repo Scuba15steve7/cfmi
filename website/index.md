@@ -5,25 +5,25 @@ layout: default
 
 # Constitutional Free Markets Institute
 
-**Using AI to score legislation for conflicts with people-powered, constitutionally limited government and free markets—and to offer open bipartisan fix language and sample bills.**
+**An AI tool that digs into legislation and topics—helping people understand issues, find constitutional and free-market solutions that put people over bureaucracy, and expose corruption or system manipulation.**
 
 > **Live site:** Built from [`docs/`](../docs/) for free GitHub Pages hosting. These `website/*.md` files are conceptual sources; Pages serves the HTML in `docs/`. See [ops/go-live.md](../ops/go-live.md).
 
 ## Mission
 
-CFMI is research-funded AI for legislative analysis: we score current bills for conflicts with accountable government under the Constitution—returning power from opaque bureaucracy and privileged interests to the people—and with free markets as a primary tool against artificial barriers and cronyism. We publish those conflicts with our Charter goals, provide open alignment and fix language for proposed legislation, and circulate sample acts for bipartisan review and comment. AI is a disclosed research aid under published rules—never an authority.
+CFMI is an AI tool that digs into legislation and public topics so people can (1) understand the issues, (2) find constitutional, free-market, people-over-bureaucracy solutions, and (3) expose corruption or manipulation of the system. Free markets are a primary instrument against artificial barriers and cronyism; Charter principles bind every dig. We publish educational Civic Action Packs—diagnosis, Charter scores, both sides, influence leads from public records, fix language, sample legislator letters, and social blurbs—under disclosed AI methods. AI is a research aid under published rules—never an authority.
 
-[Read the full Charter →](../CHARTER.md)
+[Read the full Charter →](../CHARTER.md) · [Tool page →](../docs/tool.html) · [Civic Action Pack →](../ops/civic-action-pack.md)
 
 ---
 
 ## How we work
 
-1. **Score** — Use research-funded, rules-bound AI to score current legislation against Charter goals.  
-2. **Publish conflicts** — Disclose where bill text concentrates power in opaque bureaucracy or privileged interests, or conflicts with constitutional limits, free markets, or anti-capture filters—and disclosed influence trails where public filings allow. Look past talking points to operative barriers.  
-3. **Fix language** — Offer open alignment and amendment language for proposed bills; pair influence maps with alternatives.  
-4. **Sample acts** — Publish sample legislation for bipartisan review and comment; minimize unintended consequences.  
-5. **Bind** — Charter principles govern every score, draft, and comment cycle.  
+1. **Dig** — Use research-funded, rules-bound AI to investigate bills and topics under Charter filters.  
+2. **Understand & score** — Publish diagnosis and Charter conflicts—including where text concentrates power in opaque bureaucracy or privileged interests. Look past talking points to operative barriers.  
+3. **Both sides & influence** — Steelman reform and status-quo cases; map disclosed influence trails where public filings allow.  
+4. **Fix & act** — Offer open fix language plus educational legislator-letter and social templates (Civic Action Pack).  
+5. **Bind** — Charter principles govern every dig, draft, and comment cycle.  
 
 ## Principles
 
@@ -39,7 +39,7 @@ CFMI is research-funded AI for legislative analysis: we score current bills for 
 
 | Now | Next |
 |-----|------|
-| Mission, Charter, public presence | Steady scoring + published conflicts |
+| Product lock: AI dig tool + Civic Action Pack | Steady dig cadence + published packs |
 | Open methodology donors can audit | Open fix / alignment language packs |
 | Formation checklist (501(c)(3) educational/research default; no status claimed) | Bipartisan sample-act comment loops |
 
@@ -47,7 +47,9 @@ CFMI is research-funded AI for legislative analysis: we score current bills for 
 
 | Resource | Description |
 |----------|-------------|
+| [Tool (live)](../docs/tool.html) | How the dig works; request a pack |
 | [Charter](../CHARTER.md) | Binding founding principles |
+| [Civic Action Pack](../ops/civic-action-pack.md) | What the tool produces |
 | [Methodology](../METHODOLOGY.md) | Scoring, fix language, bipartisan comment |
 | [About](about.md) | Bootstrap story and call for aligned support |
 | [Formation checklist](../ops/formation-checklist.md) | 501(c)(3) default — attorney-review; no status claimed |

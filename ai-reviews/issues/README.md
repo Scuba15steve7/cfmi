@@ -46,6 +46,6 @@ Ordered by public salience × Charter fit. Secondary briefs remain published as 
 
 **Model outline:** [federal-election-transparency-and-audit-standards-act.md](../../model-legislation/federal-election-transparency-and-audit-standards-act.md).
 
-**Live site:** [docs/priorities.html](../../docs/priorities.html) · [docs/examples.html](../../docs/examples.html) · **Suggest / counterevidence:** [docs/feedback.html](../../docs/feedback.html) · **Bill reviews:** [../README.md](../README.md)
+**Live site:** [docs/priorities.html](../../docs/priorities.html) · [docs/examples.html](../../docs/examples.html) · **Tool / suggest:** [docs/tool.html](../../docs/tool.html) · **Bill reviews:** [../README.md](../README.md)
 
 **Related:** [METHODOLOGY.md §1.1](../../METHODOLOGY.md) (public salience + Charter filter) · [§4.6–§4.7](../../METHODOLOGY.md) (steelman + hidden barrier analysis) · [ops/anti-narrative-capture.md](../../ops/anti-narrative-capture.md) · [CHARTER.md](../../CHARTER.md) · [counterevidence template](../../.github/ISSUE_TEMPLATE/counterevidence.yml)

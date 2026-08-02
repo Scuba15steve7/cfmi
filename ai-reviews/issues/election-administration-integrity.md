@@ -187,7 +187,7 @@ Constitutional path: Elections Clause floor for congressional (careful president
 9. Cost of machine-readable data + custody logging: formula grants vs bare mandate for Senate passability?  
 10. Eligibility sampling distinct from RLA: feasible day-one floor or pilot-first?
 
-Invite answers via [docs/feedback.html](../../docs/feedback.html) or a [counterevidence issue](https://github.com/scuba15steve7/cfmi/issues/new?template=counterevidence.yml).
+Invite answers via [docs/tool.html](../../docs/tool.html) or a [counterevidence issue](https://github.com/scuba15steve7/cfmi/issues/new?template=counterevidence.yml).
 
 ---
 
@@ -206,7 +206,7 @@ Passability never outranks the Charter: no performative theater, no anti-scrutin
 
 CFMI uses public feedback so AI-assisted research can stay accurate and steelman both sides.
 
-- **Suggest a correction or counterargument:** [docs/feedback.html](../../docs/feedback.html) · open a [counterevidence issue](https://github.com/scuba15steve7/cfmi/issues/new?template=counterevidence.yml)  
+- **Suggest a correction or counterargument:** [docs/tool.html](../../docs/tool.html) · open a [counterevidence issue](https://github.com/scuba15steve7/cfmi/issues/new?template=counterevidence.yml)  
 - Invite: state-specific custody statutes, RLA results with scope notes, better public measurement of list error rates, steelman defenses of current NVRA practice, or evidence that would change the least-coercive verification path.  
 - Interest disclosure is mandatory. Educational research only.
 

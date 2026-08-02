@@ -102,7 +102,7 @@ Passability never outranks the Charter: no subsidies, entry barriers, opaque dis
 
 CFMI uses public feedback so AI-assisted research can stay accurate and steelman both sides.
 
-- **Suggest a correction or counterargument:** [docs/feedback.html](../../docs/feedback.html) · open a [counterevidence issue](https://github.com/scuba15steve7/cfmi/issues/new?template=counterevidence.yml)  
+- **Suggest a correction or counterargument:** [docs/tool.html](../../docs/tool.html) · open a [counterevidence issue](https://github.com/scuba15steve7/cfmi/issues/new?template=counterevidence.yml)  
 - Invite: missing papers, affected-people profiles, steelman defenses of the status quo, or evidence that would change the least-coercive path.  
 - Interest disclosure is mandatory. Educational research only.
 

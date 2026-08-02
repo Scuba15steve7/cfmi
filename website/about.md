@@ -5,28 +5,28 @@ layout: default
 
 # About the Constitutional Free Markets Institute
 
-**Using AI to score legislation for conflicts with people-powered, constitutionally limited government and free markets—and to offer open bipartisan fix language and sample bills.**
+**An AI tool that digs into legislation and topics—helping people understand issues, find constitutional and free-market solutions that put people over bureaucracy, and expose corruption or system manipulation.**
 
 ## Mission
 
-CFMI is research-funded AI for legislative analysis: we score current bills for conflicts with accountable government under the Constitution—returning power from opaque bureaucracy and privileged interests to the people—and with free markets as a primary tool against artificial barriers and cronyism. We publish those conflicts with our Charter goals, provide open alignment and fix language for proposed legislation, and circulate sample acts for bipartisan review and comment. AI is a disclosed research aid under published rules—never an authority.
+CFMI is an AI tool that digs into legislation and public topics so people can (1) understand the issues, (2) find constitutional, free-market, people-over-bureaucracy solutions, and (3) expose corruption or manipulation of the system. Free markets are a primary instrument against artificial barriers and cronyism; Charter principles bind every dig. We publish educational Civic Action Packs—diagnosis, Charter scores, both sides, influence leads from public records, fix language, sample legislator letters, and social blurbs—under disclosed AI methods. AI is a research aid under published rules—never an authority.
 
-Full binding principles: [CHARTER.md](../CHARTER.md)
+Full binding principles: [CHARTER.md](../CHARTER.md) · Product: [ops/civic-action-pack.md](../ops/civic-action-pack.md)
 
 ## How we investigate
 
-Deeper issue and bill work uses hierarchical AI investigation under public rubrics: an orchestrator frames the problem, specialist lanes cover text, root cause, disclosed influence, counters, safeguards, and fix language, and a human editor accepts or revises before anything is published. See [ops/ai-investigation-architecture.md](../ops/ai-investigation-architecture.md).
+Deeper issue and bill work uses hierarchical AI investigation under public rubrics: an orchestrator frames the problem, specialist lanes cover text, root cause, disclosed influence, counters, safeguards, and fix language, and a human editor accepts or revises before anything is published. See [ops/ai-investigation-architecture.md](../ops/ai-investigation-architecture.md) and the public [Tool page](../docs/tool.html).
 
 ## Bootstrap story
 
-CFMI began as a one-founder, zero-budget project. The bet: research-funded AI that scores legislation for conflicts with people-powered, constitutionally limited government and free markets—and offers open bipartisan fix language and sample bills—should show up first as a clear mission, a public charter, and an online presence—**before** a large budget.
+CFMI began as a one-founder, zero-budget project. The bet: an AI dig tool that helps people understand issues, find people-over-bureaucracy solutions, and expose system manipulation should show up first as a clear product, a public charter, and an online presence—**before** a large budget.
 
 Work is advanced prompt-native in Cursor. Funding rules against capture are written before money arrives. Formation planning defaults to a **501(c)(3)** educational/research model with attorney review; heavy vote-lobbying may later need a (c)(4)—see [ops/formation-checklist.md](../ops/formation-checklist.md). **We do not claim tax status.**
 
 ## Product lanes
 
-**1. Score & publish conflicts**  
-Analyze introduced and enacted legislation against Charter goals. Publish scores, Hard Flags, and explicit conflicts with accountable, constitutionally limited government and free markets—including where text shifts power to opaque bureaucracy or privileged interests.
+**1. AI dig → Civic Action Pack**  
+Investigate bills and topics. Publish diagnosis, Charter score, both sides, public-record influence leads, fix language, and educational action templates.
 
 **2. Influence & transparency companions**  
 Where public filings allow, map disclosed lobbying trails to Hard-Flagged provisions (Methodology §7). Always pair with open fix language. No doxxing, no unverified conspiracy claims.
@@ -39,7 +39,7 @@ Publish sample legislation for bipartisan review and comment. Use disclosed feed
 
 ## What “aligned support” means
 
-Aligned support helps CFMI finish a credible public site, formalize with counsel under the educational/research default, and run the score / fix / sample engine under public rubrics. It does **not** mean buying outcomes, scores, silence, or privileges. See the [Charter](../CHARTER.md).
+Aligned support helps CFMI keep the Tool live, formalize with counsel under the educational/research default, and run digs under public rubrics. It does **not** mean buying outcomes, scores, silence, or privileges. See the [Charter](../CHARTER.md).
 
 ## What we are not
 
@@ -52,6 +52,7 @@ Aligned support helps CFMI finish a credible public site, formalize with counsel
 ## Read next
 
 - [Homepage](index.md)  
+- [Tool](../docs/tool.html)  
 - [Charter](../CHARTER.md)  
 - [Methodology](../METHODOLOGY.md)  
 - [Formation checklist](../ops/formation-checklist.md)  

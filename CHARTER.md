@@ -8,7 +8,7 @@
 
 ### Purpose
 
-The Constitutional Free Markets Institute exists to restore accountable, limited government under the Constitution—returning power from opaque bureaucracy and privileged interests to the people through transparency, free markets, and least-coercive law. It is an educational and research institute that uses transparent, rules-bound AI—funded as research infrastructure—to score current legislation, publish where it conflicts with those goals, and offer open fix and alignment language. Through published analysis, open bipartisan comment on sample bills, and disclosed AI methods, CFMI works to:
+The Constitutional Free Markets Institute exists to restore accountable, limited government under the Constitution—returning power from opaque bureaucracy and privileged interests to the people through transparency, free markets, and least-coercive law. Its public product is an **AI tool** that digs into legislation and topics so people can understand issues, find constitutional and free-market solutions that put people over bureaucracy, and expose corruption or manipulation of the system—from public records and disclosed methods. Through published Civic Action Packs, open bipartisan comment on sample bills, and rules-bound AI, CFMI works to:
 
 1. Secure free markets as a primary mechanism of economic coordination and a check on artificial barriers and cronyism;
 2. Uphold the U.S. Constitution’s limits on government power; and
@@ -16,7 +16,7 @@ The Constitutional Free Markets Institute exists to restore accountable, limited
 
 These Purpose aims sit above—and do not dilute—the seven Core Principles below.
 
-AI is central to how CFMI researches—scoring living bills, surfacing conflicts with Charter goals, drafting open fix language, and pressure-testing sample legislation for bipartisan review and comment—always as a disclosed aid under published rules, never as an authority. CFMI’s public products are educational and research outputs; they are not lobbying directives or counsel to any person. Government intervention, where addressed at all, must remain minimal and consistent with the original constitutional design.
+AI is central to how CFMI digs—diagnosing barriers, scoring living bills against Charter goals, steeling both sides, mapping disclosed influence, drafting open fix language, and pressure-testing sample legislation—always as a disclosed aid under published rules, never as an authority. CFMI’s public products are educational and research outputs; they are not lobbying directives or counsel to any person. Government intervention, where addressed at all, must remain minimal and consistent with the original constitutional design.
 
 ---
 

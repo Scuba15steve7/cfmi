@@ -252,7 +252,7 @@ Acceptance/rejection rates and median times published under §201.
 
 ## Improve this outline
 
-Feedback: [docs/feedback.html](../docs/feedback.html) · [counterevidence issue](https://github.com/scuba15steve7/cfmi/issues/new?template=counterevidence.yml)  
+Feedback: [docs/tool.html](../docs/tool.html) · [counterevidence issue](https://github.com/scuba15steve7/cfmi/issues/new?template=counterevidence.yml)  
 Analysis package: [federal-election-transparency-package.md](../ai-reviews/issues/federal-election-transparency-package.md)
 
 *End of outline draft v0.1.0.*

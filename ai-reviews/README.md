@@ -61,4 +61,4 @@ Public suggestions for bills/topics to screen: [suggestions/README.md](suggestio
 
 - Examples: [docs/examples.html](../docs/examples.html)  
 - Reviews: [docs/reviews.html](../docs/reviews.html)  
-- Suggest: [docs/feedback.html](../docs/feedback.html)
+- Suggest: [docs/tool.html](../docs/tool.html)

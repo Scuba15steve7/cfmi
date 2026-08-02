@@ -210,7 +210,7 @@ Map packages into existing templates: issue brief, bill review, influence compan
 | Bill review shape | [sample-bill-review-template.md](../ai-reviews/sample-bill-review-template.md) |
 | Issue briefs / steelman | [METHODOLOGY.md](../METHODOLOGY.md) §4.6 · [`ai-reviews/issues/`](../ai-reviews/issues/) |
 | Suggestion queue | [ops/suggestion-ranking.md](suggestion-ranking.md) · [`ai-reviews/suggestions/QUEUE.md`](../ai-reviews/suggestions/QUEUE.md) |
-| Counterevidence intake | [.github/ISSUE_TEMPLATE/counterevidence.yml](../.github/ISSUE_TEMPLATE/counterevidence.yml) · [docs/feedback.html](../docs/feedback.html) |
+| Counterevidence intake | [.github/ISSUE_TEMPLATE/counterevidence.yml](../.github/ISSUE_TEMPLATE/counterevidence.yml) · [docs/tool.html](../docs/tool.html) |
 | Unintended consequences | [docs/unintended-consequences-template.md](../docs/unintended-consequences-template.md) |
 | Cursor prompts | [ops/prompt-playbook.md](prompt-playbook.md) Phase 2 (I1–I4) |
 | Narrative capture defenses | [ops/anti-narrative-capture.md](anti-narrative-capture.md) |

@@ -1,26 +1,26 @@
 # Constitutional Free Markets Institute (CFMI)
 
-**Using AI to score legislation for conflicts with people-powered, constitutionally limited government and free markets—and to offer open bipartisan fix language and sample bills.**
+**An AI tool that digs into legislation and topics—helping people understand issues, find constitutional and free-market solutions that put people over bureaucracy, and expose corruption or system manipulation.**
 
 ## Mission
 
-CFMI is research-funded AI for legislative analysis: we score current bills for conflicts with accountable government under the Constitution—returning power from opaque bureaucracy and privileged interests to the people—and with free markets as a primary tool against artificial barriers and cronyism. We publish those conflicts with our Charter goals, provide open alignment and fix language for proposed legislation, and circulate sample acts for bipartisan review and comment. AI is a disclosed research aid under published rules—never an authority.
+CFMI is an AI tool that digs into legislation and public topics so people can (1) understand the issues, (2) find constitutional, free-market, people-over-bureaucracy solutions, and (3) expose corruption or manipulation of the system. Free markets are a primary instrument against artificial barriers and cronyism; Charter principles bind every dig. We publish educational Civic Action Packs—diagnosis, Charter scores, both sides, influence leads from public records, fix language, sample legislator letters, and social blurbs—under disclosed AI methods. AI is a research aid under published rules—never an authority.
 
-**Status:** Bootstrap — mission locked; deployable public site in [`docs/`](docs/) (GitHub Pages). Zero budget. One founder. Built prompt-native in Cursor.
+**Status:** Bootstrap — product locked; deployable public site in [`docs/`](docs/) (GitHub Pages). Zero budget. One founder. Built prompt-native in Cursor.
 
-**GitHub:** [github.com/scuba15steve7/cfmi](https://github.com/scuba15steve7/cfmi) · **Pages:** [scuba15steve7.github.io/cfmi](https://scuba15steve7.github.io/cfmi/) (after push + Pages enable)
+**GitHub:** [github.com/scuba15steve7/cfmi](https://github.com/scuba15steve7/cfmi) · **Pages:** [scuba15steve7.github.io/cfmi](https://scuba15steve7.github.io/cfmi/) · **Tool:** [scuba15steve7.github.io/cfmi/tool.html](https://scuba15steve7.github.io/cfmi/tool.html)
 
-Binding principles: [CHARTER.md](CHARTER.md) · Go live: [ops/go-live.md](ops/go-live.md)
+Binding principles: [CHARTER.md](CHARTER.md) · Product pack: [ops/civic-action-pack.md](ops/civic-action-pack.md) · Go live: [ops/go-live.md](ops/go-live.md)
 
 ---
 
 ## How we work
 
-1. **Score** — Use research-funded, rules-bound AI to score current legislation against Charter goals.  
-2. **Publish conflicts** — Disclose where bill text concentrates power in opaque bureaucracy or privileged interests, or conflicts with constitutional limits, free markets, or anti-capture filters—and disclosed influence trails where public filings allow.  
-3. **Fix language** — Offer open alignment and amendment language for proposed bills; pair influence maps with alternatives.  
-4. **Sample acts** — Publish sample legislation for bipartisan review and comment; minimize unintended consequences.  
-5. **Bind** — Charter principles govern every score, draft, and comment cycle.  
+1. **Dig** — Use research-funded, rules-bound AI to investigate bills and topics under Charter filters.  
+2. **Understand & score** — Publish diagnosis and Charter conflicts—including where text concentrates power in opaque bureaucracy or privileged interests.  
+3. **Both sides & influence** — Steelman reform and status-quo cases; map disclosed influence trails where public filings allow.  
+4. **Fix & act** — Offer open fix language plus educational legislator-letter and social templates (Civic Action Pack).  
+5. **Bind** — Charter principles govern every dig, draft, and comment cycle.  
 
 ## Core Principles
 
@@ -34,10 +34,10 @@ Binding principles: [CHARTER.md](CHARTER.md) · Go live: [ops/go-live.md](ops/go
 
 ## Current focus
 
-1. ✅ Mission  
+1. ✅ Mission / product lock (AI dig tool)  
 2. ✅ Online presence (static site in `docs/`; publish via [ops/go-live.md](ops/go-live.md))  
 3. Formation readiness ([ops/formation-checklist.md](ops/formation-checklist.md) — default **501(c)(3)** educational/research model; attorney-review required; no tax status claimed)  
-4. **Later:** steady scoring cadence, fix-language packs, and bipartisan sample-act comment loops  
+4. **Later:** steady dig cadence and published Civic Action Packs  
 
 Playbook: [ops/prompt-playbook.md](ops/prompt-playbook.md)
 
@@ -47,6 +47,8 @@ Playbook: [ops/prompt-playbook.md](ops/prompt-playbook.md)
 |----------|---------|
 | [CHARTER.md](CHARTER.md) | Binding founding charter |
 | [METHODOLOGY.md](METHODOLOGY.md) | Scoring, fix language, influence/transparency research, bipartisan comment |
+| [Civic Action Pack](ops/civic-action-pack.md) | What the AI tool produces |
+| [Tool (live)](docs/tool.html) | Public explanation + suggest / dig CTAs |
 | [Live site (`docs/`)](docs/index.html) | GitHub Pages HTML (deploy from `/docs`) |
 | [Priorities (live)](docs/priorities.html) | How we choose: public salience × Charter filter |
 | [Examples (live)](docs/examples.html) | Public list: government-as-bottleneck issue areas |

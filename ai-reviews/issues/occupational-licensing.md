@@ -112,7 +112,7 @@ Passability never outranks the Charter: no subsidies, entry barriers for rivals,
 
 Help CFMI keep both sides honest and the least-coercive path evidence-based.
 
-- **Suggest a correction or counterargument:** [Feedback page](../../docs/feedback.html) · [Open a counterevidence issue](https://github.com/scuba15steve7/cfmi/issues/new?template=counterevidence.yml) (issue slug: `occupational-licensing`)  
+- **Suggest a correction or counterargument:** [Feedback page](../../docs/tool.html) · [Open a counterevidence issue](https://github.com/scuba15steve7/cfmi/issues/new?template=counterevidence.yml) (issue slug: `occupational-licensing`)  
 - Especially useful: peer-reviewed quality studies, professional-association safety cases, enforcement examples, or affected-people profiles with public links.  
 - Interest disclosure is mandatory. Educational research only.
 

@@ -216,5 +216,5 @@ Sections (summary):
 
 ## Improve this package
 
-- [docs/feedback.html](../../docs/feedback.html) · [counterevidence issue](https://github.com/scuba15steve7/cfmi/issues/new?template=counterevidence.yml)  
+- [docs/tool.html](../../docs/tool.html) · [counterevidence issue](https://github.com/scuba15steve7/cfmi/issues/new?template=counterevidence.yml)  
 - Invite: constitutional critiques of presidential scope drafting; state metric schemas already in use; cost estimates for data floor; steelman unfunded-mandate fixes (conditional grants vs bare mandate).

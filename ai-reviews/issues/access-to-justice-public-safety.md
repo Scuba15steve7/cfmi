@@ -157,7 +157,7 @@ Passability never outranks the Charter: no subsidies-as-payoff, entry barriers f
 
 Help CFMI keep both sides honest and the least-coercive path evidence-based.
 
-- **Suggest a correction or counterargument:** [Feedback page](../../docs/feedback.html) · [Open a counterevidence issue](https://github.com/scuba15steve7/cfmi/issues/new?template=counterevidence.yml) (issue slug: `access-to-justice-public-safety`)  
+- **Suggest a correction or counterargument:** [Feedback page](../../docs/tool.html) · [Open a counterevidence issue](https://github.com/scuba15steve7/cfmi/issues/new?template=counterevidence.yml) (issue slug: `access-to-justice-public-safety`)  
 - Especially useful: state forfeiture data, UPL enforcement examples, fee-revenue budget shares, pretrial FTA/rearrest studies, QI empirical work, defender caseload audits, and steelman defenses from prosecutors, bars, and police labor.  
 - Interest disclosure is mandatory. Educational research only.
 

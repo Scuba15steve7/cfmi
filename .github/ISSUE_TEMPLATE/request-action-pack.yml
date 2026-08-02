@@ -1,0 +1,79 @@
+name: Dig into this topic/bill
+description: Request a CFMI Civic Action Pack dig—diagnosis, Charter score, both sides, influence leads, fix language, letter, social blurb
+title: "[Dig]: "
+labels: ["suggestion", "action-pack"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Request a public **Civic Action Pack** dig. CFMI’s AI tool investigates legislation or topics to help people (1) understand issues, (2) find constitutional / free-market / people-over-bureaucracy solutions, and (3) expose corruption or system manipulation from public records.
+
+        Packs are screened against [CHARTER.md](https://github.com/scuba15steve7/cfmi/blob/main/CHARTER.md) and [ops/civic-action-pack.md](https://github.com/scuba15steve7/cfmi/blob/main/ops/civic-action-pack.md). A human editor accepts or revises before anything is published. Queue: [ai-reviews/suggestions/QUEUE.md](https://github.com/scuba15steve7/cfmi/blob/main/ai-reviews/suggestions/QUEUE.md).
+
+        **Interest disclosure is mandatory.** Educational research only—not legal advice, voting instructions, or counsel to any person. Not a promise of a full pack on a deadline.
+
+  - type: textarea
+    id: subject
+    attributes:
+      label: Bill or topic to dig into
+      description: Bill number, regulation, topic, or link. Include clear identifiers when you have them.
+      placeholder: e.g. H.R. ____ (119th Cong.); state S.B. ____; or “Certificate of Need expansions in ____” with a public source
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-you-want-understood
+    attributes:
+      label: What should people understand
+      description: In plain language—what looks broken, who is harmed or blocked, and what bureaucracy or privilege may be involved.
+      placeholder: Focus on mechanisms and public harm—not a private ask for privilege.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: pack-components
+    attributes:
+      label: Pack components you care about most (optional)
+      description: CFMI aims for a full pack when capacity allows; check priorities.
+      options:
+        - label: Diagnosis (operative barrier / power shift)
+        - label: Charter score and Hard Flags
+        - label: Both sides (steelmanned)
+        - label: Influence leads from public filings
+        - label: Open fix language
+        - label: Sample legislator letter
+        - label: Social blurb
+
+  - type: dropdown
+    id: jurisdiction
+    attributes:
+      label: Jurisdiction
+      options:
+        - Federal (U.S.)
+        - State
+        - Local / municipal
+        - Multi-state / regional
+        - Other / unclear
+    validations:
+      required: true
+
+  - type: input
+    id: jurisdiction-detail
+    attributes:
+      label: Jurisdiction detail (optional)
+      placeholder: e.g. Colorado; 2026 session
+
+  - type: textarea
+    id: interest-disclosure
+    attributes:
+      label: Interest disclosure (required)
+      description: Employment, clients, subsidies, association membership, or other material interests related to this subject in the prior 24 months—or write “None.”
+      placeholder: e.g. Employed by ____; client of ____; none
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources or leads (optional)
+      description: Public URLs, filings, or prior CFMI briefs that help the dig—not private dossiers.

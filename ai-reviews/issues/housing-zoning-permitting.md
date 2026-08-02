@@ -165,7 +165,7 @@ Passability never outranks the Charter: no subsidies for favored developers, ent
 
 Help CFMI dig past talking points—statute cites, fee schedules, permit timelines, and steelman defenses welcome.
 
-- **Suggest a correction or counterargument:** [Feedback page](../../docs/feedback.html) · [Open a counterevidence issue](https://github.com/scuba15steve7/cfmi/issues/new?template=counterevidence.yml) (issue slug: `housing-zoning-permitting`)  
+- **Suggest a correction or counterargument:** [Feedback page](../../docs/tool.html) · [Open a counterevidence issue](https://github.com/scuba15steve7/cfmi/issues/new?template=counterevidence.yml) (issue slug: `housing-zoning-permitting`)  
 - Especially useful: local code examples of soft vetoes, HOA/covenant stacks, non-California environmental-review abuse cases, renter displacement studies with methods, or evidence that a named “barrier” is actually a binding safety constraint.  
 - Interest disclosure is mandatory. Educational research only.
 

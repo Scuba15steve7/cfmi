@@ -1,12 +1,12 @@
 name: Suggest a review
-description: Propose a bill, regulation, or topic for CFMI to screen against the Charter
+description: Propose a bill, regulation, or topic for CFMI’s AI dig to screen against the Charter
 title: "[Suggest]: "
 labels: ["suggestion"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for suggesting work for CFMI. Suggestions are public. AI screens and ranks them against [CHARTER.md](https://github.com/scuba15steve7/cfmi/blob/main/CHARTER.md) and [METHODOLOGY.md](https://github.com/scuba15steve7/cfmi/blob/main/METHODOLOGY.md). Results appear in the [public queue](https://github.com/scuba15steve7/cfmi/blob/main/ai-reviews/suggestions/QUEUE.md).
+        Thank you for suggesting work for CFMI’s AI dig tool. Suggestions are public. AI screens and ranks them against [CHARTER.md](https://github.com/scuba15steve7/cfmi/blob/main/CHARTER.md) and [METHODOLOGY.md](https://github.com/scuba15steve7/cfmi/blob/main/METHODOLOGY.md). For a full Civic Action Pack request, use [Dig into this topic/bill](https://github.com/scuba15steve7/cfmi/issues/new?template=request-action-pack.yml). Results appear in the [public queue](https://github.com/scuba15steve7/cfmi/blob/main/ai-reviews/suggestions/QUEUE.md).
 
         **Interest disclosure is mandatory.** Educational research only—not legal advice or voting instructions. Party affiliation does not help or hurt a suggestion.
 
