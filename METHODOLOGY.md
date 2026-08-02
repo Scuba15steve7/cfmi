@@ -161,7 +161,66 @@ Before “circulate v1” and before “comment-ready”:
 
 ---
 
-## 7. Bootstrap Constraints
+## 7. Influence & Transparency Research
+
+Companion research to bill scores. When a review Hard-Flags rents, barriers, or opaque discretion, CFMI may publish a short **influence memo** that maps **publicly available** disclosure trails to those provisions—and always pairs that map with open fix / alignment language already in the parent review.
+
+Educational/(c)(3)-safe research only. Not private investigation, not counsel to any person, not a vote whip.
+
+### 7.1 Purpose
+
+1. Show readers **who reported lobbying** on bills that contain Charter Hard Flags.  
+2. Distinguish **disclosed lobbying** (LDA / OpenSecrets aggregates) from **opaque political spending** (non-disclosing 501(c)(4)/super PAC patterns)—and use “dark money” **only** when that opaque pattern is sourced. Prefer “opaque political spending” when unsure.  
+3. Keep exposure tied to **open alternatives** (least-coercive fix language)—never exposure alone.
+
+### 7.2 Sources hierarchy (prefer higher rungs)
+
+| Rank | Source class | Examples |
+|------|----------------|----------|
+| 1 | Primary public filings | Senate/House LDA reports; FEC filings when cited for independent expenditures |
+| 2 | Reputable aggregators of filings | [OpenSecrets / CRP](https://www.opensecrets.org/) bill and client pages |
+| 3 | Official legislative record | Congress.gov text, sponsors/cosponsors; committee reports |
+| 4 | Authoritative secondary | CRS products when cited by number/title |
+| 5 | Company public claims | 10-K / earnings / official press **only** when sourced and labeled as company statements |
+
+If a claim cannot rest on rungs 1–4 (or a clearly labeled rung-5 company statement), write: **“not established from public filings in this pass.”** Do not invent or stretch.
+
+### 7.3 What we publish
+
+- Bill ID, Hard-Flagged provisions (cross-link to the scored review).  
+- Organizations that **reported lobbying** on the bill or on named provision themes, with links to OpenSecrets/LDA-style pages.  
+- Aggregate client counts when OpenSecrets publishes them (with the usual caveat that LDA “lobbying on” a bill ≠ endorsement of every section).  
+- Public statements by trade associations or officials that are on the record.  
+- Cross-link to **open fix / alignment language** in the parent review (mandatory).  
+- Interest-disclosure reminder for commenters (§5).
+
+### 7.4 What we will not allege
+
+- Private motives, side deals, or “captured the vote” claims without a public-record hook.  
+- Doxxing, home addresses, family details, or non-public personal data.  
+- Unverified conspiracy narratives or anonymous “sources say” as fact.  
+- That disclosed lobbying spending **caused** a specific statutory line—correlation of filings with outcomes is research context, not proof of causation.  
+- Defamatory characterizations; attribute to filings (“reported lobbying on H.R. …”; “OpenSecrets lists N clients”).
+
+### 7.5 Separation of layers
+
+| Layer | Content |
+|-------|---------|
+| **Facts** | Filings, aggregates, bill text, dated public statements |
+| **Charter analysis** | Why a provision is a Hard Flag / artificial manipulation |
+| **Alternatives** | Open fix language already published with the score |
+
+Never blend motive mind-reading into the facts layer.
+
+### 7.6 Product placement
+
+- Template: [`ai-reviews/influence-template.md`](ai-reviews/influence-template.md)  
+- Companions: `ai-reviews/influence-*.md` linked from parent reviews and [`docs/reviews.html`](docs/reviews.html)  
+- Parent bill reviews remain the score of record; influence memos are research companions.
+
+---
+
+## 8. Bootstrap Constraints
 
 Until funded:
 
@@ -171,4 +230,4 @@ Until funded:
 
 ---
 
-*Methodology version: 0.3.0 (bootstrap) — scoring + conflict publish + open fix language + bipartisan sample-act comment.*
+*Methodology version: 0.4.0 (bootstrap) — scoring + conflict publish + open fix language + influence/transparency research + bipartisan sample-act comment.*

@@ -8,15 +8,16 @@ Educational research products. CFMI scores living bills against [CHARTER.md](../
 
 ## Bill reviews (scored)
 
-| Review | Law / bill | Composite | Hard-flag themes |
-|--------|------------|-----------|------------------|
-| [CHIPS and Science Act](chips-and-science-act.md) | P.L. 117-167 | 1.6 | Fab subsidies, ITC privilege, Commerce selection |
-| [Inflation Reduction Act](inflation-reduction-act.md) | P.L. 117-169 | 1.4 | Energy/industrial credit stacks, guidance discretion |
-| [Infrastructure Investment and Jobs Act](infrastructure-investment-jobs-act.md) | P.L. 117-58 | 2.0 | Competitive grants, Buy America preferences |
-| [American Rescue Plan Act](american-rescue-plan-act.md) | P.L. 117-2 | 1.7 | Fiscal recovery opacity, political allocation |
-| [Fiscal Responsibility Act of 2023](fiscal-responsibility-act-2023.md) | P.L. 118-5 | 2.4 | Named MVP privilege; mixed Builder Act gains |
+| Review | Law / bill | Composite | Hard-flag themes | Influence companion |
+|--------|------------|-----------|------------------|---------------------|
+| [CHIPS and Science Act](chips-and-science-act.md) | P.L. 117-167 | 1.6 | Fab subsidies, ITC privilege, Commerce selection | [influence-chips…](influence-chips-and-science-act.md) |
+| [Inflation Reduction Act](inflation-reduction-act.md) | P.L. 117-169 | 1.4 | Energy/industrial credit stacks, guidance discretion | [influence-ira…](influence-inflation-reduction-act.md) |
+| [Infrastructure Investment and Jobs Act](infrastructure-investment-jobs-act.md) | P.L. 117-58 | 2.0 | Competitive grants, Buy America preferences | [influence-iija…](influence-infrastructure-investment-jobs-act.md) |
+| [American Rescue Plan Act](american-rescue-plan-act.md) | P.L. 117-2 | 1.7 | Fiscal recovery opacity, political allocation | [influence-arpa…](influence-american-rescue-plan-act.md) |
+| [Fiscal Responsibility Act of 2023](fiscal-responsibility-act-2023.md) | P.L. 118-5 | 2.4 | Named MVP privilege; mixed Builder Act gains | [influence-fra…](influence-fiscal-responsibility-act-2023.md) |
 
-**Template & composites:** [sample-bill-review-template.md](sample-bill-review-template.md)
+**Templates:** [sample-bill-review-template.md](sample-bill-review-template.md) · [influence-template.md](influence-template.md) (“Who pushed the rent?”)  
+**Methods:** [METHODOLOGY.md §7](../METHODOLOGY.md) — Influence & transparency research (public filings only; always paired with open fix language).
 
 ---
 

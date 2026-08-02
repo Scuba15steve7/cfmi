@@ -55,6 +55,12 @@ Educational amendment sketches—not voting instructions:
 
 Secure critical chips via transparent stockpile procurement and equal rules of entry/permitting; omit industrial privilege packages.
 
+## Influence notes
+
+Companion research on **publicly disclosed** lobbying trails tied to Hard Flags (LDA / OpenSecrets–style facts only; no motive claims):  
+→ [influence-chips-and-science-act.md](./influence-chips-and-science-act.md)  
+Methodology: [METHODOLOGY.md §7](../METHODOLOGY.md). Comments require interest disclosure.
+
 ## Editor’s Note (agree / adjust AI draft)
 
 Scores accepted. A pure science-authorization bill without fab subsidies would score substantially higher on D/F/G. Human editor: CFMI bootstrap; AI assistance disclosed above.

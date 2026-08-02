@@ -55,6 +55,12 @@ For future emergency vehicles (ARPA is enacted; language is for **alignment temp
 
 Time-limited, formulaic fiscal backstops and published public-health procurement; avoid open-ended local industrial policy under emergency labels.
 
+## Influence notes
+
+Companion research on **publicly disclosed** lobbying trails tied to Hard Flags (LDA / OpenSecrets–style facts only; no motive claims):  
+→ [influence-american-rescue-plan-act.md](./influence-american-rescue-plan-act.md)  
+Methodology: [METHODOLOGY.md §7](../METHODOLOGY.md). Comments require interest disclosure.
+
 ## Editor’s Note (agree / adjust AI draft)
 
 Scores target the fiscal-recovery and allocation architecture, not every health provision. Human editor: CFMI bootstrap; AI assistance disclosed.

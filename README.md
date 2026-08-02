@@ -17,8 +17,8 @@ Binding principles: [CHARTER.md](CHARTER.md) · Go live: [ops/go-live.md](ops/go
 ## How we work
 
 1. **Score** — Use research-funded, rules-bound AI to score current legislation against Charter goals.  
-2. **Publish conflicts** — Disclose where bill text conflicts with free markets, constitutional limits, or anti-capture filters.  
-3. **Fix language** — Offer open alignment and amendment language for proposed bills.  
+2. **Publish conflicts** — Disclose where bill text conflicts with free markets, constitutional limits, or anti-capture filters—and disclosed influence trails where public filings allow.  
+3. **Fix language** — Offer open alignment and amendment language for proposed bills; pair influence maps with alternatives.  
 4. **Sample acts** — Publish sample legislation for bipartisan review and comment; minimize unintended consequences.  
 5. **Bind** — Charter principles govern every score, draft, and comment cycle.  
 
@@ -46,7 +46,7 @@ Playbook: [ops/prompt-playbook.md](ops/prompt-playbook.md)
 | Document | Purpose |
 |----------|---------|
 | [CHARTER.md](CHARTER.md) | Binding founding charter |
-| [METHODOLOGY.md](METHODOLOGY.md) | Scoring, fix language, bipartisan comment, unintended consequences |
+| [METHODOLOGY.md](METHODOLOGY.md) | Scoring, fix language, influence/transparency research, bipartisan comment |
 | [Live site (`docs/`)](docs/index.html) | GitHub Pages HTML (deploy from `/docs`) |
 | [Examples (live)](docs/examples.html) | Public list: government-as-bottleneck issue areas |
 | [Issue briefs](ai-reviews/issues/README.md) | Short research briefs behind the Examples page |
@@ -60,6 +60,8 @@ Playbook: [ops/prompt-playbook.md](ops/prompt-playbook.md)
 
 - [Issue briefs — government as bottleneck](ai-reviews/issues/README.md)  
 - [AI review template](ai-reviews/sample-bill-review-template.md)  
+- [Influence memo template](ai-reviews/influence-template.md)  
+- [Bill reviews + influence companions](ai-reviews/README.md)  
 - [Model legislation index](model-legislation/README.md)  
 
 ## Seeking aligned support

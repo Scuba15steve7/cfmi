@@ -33,7 +33,7 @@ AI is central to how CFMI researches—scoring living bills, surfacing conflicts
    Prefer the least coercive instrument that can address a clearly defined problem. Silence or repeal often beats new programs.
 
 5. **Radical transparency**  
-   Operations, data, AI methods, prompts and rubrics, funding sources, and material decisions are public by default.
+   Operations, data, AI methods, prompts and rubrics, funding sources, and material decisions are public by default. Where public filings allow, CFMI publishes disclosed influence trails alongside legislative scores—never private investigation or unverified motive claims (see Methodology).
 
 6. **Anti-capture**  
    CFMI must never become a source of new rents or preferential treatment for donors, allies, or staff.
@@ -73,6 +73,7 @@ Neutral, generally applicable rules that protect property, contract, and common-
 2. Material amendments to this Charter require a dated public notice and a clear diff.
 3. When funding exists, CFMI will publish a register of contributions above a stated threshold and refuse anonymous earmarks that purchase outcomes.
 4. Stakeholder feedback is welcome only with interest disclosure (see Methodology).
+5. Influence research companions, when published, rest on publicly available filings and aggregators; they pair Hard Flags with open fix language and do not dilute anti-capture filters.
 
 ---
 

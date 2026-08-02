@@ -53,6 +53,12 @@ The Inflation Reduction Act layers large **energy and manufacturing tax credits*
 
 Neutral tax treatment + open entry/permitting for energy projects; no stacked industrial privileges.
 
+## Influence notes
+
+Companion research on **publicly disclosed** lobbying trails tied to Hard Flags (LDA / OpenSecrets–style facts only; no motive claims):  
+→ [influence-inflation-reduction-act.md](./influence-inflation-reduction-act.md)  
+Methodology: [METHODOLOGY.md §7](../METHODOLOGY.md). Comments require interest disclosure.
+
 ## Editor’s Note (agree / adjust AI draft)
 
 Composite accepted for the energy-industrial core. Drug-pricing and IRS titles are not scored here. Human editor: CFMI bootstrap; AI assistance disclosed.

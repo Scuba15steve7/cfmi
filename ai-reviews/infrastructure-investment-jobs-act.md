@@ -53,6 +53,12 @@ IIJA authorizes and appropriates large sums for highways, transit, broadband, gr
 
 Fund core networks by transparent formulas; publish outcomes; clear permitting for all projects under equal rules—minimize beauty-contest grants.
 
+## Influence notes
+
+Companion research on **publicly disclosed** lobbying trails tied to Hard Flags (LDA / OpenSecrets–style facts only; no motive claims):  
+→ [influence-infrastructure-investment-jobs-act.md](./influence-infrastructure-investment-jobs-act.md)  
+Methodology: [METHODOLOGY.md §7](../METHODOLOGY.md). Comments require interest disclosure.
+
 ## Editor’s Note (agree / adjust AI draft)
 
 Composite ~2.0 accepted: not as rent-dense as CHIPS/IRA industrial cores, but Hard Flags on discretion and preferences stand. Human editor: CFMI bootstrap; AI assistance disclosed.

@@ -24,10 +24,13 @@ Work is advanced prompt-native in Cursor. Funding rules against capture are writ
 **1. Score & publish conflicts**  
 Analyze introduced and enacted legislation against Charter goals. Publish scores, Hard Flags, and explicit conflicts with free markets and constitutional limits.
 
-**2. Open fix / alignment language**  
+**2. Influence & transparency companions**  
+Where public filings allow, map disclosed lobbying trails to Hard-Flagged provisions (Methodology §7). Always pair with open fix language. No doxxing, no unverified conspiracy claims.
+
+**3. Open fix / alignment language**  
 Where bills are salvageable, publish open amendment language that reduces Hard Flags without creating new rents.
 
-**3. Sample acts → bipartisan comment**  
+**4. Sample acts → bipartisan comment**  
 Publish sample legislation for bipartisan review and comment. Use disclosed feedback and AI research loops to harden text and reduce unintended consequences. Charter filters still bind.
 
 ## What “aligned support” means

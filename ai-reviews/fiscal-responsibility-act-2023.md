@@ -52,6 +52,12 @@ The Fiscal Responsibility Act pairs debt-limit and spending provisions with **Ti
 
 Keep generally applicable Builder Act–style process limits; omit earmarked pipelines or plants; let equal rules clear or deny all applicants.
 
+## Influence notes
+
+Companion research on **publicly disclosed** lobbying trails tied to Hard Flags (LDA / OpenSecrets–style facts only; no motive claims):  
+→ [influence-fiscal-responsibility-act-2023.md](./influence-fiscal-responsibility-act-2023.md)  
+Methodology: [METHODOLOGY.md §7](../METHODOLOGY.md). Comments require interest disclosure.
+
 ## Editor’s Note (agree / adjust AI draft)
 
 Composite raised relative to pure subsidy acts because Builder Act elements reduce process opacity; **F = 1 Hard Flag remains decisive** on the MVP privilege. Human editor: CFMI bootstrap; AI assistance disclosed.
