@@ -30,9 +30,10 @@ Ordered by public salience × Charter fit. Secondary briefs remain published as 
 | 3 | Occupational licensing | [occupational-licensing.md](occupational-licensing.md) | Entry barriers / boards | State licensing statutes / boards |
 | 4 | Industrial subsidies & privileges | [industrial-subsidies-privileges.md](industrial-subsidies-privileges.md) | Incumbent subsidies | Statutory industrial-policy packages (e.g. CHIPS, IRA credits) |
 | 5 | Opaque discretionary permitting | [opaque-discretionary-permitting.md](opaque-discretionary-permitting.md) | Waivers / process vetoes | NEPA-class process + case-by-case waivers |
-| 6 | Election administration integrity | [election-administration-integrity.md](election-administration-integrity.md) | Constitutional process / transparency | NVRA attestation gaps; SAVE Act–style design tradeoffs |
-| 6b | Federal election transparency package | [federal-election-transparency-package.md](federal-election-transparency-package.md) | Elections Clause floor · citizenship + audit | Companion to election brief |
-| 7 | Accreditation gatekeeping | [professional-accreditation-cartels.md](professional-accreditation-cartels.md) | Credential cartels | Accreditation / Title IV–linked capacity gates |
+| 6 | Access to justice / public-safety bureaucracy | [access-to-justice-public-safety.md](access-to-justice-public-safety.md) | Rents · monopolies · opaque courts | Forfeiture agency-keep; UPL; fee/fine systems; charging/discovery opacity; defender rationing |
+| 7 | Election administration integrity | [election-administration-integrity.md](election-administration-integrity.md) | Constitutional process / transparency | NVRA attestation gaps; SAVE Act–style design tradeoffs |
+| 7b | Federal election transparency package | [federal-election-transparency-package.md](federal-election-transparency-package.md) | Elections Clause floor · citizenship + audit | Companion to election brief |
+| 8 | Accreditation gatekeeping | [professional-accreditation-cartels.md](professional-accreditation-cartels.md) | Credential cartels | Accreditation / Title IV–linked capacity gates |
 
 ### Secondary / method samples
 

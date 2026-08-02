@@ -1,25 +1,25 @@
 # CFMI Donor One-Pager
 
 **Constitutional Free Markets Institute**  
-**Tagline:** Using AI to score legislation, publish conflicts with free markets and constitutional limits, and offer open bipartisan fix language and sample bills.  
+**Tagline:** Using AI to score legislation for conflicts with people-powered, constitutionally limited government and free markets—and to offer open bipartisan fix language and sample bills.  
 **Status:** Bootstrap · **$0** · **1 founder**
 
 ---
 
 ## Mission
 
-CFMI is research-funded AI for legislative analysis: we score current bills against free markets and constitutional limits, publish conflicts with our Charter goals, and provide open alignment and fix language for proposed legislation. We publish sample acts for bipartisan review and comment, work to minimize unintended consequences, and bind every product to Charter principles. AI is a disclosed research aid under published rules—never an authority.
+CFMI is research-funded AI for legislative analysis: we score current bills for conflicts with accountable government under the Constitution—returning power from opaque bureaucracy and privileged interests to the people—and with free markets as a primary tool against artificial barriers and cronyism. We publish those conflicts with our Charter goals, provide open alignment and fix language for proposed legislation, and circulate sample acts for bipartisan review and comment. AI is a disclosed research aid under published rules—never an authority.
 
 ## Problem
 
-Conflicts with free markets and constitutional limits hide in bill text. Messaging alone does not produce better law—or surface where proposed language fails Charter filters.
+Opaque bureaucracy and privileged interests hide in bill text. Messaging alone does not return power to accountable people under clear rules—or surface where proposed language fails Charter filters on constitutional limits, free markets, and anti-capture.
 
 ## Method
 
 | Lane | What donors get |
 |------|-----------------|
 | **Score** | Research-funded AI scoring of current legislation against Charter goals |
-| **Publish conflicts** | Public disclosure of conflicts with free markets, constitutional limits, and anti-capture filters |
+| **Publish conflicts** | Public disclosure where text concentrates power in opaque bureaucracy or privileged interests, or conflicts with constitutional limits, free markets, and anti-capture filters |
 | **Fix language** | Open alignment and amendment language for proposed bills |
 | **Sample acts** | Sample legislation circulated for bipartisan review and comment, with unintended-consequences safeguards |
 | **Bind** | Charter principles on every score, draft, and comment cycle |

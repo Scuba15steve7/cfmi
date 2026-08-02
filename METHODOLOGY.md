@@ -34,7 +34,9 @@ Rankings for active pipelines will be logged in-repo when the pipeline has more 
 CFMI does **not** set its agenda by poll rank alone. Top issues are chosen in two steps:
 
 1. **Public salience** — What large shares of Americans *say* are the biggest national problems, drawn from recent nonpartisan polling (e.g. Gallup most-important-problem, Pew “very big problem” batteries, AP-NORC open-ended government priorities, CBS/YouGov and related). Polling describes stated concerns; it does not establish causal truth or Charter correctness.
-2. **Charter filter** — Each salient public label is scored for fit with [CHARTER.md](CHARTER.md): free-market barriers, government overreach, cronyism/rents, constitutional process, and tractability for CFMI’s AI products (score bills, publish conflicts, open fix / sample acts). High public salience with weak Charter fit (e.g. immigration or crime as lead topics) stays off the priority agenda.
+2. **Charter filter** — Each salient public label is scored for fit with [CHARTER.md](CHARTER.md): free-market barriers, government overreach, cronyism/rents, constitutional process, and tractability for CFMI’s AI products (score bills, publish conflicts, open fix / sample acts). High public salience with weak Charter fit (e.g. immigration as a lead topic, or raw “crime” theater) stays off the priority agenda **unless remapped**.
+
+**Public-label remapping.** Poll labels are starting points, not product titles. CFMI remaps slogans to Charter mechanisms before scoring fit. Example: public “crime” / “public safety” → **access to justice, anti-corruption, and justice bureaucracy** (civil forfeiture, UPL barriers to affordable legal help, court fee/fine traps, opaque charging and discovery, defender rationing, careful QI/bail mechanism analysis)—not tough-on-crime or defund campaigns. Free markets remain central where entry, prices, and rents are distorted; the deeper through-line is **giving power back to people over government bureaucracy** (published criteria, property and due process, least-coercive transparency, anti-capture).
 
 **Priority score (agenda selection):** Public salience (0–5) × Charter fit (0–5). Within that shortlist, §1’s weighted criteria still rank *projects and bills*.
 
@@ -85,7 +87,7 @@ A named human editor accepts, revises, or rejects AI draft reviews before public
 
 ### 2.5 Multi-agent investigation (operating design)
 
-For deeper issue and bill work, CFMI uses a **bounded hierarchical investigation**: one orchestrator agent, six fixed specialist lanes (text/mechanism, root cause, influence, steelman, safeguards, fix language), and depth-limited digs (max 2–3) when Hard Flags fire—not unconstrained agent trees. Pipeline, stop conditions, and copy-paste prompts live in [`ops/ai-investigation-architecture.md`](ops/ai-investigation-architecture.md). Human editor gate still applies (§2.4). Influence work remains bound by §7; hidden-barrier analysis by §4.7.
+For deeper issue and bill work, CFMI uses a **bounded hierarchical investigation**: one orchestrator agent, six fixed specialist lanes (text/mechanism, root cause, influence, steelman, safeguards, fix language), and depth-limited digs (max 2–3) when Hard Flags fire—not unconstrained agent trees. Root-cause analysis asks whether the design **shifts power to bureaucracy/privileged interests or to accountable people under clear rules** (see architecture). Pipeline, stop conditions, and copy-paste prompts live in [`ops/ai-investigation-architecture.md`](ops/ai-investigation-architecture.md). Human editor gate still applies (§2.4). Influence work remains bound by §7; hidden-barrier analysis by §4.7.
 
 ---
 

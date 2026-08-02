@@ -8,11 +8,13 @@
 
 ### Purpose
 
-The Constitutional Free Markets Institute is an educational and research institute that uses transparent, rules-bound AI—funded as research infrastructure—to score current legislation, publish where it conflicts with free markets and constitutional limits, and offer open fix and alignment language. Through published analysis, open bipartisan comment on sample bills, and disclosed AI methods, CFMI works to:
+The Constitutional Free Markets Institute exists to restore accountable, limited government under the Constitution—returning power from opaque bureaucracy and privileged interests to the people through transparency, free markets, and least-coercive law. It is an educational and research institute that uses transparent, rules-bound AI—funded as research infrastructure—to score current legislation, publish where it conflicts with those goals, and offer open fix and alignment language. Through published analysis, open bipartisan comment on sample bills, and disclosed AI methods, CFMI works to:
 
-1. Secure free markets as the primary mechanism of economic coordination;
+1. Secure free markets as a primary mechanism of economic coordination and a check on artificial barriers and cronyism;
 2. Uphold the U.S. Constitution’s limits on government power; and
 3. Remove artificial barriers and opportunities for corruption.
+
+These Purpose aims sit above—and do not dilute—the seven Core Principles below.
 
 AI is central to how CFMI researches—scoring living bills, surfacing conflicts with Charter goals, drafting open fix language, and pressure-testing sample legislation for bipartisan review and comment—always as a disclosed aid under published rules, never as an authority. CFMI’s public products are educational and research outputs; they are not lobbying directives or counsel to any person. Government intervention, where addressed at all, must remain minimal and consistent with the original constitutional design.
 

@@ -5,11 +5,11 @@ layout: default
 
 # About the Constitutional Free Markets Institute
 
-**Using AI to score legislation, publish conflicts with free markets and constitutional limits, and offer open bipartisan fix language and sample bills.**
+**Using AI to score legislation for conflicts with people-powered, constitutionally limited government and free markets—and to offer open bipartisan fix language and sample bills.**
 
 ## Mission
 
-CFMI is research-funded AI for legislative analysis: we score current bills against free markets and constitutional limits, publish conflicts with our Charter goals, and provide open alignment and fix language for proposed legislation. We publish sample acts for bipartisan review and comment, work to minimize unintended consequences, and bind every product to Charter principles. AI is a disclosed research aid under published rules—never an authority.
+CFMI is research-funded AI for legislative analysis: we score current bills for conflicts with accountable government under the Constitution—returning power from opaque bureaucracy and privileged interests to the people—and with free markets as a primary tool against artificial barriers and cronyism. We publish those conflicts with our Charter goals, provide open alignment and fix language for proposed legislation, and circulate sample acts for bipartisan review and comment. AI is a disclosed research aid under published rules—never an authority.
 
 Full binding principles: [CHARTER.md](../CHARTER.md)
 
@@ -19,14 +19,14 @@ Deeper issue and bill work uses hierarchical AI investigation under public rubri
 
 ## Bootstrap story
 
-CFMI began as a one-founder, zero-budget project. The bet: research-funded AI that scores legislation, publishes conflicts with free markets and constitutional limits, and offers open bipartisan fix language and sample bills should show up first as a clear mission, a public charter, and an online presence—**before** a large budget.
+CFMI began as a one-founder, zero-budget project. The bet: research-funded AI that scores legislation for conflicts with people-powered, constitutionally limited government and free markets—and offers open bipartisan fix language and sample bills—should show up first as a clear mission, a public charter, and an online presence—**before** a large budget.
 
 Work is advanced prompt-native in Cursor. Funding rules against capture are written before money arrives. Formation planning defaults to a **501(c)(3)** educational/research model with attorney review; heavy vote-lobbying may later need a (c)(4)—see [ops/formation-checklist.md](../ops/formation-checklist.md). **We do not claim tax status.**
 
 ## Product lanes
 
 **1. Score & publish conflicts**  
-Analyze introduced and enacted legislation against Charter goals. Publish scores, Hard Flags, and explicit conflicts with free markets and constitutional limits.
+Analyze introduced and enacted legislation against Charter goals. Publish scores, Hard Flags, and explicit conflicts with accountable, constitutionally limited government and free markets—including where text shifts power to opaque bureaucracy or privileged interests.
 
 **2. Influence & transparency companions**  
 Where public filings allow, map disclosed lobbying trails to Hard-Flagged provisions (Methodology §7). Always pair with open fix language. No doxxing, no unverified conspiracy claims.

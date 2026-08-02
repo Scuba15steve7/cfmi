@@ -46,11 +46,14 @@ Each public issue is scored for **CFMI Charter fit**—not for how important it 
 
 | Dimension | Question |
 |-----------|----------|
+| Anti-bureaucracy / people-over-admin-state | Does the issue return power from opaque bureaucracy and privileged interests to accountable people under clear rules? |
 | Free-market barriers | Artificial entry barriers, capacity caps, or price-raising rules? |
 | Government overreach | Enumerated-power / federalism / property-contract strain? |
 | Cronyism / rents | Incumbent subsidies, privileges, opaque political allocation? |
 | Constitutional process | Transparency, auditable elections, anti-capture process? |
 | Tractability for CFMI AI product | Can we score bills, publish conflicts, and offer open fix / sample acts? |
+
+**Frame note:** Charter fit includes **anti-bureaucracy / people-over-admin-state**, not free-market slogans alone. That lifts issues where opaque administrative power, unaccountable discretion, or privileged gatekeeping is the barrier—especially **access to justice / justice bureaucracy** and **election administration transparency**. Free markets remain a primary instrument against artificial barriers and cronyism within that frame.
 
 **Scale:** 0 = almost no Charter product; 5 = core Charter + ready pipeline.
 
@@ -59,13 +62,22 @@ Each public issue is scored for **CFMI Charter fit**—not for how important it 
 | Healthcare affordability | **5** | Strong supply-side Charter path: CON, licensing, accreditation cartels—not insurance slogans alone. |
 | Housing costs | **5** | Zoning, discretionary permitting, fee stacks are classic artificial barriers. |
 | Economy / inflation / COL (as barrier stack) | **3** | Public #1 is often macro. CFMI fit is **partial**: price pressure via barriers/subsidies/rents—not Fed policy or generic stimulus. |
-| Corruption / money in politics / gov dysfunction | **4** | Strong on opaque discretion, disclosed influence trails, anti-capture; CFMI does not run campaign-finance litigation as a lead product. |
+| Corruption / money in politics / gov dysfunction | **4** | Strong on opaque discretion, disclosed influence trails, anti-capture, people-over-admin-state; CFMI does not run campaign-finance litigation as a lead product. |
 | Federal deficit / spending | **4** | Fit via industrial subsidies, tax privileges, guaranteed demand—not generic austerity messaging. |
-| Democracy / elections | **4** | Constitutional process + transparency; Elections Clause floor; avoid commandeering and unverified motive claims. |
+| Democracy / elections | **5** | Constitutional process + transparency + anti-bureaucracy (auditable rules over opaque admin practice); Elections Clause floor; avoid commandeering and unverified motive claims. |
 | Education | **4** | Accreditation gatekeeping and occupational/education licensing; weaker on curriculum culture wars. |
 | Climate / energy | **3** | Fit on subsidy/privilege and permitting opacity; weak if framed as climate advocacy or new industrial policy. |
 | Immigration | **1** | High public salience, **weak Charter product fit**. Border enforcement and asylum policy are not CFMI’s comparative advantage. Labor-licensing for newcomers is a thin secondary hook only. |
-| Crime | **1** | Publicly salient in some groups; little free-market/constitutional-process product without drifting from mission. |
+| Crime *(raw slogan)* | **1** | See remapping note below. As a lead topic (“tough on crime” / “defund”), CFMI drifts into partisan theater. |
+| Access to justice & anti-corruption in public safety / courts *(reframed)* | **5** | Strong people-over-admin-state + Charter product: forfeiture rents, UPL barriers, fee traps, opaque charging/discovery, defender rationing, careful QI/bail analysis—**people over justice bureaucracy**, not crime theater. |
+
+### Remapping note: why raw “crime” scored low, and why the reframed lane scores higher
+
+**Why raw “crime” scored Charter fit 1.** Poll items labeled crime/public safety measure fear of victimization and demand for enforcement outcomes. Treating “crime” as a free-market flagship either invents a market story that does not fit street policing or abandons the Charter for generic tough/soft advocacy. Free markets still matter where entry, prices, and rents are distorted (UPL, forfeiture keep, fee extraction)—but they are not the whole story.
+
+**Deeper frame (founder clarification).** CFMI’s through-line is **giving power back to people over government bureaucracy**: published criteria over opaque discretion, property and due process over agency revenue machines, affordable lawful help over bar monopolies, and accountability rules that serve the public—not incumbent shelter or politicized theater. Free markets are a primary economic coordinating mechanism under the Charter; in courts and public safety, the same anti-bureaucracy, anti-capture, least-coercive filters apply.
+
+**Why remapping is better.** The same public concern is often blocked by justice-bureaucracy mechanisms that fit the Charter: civil asset forfeiture (policing for profit), UPL/bar monopolies, court fee extraction, opaque charging and discovery, public-defender rationing, and rules that protect incumbents—or block legitimate accountability—without a clear safety payoff. Qualified immunity and bail/pretrial get both-sides mechanism analysis, not slogan capture.
 
 ---
 
@@ -79,20 +91,21 @@ Each public issue is scored for **CFMI Charter fit**—not for how important it 
 |--------------|----------|-------------|----------------|----------------------------|
 | Healthcare affordability | 5 | 5 | **25** | `certificate-of-need` · `occupational-licensing` · `professional-accreditation-cartels` |
 | Housing costs | 4 | 5 | **20** | `housing-zoning-permitting` · `opaque-discretionary-permitting` |
-| Corruption / gov dysfunction / money in politics | 5 | 4 | **20** | `opaque-discretionary-permitting` · `industrial-subsidies-privileges` · election transparency briefs |
+| Corruption / gov dysfunction / money in politics | 5 | 4 | **20** | `opaque-discretionary-permitting` · `industrial-subsidies-privileges` · `access-to-justice-public-safety` · election transparency briefs |
 | Federal deficit / spending (via privileges) | 4 | 4 | **16** | `industrial-subsidies-privileges` |
 | Economy / COL (via barriers) | 5 | 3 | **15** | `occupational-licensing` · `housing-zoning-permitting` · `industrial-subsidies-privileges` · `opaque-discretionary-permitting` |
-| Democracy / elections | 3 | 4 | **12** | `election-administration-integrity` · `federal-election-transparency-package` |
+| Access to justice / courts / public-safety bureaucracy *(reframed from crime)* | 3 | 5 | **15** | `access-to-justice-public-safety` · (overlap) `occupational-licensing` for UPL |
+| Democracy / elections | 3 | 5 | **15** | `election-administration-integrity` · `federal-election-transparency-package` |
 | Education (gatekeeping) | 3 | 4 | **12** | `professional-accreditation-cartels` · `occupational-licensing` |
 | Climate / energy (crony + permitting) | 2 | 3 | **6** | `industrial-subsidies-privileges` · `opaque-discretionary-permitting` · (secondary) `western-water-transfer-barriers` |
 | Immigration | 4 | 1 | **4** | *No lead slug* — monitor only |
-| Crime | 3 | 1 | **3** | *No lead slug* |
+| Crime *(raw slogan — do not lead)* | 3 | 1 | **3** | Remap → `access-to-justice-public-safety` |
 
-**Reading the matrix:** High public salience alone is not enough. Immigration and crime illustrate weak Charter linkage despite visibility. Macro “economy/inflation” scores mid-high only because CFMI can attack *barrier and privilege channels* that raise costs—not because CFMI is a general economic commentary shop.
+**Reading the matrix:** High public salience alone is not enough. Immigration and raw “crime” slogans show weak Charter linkage—**until** crime is remapped to justice-bureaucracy and people-over-bureaucracy mechanisms (score **15**, with election transparency also lifted by the anti-bureaucracy dimension). Macro “economy/inflation” scores mid-high only via barrier and privilege channels—not as a general economic commentary shop.
 
 ---
 
-## 4. Top CFMI agenda (priorities 1–7)
+## 4. Top CFMI agenda (priorities 1–8)
 
 Ordered by matrix score and existing brief readiness. Each row names the **biggest legislative/regulatory roadblock** and the CFMI product response.
 
@@ -103,8 +116,9 @@ Ordered by matrix score and existing brief readiness. Each row names the **bigge
 | 3 | **Occupational licensing** | Economy, wages, healthcare access, education | **State occupational licensing statutes and board governance** (hours, exams, title protection unrelated to harm) | Score license expansions; sunrise-review and certification-first sample language |
 | 4 | **Industrial subsidies & privileges** | Deficit, economy, corruption/fairness | **Statutory industrial-policy packages**—firm- or sector-specific subsidies and tax privileges (illustrative enacted samples already reviewed: **CHIPS and Science Act**; **Inflation Reduction Act** energy/manufacturing credits) | Score living subsidy bills; open fix language that removes rents; influence companions from public filings |
 | 5 | **Opaque discretionary permitting** | Gov dysfunction, housing, energy, economy | **Process statutes and agency waiver authority** without published objective criteria—federal **NEPA**-class review stacks and state analogs; “case-by-case” permits that function as vetoes | Score permitting-reform and expansion bills; fix language: criteria + clocks + publication |
-| 6 | **Election administration transparency** | Government, democracy, corruption | **NVRA attestation-without-verification gaps** and opaque roll/audit practice; living proposals such as **SAVE Act (e.g. H.R. 22)** that mix verification with design risks CFMI must score honestly | Score living election bills; federal transparency package + model outline; I4 stress-tests |
-| 7 | **Professional accreditation cartels** | Healthcare, education | **Accreditation and Title IV–linked gatekeeping** (and parallel professional-school capacity gates) that ration entry while claiming quality | Score bills that harden cartel gates; least-coercive alternatives for bipartisan comment |
+| 6 | **Access to justice & anti-corruption in public safety / courts** | Crime *(remapped)*, corruption, gov dysfunction | **Stacked roadblocks:** civil asset forfeiture + equitable sharing (agency-keep); **state UPL / practice acts**; court **fee/fine** revenue systems; opaque charging/discovery; indigent-defense undercapacity; QI and bail bills needing mechanism scoring | Score justice/public-safety process bills; publish rent/barrier/opacity conflicts; open least-coercive transparency language—people over bureaucracy |
+| 7 | **Election administration transparency** | Government, democracy, corruption | **NVRA attestation-without-verification gaps** and opaque roll/audit practice; living proposals such as **SAVE Act (e.g. H.R. 22)** that mix verification with design risks CFMI must score honestly | Score living election bills; federal transparency package + model outline; I4 stress-tests |
+| 8 | **Professional accreditation cartels** | Healthcare, education | **Accreditation and Title IV–linked gatekeeping** (and parallel professional-school capacity gates) that ration entry while claiming quality | Score bills that harden cartel gates; least-coercive alternatives for bipartisan comment |
 
 ### Retained secondary / method samples (not homepage lead)
 
@@ -122,13 +136,13 @@ Ordered by matrix score and existing brief readiness. Each row names the **bigge
 | Healthcare is too expensive | Supply barriers: CON, scopes, accreditation | `certificate-of-need`, `occupational-licensing`, `professional-accreditation-cartels` |
 | Housing / rent / “can’t afford a home” | Zoning, fees, discretionary delay | `housing-zoning-permitting`, `opaque-discretionary-permitting` |
 | Prices / inflation / cost of living | Barrier and privilege channels that raise prices | `occupational-licensing`, `housing-zoning-permitting`, `industrial-subsidies-privileges`, `opaque-discretionary-permitting` |
-| Government is broken / corrupt / money in politics | Opaque discretion, rents, disclosed influence trails | `opaque-discretionary-permitting`, `industrial-subsidies-privileges` (+ Methodology §7) |
+| Government is broken / corrupt / money in politics | Opaque discretion, rents, disclosed influence trails; justice bureaucracy capture | `opaque-discretionary-permitting`, `industrial-subsidies-privileges`, `access-to-justice-public-safety` (+ Methodology §7) |
 | Deficit / spending / waste | Incumbent subsidies and privileges | `industrial-subsidies-privileges` |
 | Democracy / elections / trust | Auditable process, citizenship verification design, transparency | `election-administration-integrity`, `federal-election-transparency-package` |
 | Education costs / access to professions | Accreditation and licensing gates | `professional-accreditation-cartels`, `occupational-licensing` |
 | Energy / climate (cost & favoritism) | Subsidies and permitting opacity—not climate advocacy | `industrial-subsidies-privileges`, `opaque-discretionary-permitting` |
 | Immigration | *Generally out of lead agenda* | — |
-| Crime | *Generally out of lead agenda* | — |
+| Crime / public safety *(raw)* | Remap to access to justice, forfeiture, UPL, fees, opaque courts—**people over bureaucracy** | `access-to-justice-public-safety` |
 
 ---
 

@@ -1,10 +1,10 @@
 # Constitutional Free Markets Institute (CFMI)
 
-**Using AI to score legislation, publish conflicts with free markets and constitutional limits, and offer open bipartisan fix language and sample bills.**
+**Using AI to score legislation for conflicts with people-powered, constitutionally limited government and free markets—and to offer open bipartisan fix language and sample bills.**
 
 ## Mission
 
-CFMI is research-funded AI for legislative analysis: we score current bills against free markets and constitutional limits, publish conflicts with our Charter goals, and provide open alignment and fix language for proposed legislation. We publish sample acts for bipartisan review and comment, work to minimize unintended consequences, and bind every product to Charter principles. AI is a disclosed research aid under published rules—never an authority.
+CFMI is research-funded AI for legislative analysis: we score current bills for conflicts with accountable government under the Constitution—returning power from opaque bureaucracy and privileged interests to the people—and with free markets as a primary tool against artificial barriers and cronyism. We publish those conflicts with our Charter goals, provide open alignment and fix language for proposed legislation, and circulate sample acts for bipartisan review and comment. AI is a disclosed research aid under published rules—never an authority.
 
 **Status:** Bootstrap — mission locked; deployable public site in [`docs/`](docs/) (GitHub Pages). Zero budget. One founder. Built prompt-native in Cursor.
 
@@ -17,7 +17,7 @@ Binding principles: [CHARTER.md](CHARTER.md) · Go live: [ops/go-live.md](ops/go
 ## How we work
 
 1. **Score** — Use research-funded, rules-bound AI to score current legislation against Charter goals.  
-2. **Publish conflicts** — Disclose where bill text conflicts with free markets, constitutional limits, or anti-capture filters—and disclosed influence trails where public filings allow.  
+2. **Publish conflicts** — Disclose where bill text concentrates power in opaque bureaucracy or privileged interests, or conflicts with constitutional limits, free markets, or anti-capture filters—and disclosed influence trails where public filings allow.  
 3. **Fix language** — Offer open alignment and amendment language for proposed bills; pair influence maps with alternatives.  
 4. **Sample acts** — Publish sample legislation for bipartisan review and comment; minimize unintended consequences.  
 5. **Bind** — Charter principles govern every score, draft, and comment cycle.  

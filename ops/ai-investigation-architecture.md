@@ -10,9 +10,11 @@ Educational research only—not legal advice, voting instructions, or counsel to
 
 ## 1. Purpose
 
-CFMI uses AI to find where **government creates barriers to free markets**, name the **root cause**, ask whether authority **overstepped constitutional or statutory bounds**, and design **rollback or elimination** that does not create worse rents, barriers, or opaque discretion.
+CFMI uses AI to find where **government creates barriers to free markets** or concentrates power in **opaque bureaucracy and privileged interests**, name the **root cause**, ask whether authority **overstepped constitutional or statutory bounds**, and design **rollback or elimination** that does not create worse rents, barriers, or opaque discretion.
 
-**Central targets in current and proposed law:** corruption surfaces and crony capitalism—subsidies, entry barriers, opaque waivers, exclusive privileges, and political allocation dressed as public goods.
+**Power-shift test (every root-cause pass):** Does this shift power to bureaucracy / privileged interests, or to accountable people under clear rules?
+
+**Central targets in current and proposed law:** corruption surfaces, admin-state opacity, and crony capitalism—subsidies, entry barriers, opaque waivers, exclusive privileges, and political allocation dressed as public goods.
 
 **Working pattern:** find the big issue → drill into smaller public datasets → deep investigation of *why / who / money / who benefits*—always under published rubrics, never as private detective work.
 
@@ -25,7 +27,7 @@ Every orchestrated pass must answer, or explicitly mark unanswered:
 | # | Question |
 |---|----------|
 | 1 | What **operative barrier** blocks voluntary exchange (statute, rule, map, fee, franchise, board, discretion)? |
-| 2 | What is the **root cause**—legal design, political coalition, fiscal incentive—not the press release? |
+| 2 | What is the **root cause**—legal design, political coalition, fiscal incentive—not the press release? Does the design **shift power to bureaucracy/privileged interests or to accountable people under clear rules**? |
 | 3 | Did government **overstep** enumerated powers, federalism, property/contract, or clear statutory limits? |
 | 4 | Who **pays** and who is **blocked** from competing or building? |
 | 5 | Who **benefits** from the status quo (incumbents, gatekeepers, fee recipients)—from public facts, not motive fiction? |
