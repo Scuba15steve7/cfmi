@@ -494,6 +494,28 @@ a:hover {
   color: var(--ink-soft);
 }
 
+.issue-desc {
+  margin-bottom: 0.55rem;
+}
+
+.issue-approach {
+  margin-bottom: 0.85rem;
+  max-width: 40rem;
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+
+.issue-label {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
 .issue-item p:last-child {
   margin-bottom: 0;
 }

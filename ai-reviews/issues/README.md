@@ -1,8 +1,13 @@
 # Issue briefs — government as bottleneck
 
-Short research briefs illustrating where **artificial government barriers**—not open competition—block progress and free-market solutions. These demonstrate CFMI’s AI research mission: find these issues, score living bills that entrench them, publish Charter conflicts, and offer open fix language or sample acts for bipartisan comment.
+Short research briefs illustrating where **artificial government barriers**—not open competition—block progress and free-market solutions. Each brief includes:
 
-Public products are educational. They are not legal advice, voting instructions, or counsel to any person.
+1. Issue description  
+2. How government blocks free-market solutions  
+3. CFMI proposed approach (score bills, publish conflicts, open fix language, sample text for bipartisan comment)  
+4. Success looks like  
+
+These demonstrate CFMI’s AI research mission. Public products are educational. They are not legal advice, voting instructions, or counsel to any person.
 
 | Issue | Brief | Barrier type |
 |-------|--------|--------------|
@@ -15,6 +20,6 @@ Public products are educational. They are not legal advice, voting instructions,
 | Opaque discretionary permitting | [opaque-discretionary-permitting.md](opaque-discretionary-permitting.md) | Waivers / process vetoes |
 | Exclusive franchises & closed AI rules | [exclusive-franchise-ai-markets.md](exclusive-franchise-ai-markets.md) | Legal monopolies / tech barriers |
 
-**Live site list:** [docs/examples.html](../../docs/examples.html) (GitHub Pages).
+**Live site:** [docs/examples.html](../../docs/examples.html) · **Bill reviews:** [../README.md](../README.md)
 
 **Related:** [sample bill review template](../sample-bill-review-template.md) · [METHODOLOGY.md](../../METHODOLOGY.md) · [CHARTER.md](../../CHARTER.md)

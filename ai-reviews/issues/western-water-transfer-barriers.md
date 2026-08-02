@@ -7,34 +7,36 @@
 
 ---
 
-## Problem (plain language)
+## Issue description
 
-In much of the arid West, water is allocated by seniority of rights, but **moving water to higher-value uses**—cities, new farms, environmental leases, or drought buffering—is slowed or blocked by transfer rules, vague “public interest” reviews, and institutions that treat reallocation as a political favor. Shortage then looks like a pure climate or scarcity story when part of the story is frozen paper rights.
+In much of the arid West, water is allocated by seniority of rights, but moving water to higher-value uses—cities, new farms, environmental leases, or drought buffering—is slowed or blocked by transfer rules, vague “public interest” reviews, and institutions that treat reallocation as a political favor. Shortage then looks like a pure climate or scarcity story when part of the story is frozen paper rights.
 
-## How government is the bottleneck
+## How government blocks free-market solutions
 
-Secure property-like rights plus low-friction, rules-based transfer would let voluntary exchange move water where it is most valued. The bottleneck is often **administrative refusal, opaque criteria, and anti-transfer defaults**—not a lack of willing parties. Artificial barriers and discretionary vetoes prevent markets from coordinating under scarcity.
+Secure property-like rights plus low-friction, rules-based transfer would let voluntary exchange move water where it is most valued. The bottleneck is often administrative refusal, opaque criteria, and anti-transfer defaults—not a lack of willing parties. Artificial barriers and discretionary vetoes prevent markets from coordinating under scarcity.
 
-## Why it fits the Charter
+## CFMI proposed approach
 
-| Principle | Fit |
-|-----------|-----|
-| **Property & contract** | Transferable, clearly defined rights enable coordination; opaque vetoes undermine them. |
-| **Free markets** | Prices and voluntary exchange should allocate scarce water within environmental side-constraints that are rules-based. |
-| **Opaque discretion** | “Public interest” alone without published objective criteria is a Hard Flag. |
-| **Competitive federalism** | State water regimes are core state authority; sample acts invite bipartisan comment without commandeering. |
-| **No artificial manipulation** | Preferences that lock water to favored uses or users via politics, not equal rules. |
+Educational and research work only—not whipping votes or advising any person how to act:
 
-## What a CFMI-style AI product looks like
-
-1. **Score** state water bills and federal Reclamation-related measures for transfer friction vs. clarified rights.  
+1. **Score** state water bills and federal Reclamation-related measures for transfer friction versus clarified rights.  
 2. **Publish conflicts** when language expands discretionary denial, creates exclusive preferences, or blocks temporary transfers.  
-3. **Open fix language** — timelines, published criteria, temporary and split-season transfers, measurement transparency.  
-4. **Sample act** already drafted for method proof; refine via open bipartisan comment under Charter filters.
+3. **Offer open fix / alignment language** — timelines, published criteria, temporary and split-season transfers, measurement transparency.  
+4. **Circulate sample model text** already drafted for method proof; refine via open bipartisan comment under Charter filters.
 
-## Hooks to flag (statutory / regulatory language)
+## Success looks like
+
+Clear, transferable rights and published transfer criteria let voluntary deals move water under scarcity; opaque “public interest” vetoes are scored and met with open alignment language rather than new subsidy programs.
+
+---
+
+### Charter fit (summary)
+
+Property and contract; free-market allocation within rules-based environmental side-constraints; Hard Flags on opaque discretion; competitive federalism without commandeering.
+
+### Hooks to flag
 
 - Transfer approval conditioned on undefined “public interest,” “injury,” or “area of origin” tests without objective standards or deadlines.  
-- Ban or severe penalty on temporary, conserved, or split-season transfers that would otherwise be voluntary.  
+- Ban or severe penalty on temporary, conserved, or split-season transfers.  
 - Preferential classes of use locked by statute irrespective of willing lessors/lessees under equal rules.  
 - Agency waiver or exception authority “as appropriate” with no publication or machine-readable decision record.
