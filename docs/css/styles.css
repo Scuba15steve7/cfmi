@@ -678,3 +678,59 @@ a:hover {
     transform: none;
   }
 }
+
+
+/* Priorities page — ranked agenda (bordered sections, not cards) */
+.priority-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: pri;
+  border-top: 1px solid var(--line);
+}
+
+.priority-list > li {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--line);
+  counter-increment: pri;
+}
+
+.priority-list h3 {
+  margin: 0 0 0.35rem;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 560;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+.priority-list h3::before {
+  content: counter(pri) ". ";
+  color: var(--accent);
+  font-weight: 560;
+}
+
+.priority-meta {
+  margin: 0 0 0.65rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--accent-deep);
+}
+
+.priority-list p {
+  margin: 0 0 0.55rem;
+  max-width: 42rem;
+  color: var(--ink-soft);
+}
+
+.priority-links {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.nav {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}

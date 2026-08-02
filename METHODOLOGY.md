@@ -29,6 +29,19 @@ Problems—especially those that distort free markets or stretch constitutional 
 
 Rankings for active pipelines will be logged in-repo when the pipeline has more than one active track.
 
+### 1.1 Public salience + Charter filter
+
+CFMI does **not** set its agenda by poll rank alone. Top issues are chosen in two steps:
+
+1. **Public salience** — What large shares of Americans *say* are the biggest national problems, drawn from recent nonpartisan polling (e.g. Gallup most-important-problem, Pew “very big problem” batteries, AP-NORC open-ended government priorities, CBS/YouGov and related). Polling describes stated concerns; it does not establish causal truth or Charter correctness.
+2. **Charter filter** — Each salient public label is scored for fit with [CHARTER.md](CHARTER.md): free-market barriers, government overreach, cronyism/rents, constitutional process, and tractability for CFMI’s AI products (score bills, publish conflicts, open fix / sample acts). High public salience with weak Charter fit (e.g. immigration or crime as lead topics) stays off the priority agenda.
+
+**Priority score (agenda selection):** Public salience (0–5) × Charter fit (0–5). Within that shortlist, §1’s weighted criteria still rank *projects and bills*.
+
+The working matrix, source links, public-label → issue-slug map, and legislative/regulatory roadblocks live in [`research/public-priorities-charter-matrix.md`](research/public-priorities-charter-matrix.md). The public explanation is [`docs/priorities.html`](docs/priorities.html). Issue briefs are ordered in [`ai-reviews/issues/README.md`](ai-reviews/issues/README.md).
+
+Refresh the matrix when major national poll releases shift the top tier, or when CFMI adds or retires issue briefs.
+
 ---
 
 ## 2. Scoring Current Legislation and Publishing Conflicts

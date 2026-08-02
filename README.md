@@ -48,8 +48,10 @@ Playbook: [ops/prompt-playbook.md](ops/prompt-playbook.md)
 | [CHARTER.md](CHARTER.md) | Binding founding charter |
 | [METHODOLOGY.md](METHODOLOGY.md) | Scoring, fix language, influence/transparency research, bipartisan comment |
 | [Live site (`docs/`)](docs/index.html) | GitHub Pages HTML (deploy from `/docs`) |
+| [Priorities (live)](docs/priorities.html) | How we choose: public salience × Charter filter |
 | [Examples (live)](docs/examples.html) | Public list: government-as-bottleneck issue areas |
-| [Issue briefs](ai-reviews/issues/README.md) | Short research briefs behind the Examples page |
+| [Public priorities matrix](research/public-priorities-charter-matrix.md) | Polling sources, scores, roadblocks |
+| [Issue briefs](ai-reviews/issues/README.md) | Short research briefs (priority order) |
 | [Website sources](website/index.md) | Markdown sources kept in sync conceptually |
 | [About](website/about.md) | Bootstrap story |
 | [Go live](ops/go-live.md) | $0 GitHub Pages steps |
