@@ -166,15 +166,26 @@ Under [ops/ai-investigation-architecture.md](../../ops/ai-investigation-architec
 
 ---
 
+## Federal transparency package (companion)
+
+**Published:** [federal-election-transparency-package.md](federal-election-transparency-package.md) · model outline [Federal Election Transparency and Citizenship Verification Standards Act](../../model-legislation/federal-election-transparency-and-audit-standards-act.md) (2026-08-02).
+
+Constitutional path: Elections Clause floor for congressional (careful presidential) contests; transparency + citizenship verification for **federal** registrants; dual systems allowed; no commandeering of state/local offices; SAVE-style core kept/modified with stronger failsafe—not the whole package alone.
+
+---
+
 ## Open questions (from I4 + ongoing)
 
 1. Best public methodologies for state-comparable inactive / duplicate / death rates after ERIC exits?  
 2. Empirical signature false-accept rates under production workloads (not only false-reject / cure stories)?  
 3. Materiality of drop-box and chain-of-custody incidents after bipartisan canvass—case studies with official records?  
-4. SAVE Act alternative-evidence path: workable in practice, or chilled by penalties on officials?  
-5. Which states already publish list-quality KPIs (notices, removals, interstate matches, appeals) in machine-readable form?  
+4. SAVE Act alternative-evidence path: workable in practice, or chilled by penalties on officials? *(see package Title VI anti-chill design)*  
+5. Which states already publish list-quality KPIs (notices, removals, interstate matches, appeals) in machine-readable form? *(feeds Title II schema)*  
 6. Named-state dig: what did 2022–2024 post-election audits **measure vs not** (ERIC member vs exit vs all-mail)?  
-7. Legal standards for private roll challenges (standing, notice, deadlines) by state sample?
+7. Legal standards for private roll challenges (standing, notice, deadlines) by state sample?  
+8. Presidential-electors drafting: tightest severable federal floor that does not commandeer state offices—counsel review?  
+9. Cost of machine-readable data + custody logging: formula grants vs bare mandate for Senate passability?  
+10. Eligibility sampling distinct from RLA: feasible day-one floor or pilot-first?
 
 Invite answers via [docs/feedback.html](../../docs/feedback.html) or a [counterevidence issue](https://github.com/scuba15steve7/cfmi/issues/new?template=counterevidence.yml).
 

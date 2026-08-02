@@ -28,8 +28,11 @@ These demonstrate CFMI’s AI research mission. Public products are educational.
 | Opaque discretionary permitting | [opaque-discretionary-permitting.md](opaque-discretionary-permitting.md) | Waivers / process vetoes |
 | Exclusive franchises & closed AI rules | [exclusive-franchise-ai-markets.md](exclusive-franchise-ai-markets.md) | Legal monopolies / tech barriers |
 | Election administration integrity | [election-administration-integrity.md](election-administration-integrity.md) | Constitutional process / transparency (SAVE Act, lists, mail custody) |
+| Federal election transparency package | [federal-election-transparency-package.md](federal-election-transparency-package.md) | Elections Clause floor · citizenship + audit/transparency (companion to election brief) |
 
 **I4 companion:** [consensus-mail-ballots-voter-rolls-secure.md](../consensus-mail-ballots-voter-rolls-secure.md) — stress-test of “Mail-in balloting and voter rolls are secure” (**NARROW**).
+
+**Model outline:** [federal-election-transparency-and-audit-standards-act.md](../../model-legislation/federal-election-transparency-and-audit-standards-act.md).
 
 **Live site:** [docs/examples.html](../../docs/examples.html) · **Suggest / counterevidence:** [docs/feedback.html](../../docs/feedback.html) · **Bill reviews:** [../README.md](../README.md)
 
