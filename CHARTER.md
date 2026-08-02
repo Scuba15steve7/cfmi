@@ -8,13 +8,13 @@
 
 ### Purpose
 
-The Constitutional Free Markets Institute uses transparent, rules-bound AI to help find and address the biggest issues facing our nation with free-market solutions—consistent with constitutional limits and greater transparency in the American political process. Through analysis, sample legislation, feedback loops, and reviews of living bills, CFMI works to:
+The Constitutional Free Markets Institute is an educational and research institute that uses transparent, rules-bound AI—funded as research infrastructure—to score current legislation, publish where it conflicts with free markets and constitutional limits, and offer open fix and alignment language. Through published analysis, open bipartisan comment on sample bills, and disclosed AI methods, CFMI works to:
 
 1. Secure free markets as the primary mechanism of economic coordination;
 2. Uphold the U.S. Constitution’s limits on government power; and
 3. Remove artificial barriers and opportunities for corruption.
 
-AI is central to how CFMI works—helping find problems, pressure-testing drafts, and scoring living legislation—always as a disclosed aid under published rules, never as an authority. Government intervention, where addressed at all, must remain minimal and consistent with the original constitutional design.
+AI is central to how CFMI researches—scoring living bills, surfacing conflicts with Charter goals, drafting open fix language, and pressure-testing sample legislation for bipartisan review and comment—always as a disclosed aid under published rules, never as an authority. CFMI’s public products are educational and research outputs; they are not lobbying directives or counsel to any person. Government intervention, where addressed at all, must remain minimal and consistent with the original constitutional design.
 
 ---
 
@@ -39,7 +39,7 @@ AI is central to how CFMI works—helping find problems, pressure-testing drafts
    CFMI must never become a source of new rents or preferential treatment for donors, allies, or staff.
 
 7. **Competitive federalism**  
-   States are often part of the problem. Address state failure through competitive pressure, model legislation, transparency, and limited, rules-based incentives—**never** through federal commandeering of state legislatures or executives.
+   States are often part of the problem. Address state failure through competitive pressure, open sample legislation for bipartisan comment, transparency, and limited, rules-based incentives—**never** through federal commandeering of state legislatures or executives.
 
 ---
 
@@ -80,7 +80,7 @@ Neutral, generally applicable rules that protect property, contract, and common-
 
 1. No donor may purchase drafting outcomes, scores, or silence.
 2. Restricted gifts that require CFMI to support a named private benefit (subsidy, barrier, waiver, or privilege) are refused.
-3. Staff and contractors may not hold undisclosed material interests in legislation CFMI is actively advancing.
+3. Staff and contractors may not hold undisclosed material interests in legislation CFMI is actively analyzing, scoring, or publishing sample text for.
 4. CFMI will not seek or accept government grants that condition speech or require advocacy for expanded discretionary programs inconsistent with this Charter.
 5. Prefer diversified, disclosed support over dependence on a single patron.
 
@@ -88,7 +88,7 @@ Neutral, generally applicable rules that protect property, contract, and common-
 
 ### Federalism Commitment
 
-CFMI drafts for state adoption where the subject is within traditional state police power or property regimes (e.g., water rights). Federal drafts, when used, must rest on a stated enumerated power, avoid commandeering, prefer conditional spending with clear, objective criteria over mandates, and leave room for state experimentation and exit.
+CFMI drafts sample legislation for open bipartisan review and comment—often aimed at state adoption where the subject is within traditional state police power or property regimes (e.g., water rights). Federal drafts, when used, must rest on a stated enumerated power, avoid commandeering, prefer conditional spending with clear, objective criteria over mandates, and leave room for state experimentation and exit.
 
 ---
 

@@ -5,33 +5,34 @@ layout: default
 
 # About the Constitutional Free Markets Institute
 
-**Using AI to help find free-market solutions to the biggest issues facing our nation.**
+**Using AI to score legislation, publish conflicts with free markets and constitutional limits, and offer open bipartisan fix language and sample bills.**
 
 ## Mission
 
-CFMI uses transparent, rules-bound AI to help find and address the biggest issues facing our nation with free-market solutions that respect constitutional limits. We expose corruption, conflicts, and artificial barriers that block honest fixes. We propose sample legislation, circulate it for AI-assisted and stakeholder feedback to improve quality and passage fitness without abandoning our principles, and work to minimize unintended consequences. We also review living bills so allies can amend or defeat legislation that expands anti-competitive privilege, opaque discretion, or constitutional overreach.
+CFMI is research-funded AI for legislative analysis: we score current bills against free markets and constitutional limits, publish conflicts with our Charter goals, and provide open alignment and fix language for proposed legislation. We publish sample acts for bipartisan review and comment, work to minimize unintended consequences, and bind every product to Charter principles. AI is a disclosed research aid under published rules—never an authority.
 
 Full binding principles: [CHARTER.md](../CHARTER.md)
 
 ## Bootstrap story
 
-CFMI began as a one-founder, zero-budget project. The bet: AI aimed at free-market solutions to major national problems—under constitutional and anti-capture filters—should show up first as a clear mission, a public charter, and an online presence—**before** a large budget—and the later product should be honest sample bills and hard-nosed reviews of living law, not slogans.
+CFMI began as a one-founder, zero-budget project. The bet: research-funded AI that scores legislation, publishes conflicts with free markets and constitutional limits, and offers open bipartisan fix language and sample bills should show up first as a clear mission, a public charter, and an online presence—**before** a large budget.
 
-Work is advanced prompt-native in Cursor. Funding rules against capture are written before money arrives.
+Work is advanced prompt-native in Cursor. Funding rules against capture are written before money arrives. Formation planning defaults to a **501(c)(3)** educational/research model with attorney review; heavy vote-lobbying may later need a (c)(4)—see [ops/formation-checklist.md](../ops/formation-checklist.md). **We do not claim tax status.**
 
-## Two product lanes (after presence)
+## Product lanes
 
-**1. Sample legislation → feedback → better drafts**  
-Publish model bills. Send them to interested parties. Use AI plus disclosed human feedback to train and refine drafts: clearer text, fewer unintended consequences, stronger Charter compliance, and higher honest odds of adoption. Passage fitness never authorizes new rents, barriers, or opaque discretion.
+**1. Score & publish conflicts**  
+Analyze introduced and enacted legislation against Charter goals. Publish scores, Hard Flags, and explicit conflicts with free markets and constitutional limits.
 
-**2. Live-bill defense**  
-Analyze introduced and enacted legislation for wording and structures against our goals. Publish scores and Hard Flags so allies can amend, narrow, or defeat harmful bills.
+**2. Open fix / alignment language**  
+Where bills are salvageable, publish open amendment language that reduces Hard Flags without creating new rents.
 
-Transparency is not a side project: exposing conflicts and corruption is how barriers to honest solutions get removed.
+**3. Sample acts → bipartisan comment**  
+Publish sample legislation for bipartisan review and comment. Use disclosed feedback and AI research loops to harden text and reduce unintended consequences. Charter filters still bind.
 
 ## What “aligned support” means
 
-Aligned support helps CFMI finish a credible public site, formalize with counsel, and run the propose-and-review engine under public rubrics. It does **not** mean buying outcomes, scores, silence, or privileges. See the [Charter](../CHARTER.md).
+Aligned support helps CFMI finish a credible public site, formalize with counsel under the educational/research default, and run the score / fix / sample engine under public rubrics. It does **not** mean buying outcomes, scores, silence, or privileges. See the [Charter](../CHARTER.md).
 
 ## What we are not
 
@@ -39,12 +40,14 @@ Aligned support helps CFMI finish a credible public site, formalize with counsel
 - Not a vehicle for incumbent protection  
 - Not a black-box “AI lobby”  
 - Not a federal commandeering project  
+- Not claiming IRS tax-exempt status until counsel confirms recognition  
 
 ## Read next
 
 - [Homepage](index.md)  
 - [Charter](../CHARTER.md)  
 - [Methodology](../METHODOLOGY.md)  
+- [Formation checklist](../ops/formation-checklist.md)  
 - [Donor one-pager](../pitch/one-pager.md)  
 
 ---

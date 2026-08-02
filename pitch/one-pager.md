@@ -1,38 +1,38 @@
 # CFMI Donor One-Pager
 
 **Constitutional Free Markets Institute**  
-**Tagline:** Using AI to help find free-market solutions to the biggest issues facing our nation.  
+**Tagline:** Using AI to score legislation, publish conflicts with free markets and constitutional limits, and offer open bipartisan fix language and sample bills.  
 **Status:** Bootstrap · **$0** · **1 founder**
 
 ---
 
 ## Mission
 
-CFMI uses transparent, rules-bound AI to help find and address the biggest issues facing our nation with free-market solutions that respect constitutional limits. We expose corruption, conflicts, and artificial barriers that block honest fixes. We propose sample legislation, circulate it for AI-assisted and stakeholder feedback to improve quality and passage fitness without abandoning our principles, and work to minimize unintended consequences. We also review living bills so allies can amend or defeat legislation that expands anti-competitive privilege, opaque discretion, or constitutional overreach.
+CFMI is research-funded AI for legislative analysis: we score current bills against free markets and constitutional limits, publish conflicts with our Charter goals, and provide open alignment and fix language for proposed legislation. We publish sample acts for bipartisan review and comment, work to minimize unintended consequences, and bind every product to Charter principles. AI is a disclosed research aid under published rules—never an authority.
 
 ## Problem
 
-Major national problems—and the corruption or barriers that block free-market, constitutional fixes—hide in bill text and process. Messaging alone does not produce better law—or stop bad law.
+Conflicts with free markets and constitutional limits hide in bill text. Messaging alone does not produce better law—or surface where proposed language fails Charter filters.
 
 ## Method
 
 | Lane | What donors get |
 |------|-----------------|
-| **Find** | Rules-bound AI to help identify major issues suited to free-market solutions |
-| **Expose** | Transparency on conflicts and rent-seeking language that block honest fixes |
-| **Propose** | Sample legislation with published safeguards and unintended-consequences analysis |
-| **Improve** | Feedback loops (AI + interested parties, interest-disclosed) that raise quality and honest passage odds |
-| **Defend** | AI scoring of live bills to change or defeat Charter-failing legislation |
+| **Score** | Research-funded AI scoring of current legislation against Charter goals |
+| **Publish conflicts** | Public disclosure of conflicts with free markets, constitutional limits, and anti-capture filters |
+| **Fix language** | Open alignment and amendment language for proposed bills |
+| **Sample acts** | Sample legislation circulated for bipartisan review and comment, with unintended-consequences safeguards |
+| **Bind** | Charter principles on every score, draft, and comment cycle |
 
-Charter filters always bind. “More likely to pass” never means adding subsidies, barriers, or opaque discretion to buy support.
+Charter filters always bind. Open comment never means adding subsidies, barriers, or opaque discretion to buy support.
 
 ## Proof at $0
 
-Charter · methodology · mission/site copy · review templates · anti-capture funding rules — all public before a large budget.
+Charter · methodology · mission/site copy · review templates · formation checklist (501(c)(3) educational/research default) · anti-capture funding rules — all public before a large budget. **No tax status is claimed.**
 
 ## What funding unlocks
 
-Live site and formation with counsel → steady propose/feedback cycles and live-bill review cadence → scaled state adaptation and public archives.
+Live site and formation with counsel → steady scoring and fix-language cadence → bipartisan sample-act comment loops and public archives.
 
 ## Anti-capture (non-negotiable)
 
@@ -42,7 +42,7 @@ Full text: `CHARTER.md`.
 
 ## Ask
 
-If this mission matches your principles, fund **presence and formation**—then the propose-and-defend engine.
+If this mission matches your principles, fund **presence, formation, and research infrastructure**—then the score / publish / fix / sample engine.
 
 **Repository:** https://github.com/scuba15steve7/cfmi · **Site:** https://scuba15steve7.github.io/cfmi/ · **Contact:** (add when live)
 

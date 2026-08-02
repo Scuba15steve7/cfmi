@@ -2,8 +2,8 @@
 
 **Operating rule:** Advance CFMI by pasting prompts into Cursor. The agent updates the repository.
 
-**Current phase:** Mission + online presence + formation readiness.  
-**Later phase:** AI-driven legislation and model bills (secondary).
+**Current phase:** Mission + online presence + formation readiness (501(c)(3) educational/research default).  
+**Product model:** Score legislation → publish conflicts → open fix language → sample acts for bipartisan comment.
 
 ---
 
@@ -21,53 +21,72 @@
 
 ### M1 — Lock public mission
 ```
-Write a short public mission statement (2–4 sentences) and a one-line tagline for CFMI, consistent with CHARTER.md. Put them in website/index.md, website/about.md, README.md, and pitch/one-pager.md. Do not change CHARTER.md principles. Lead with mission and online presence—not flagship legislation.
+Write a short public mission statement (2–4 sentences) and a one-line tagline for CFMI, consistent with CHARTER.md.
+Lead with: research-funded AI; score bills; publish conflicts with free markets and constitutional limits;
+open bipartisan fix language and sample bills; minimize unintended consequences; Charter binds.
+Put them in website/index.md, website/about.md, README.md, pitch/one-pager.md, and docs/*.html.
+Do not change CHARTER.md principles. Do not claim tax status.
 ```
 
 ### W1 — Deployable site
 ```
-Ensure docs/ is a minimal, professional static site for GitHub Pages (folder /docs). Mission-first homepage: brand, mission, principles link, about, charter, how to support—no flagship bill as the hero. Keep website/*.md conceptually aligned. Follow my frontend design rules. Keep it simple and donor-credible. Include docs/.nojekyll.
+Ensure docs/ is a minimal, professional static site for GitHub Pages (folder /docs). Mission-first homepage:
+brand, mission (score / publish conflicts / fix language / sample acts), principles link, about, charter,
+how to support—no flagship bill as the hero. Keep website/*.md conceptually aligned. Follow my frontend
+design rules. Keep it simple and donor-credible. Include docs/.nojekyll.
 ```
 
 ### P1 — Pitch = mission org
 ```
-Rewrite pitch/one-pager.md as a mission-and-method nonprofit pitch. Proof at $0 = charter, methodology, site, transparency rules. List AI legislation and model bills as the upcoming product lane, not the lead ask.
+Rewrite pitch/one-pager.md as a mission-and-method nonprofit pitch for research-funded AI legislative analysis.
+Proof at $0 = charter, methodology, site, formation checklist, transparency rules. Lead with score / publish
+conflicts / fix language / bipartisan sample acts—not a single flagship bill.
 ```
 
 ### R1 — README face
 ```
-Rewrite README.md so the repo face is: what CFMI is, mission, principles, status (bootstrap), links to charter/site/pitch, and how the project is built in Cursor. Move model bills and AI reviews to a clearly secondary “Work product (later / samples)” section.
+Rewrite README.md so the repo face is: what CFMI is, mission, principles, status (bootstrap), links to
+charter/site/pitch/formation-checklist, and how the project is built in Cursor. Move model bills and AI
+reviews to a clearly secondary “Work product (later / samples)” section.
 ```
 
 ### F1 — Formation checklist
 ```
-Create ops/formation-checklist.md: 501(c)(3) vs (c)(4) decision tree, documents needed, Utah considerations if relevant, and prompts to draft bylaws/conflict-of-interest aligned to CHARTER.md. Mark attorney-review required. Do not claim we have tax status.
+Create or refresh ops/formation-checklist.md: default 501(c)(3) for this educational/research model;
+note that heavy vote-lobbying may need a future (c)(4); Utah considerations if relevant; prompts to draft
+bylaws/conflict-of-interest aligned to CHARTER.md. Mark attorney-review required throughout.
+Do not claim we have tax status.
 ```
 
 ### D1 — Commit
 ```
-Create a git commit for the current CFMI bootstrap (mission + presence phase). Do not push.
+Create a git commit for the current CFMI bootstrap (mission + presence + formation checklist). Do not push.
 ```
 
 ### G1 — Go live prep
 ```
-Confirm ops/go-live.md has the exact manual clicks: public repo → push main → Settings → Pages → Deploy from branch main / folder /docs. Note custom .org is usually not free; use username.github.io/repo first. Do not push or commit unless I ask.
+Confirm ops/go-live.md has the exact manual clicks: public repo → push main → Settings → Pages → Deploy from
+branch main / folder /docs. Note custom .org is usually not free; use username.github.io/repo first.
+Do not push or commit unless I ask.
 ```
 
 ---
 
-## Phase 2 — AI legislation (after presence)
+## Phase 2 — Scoring & sample acts (after presence)
 
 Only after Phase 1 feels solid:
 
-### L1 — Start AI review cadence
+### L1 — Start scoring cadence
 ```
-Set up ai-reviews/ as the first product lane: index README, refresh template, and review one real federal bill I paste or you propose. Mission and site stay primary in website/ and pitch/.
+Set up ai-reviews/ as the first product lane: index README, refresh template for score + publish conflicts +
+open fix/alignment language, and review one real federal bill I paste or you propose. Mission and site stay
+primary in website/ and pitch/.
 ```
 
-### L2 — First model act (when ready)
+### L2 — First sample act for bipartisan comment (when ready)
 ```
-Draft [licensing / housing / other] model act to CFMI standards. Keep website messaging mission-first; link the bill as work product, not the hero.
+Draft [licensing / housing / other] sample act to CFMI standards for open bipartisan review and comment.
+Keep website messaging mission-first; link the bill as work product, not the hero.
 ```
 
 Full older drafting prompts (B1–B4, C1–C3, etc.) remain valid in git history / ask the agent to restore them when Phase 2 starts. Prefer the Phase 1 prompts above until then.
@@ -78,7 +97,7 @@ Full older drafting prompts (B1–B4, C1–C3, etc.) remain valid in git history
 
 - GitHub account / login / creating the remote  
 - Domain purchase (optional)  
-- Counsel / formation signatures / IRS  
+- Counsel / formation signatures / IRS (see [formation-checklist.md](formation-checklist.md))  
 - Donor calls  
 - Banking  
 
@@ -86,4 +105,4 @@ Prompt: `Prepare everything in-repo for [step]; give me the shortest manual chec
 
 ---
 
-*Playbook version: 0.2.1 — mission & presence first; site in docs/.*
+*Playbook version: 0.3.0 — mission locked to score/conflicts/fix/sample; formation default 501(c)(3).*

@@ -5,13 +5,13 @@ layout: default
 
 # Constitutional Free Markets Institute
 
-**Using AI to help find free-market solutions to the biggest issues facing our nation.**
+**Using AI to score legislation, publish conflicts with free markets and constitutional limits, and offer open bipartisan fix language and sample bills.**
 
 > **Live site:** Built from [`docs/`](../docs/) for free GitHub Pages hosting. These `website/*.md` files are conceptual sources; Pages serves the HTML in `docs/`. See [ops/go-live.md](../ops/go-live.md).
 
 ## Mission
 
-CFMI uses transparent, rules-bound AI to help find and address the biggest issues facing our nation with free-market solutions that respect constitutional limits. We expose corruption, conflicts, and artificial barriers that block honest fixes. We propose sample legislation, circulate it for AI-assisted and stakeholder feedback to improve quality and passage fitness **without abandoning our principles**, and work to minimize unintended consequences. We also review living bills so allies can amend or defeat legislation that expands anti-competitive privilege, opaque discretion, or constitutional overreach.
+CFMI is research-funded AI for legislative analysis: we score current bills against free markets and constitutional limits, publish conflicts with our Charter goals, and provide open alignment and fix language for proposed legislation. We publish sample acts for bipartisan review and comment, work to minimize unintended consequences, and bind every product to Charter principles. AI is a disclosed research aid under published rules—never an authority.
 
 [Read the full Charter →](../CHARTER.md)
 
@@ -19,11 +19,11 @@ CFMI uses transparent, rules-bound AI to help find and address the biggest issue
 
 ## How we work
 
-1. **Find** — Use rules-bound AI to help identify major national problems suited to free-market, constitutional solutions.  
-2. **Expose** — Publish conflicts of interest, rent-seeking language, and discretionary hooks that block honest fixes.  
-3. **Propose** — Draft sample legislation with free-market impact, constitutional basis, and unintended-consequences safeguards up front.  
-4. **Improve** — Send drafts to interested parties; run AI-assisted feedback loops to harden text, reduce side effects, and raise honest passage odds—**Charter filters still bind**.  
-5. **Defend** — Score living bills against our goals; flag hostile wording; support change or defeat of legislation that fails the filters.  
+1. **Score** — Use research-funded, rules-bound AI to score current legislation against Charter goals.  
+2. **Publish conflicts** — Disclose where bill text conflicts with free markets, constitutional limits, or anti-capture filters.  
+3. **Fix language** — Offer open alignment and amendment language for proposed bills.  
+4. **Sample acts** — Publish sample legislation for bipartisan review and comment; minimize unintended consequences.  
+5. **Bind** — Charter principles govern every score, draft, and comment cycle.  
 
 ## Principles
 
@@ -39,21 +39,22 @@ CFMI uses transparent, rules-bound AI to help find and address the biggest issue
 
 | Now | Next |
 |-----|------|
-| Mission, Charter, public presence | Circulate sample bills + feedback loops |
-| Open methodology donors can audit | Steady AI review of current legislation |
-| Anti-capture rules before money arrives | Formation with counsel; durable publishing |
+| Mission, Charter, public presence | Steady scoring + published conflicts |
+| Open methodology donors can audit | Open fix / alignment language packs |
+| Formation checklist (501(c)(3) educational/research default; no status claimed) | Bipartisan sample-act comment loops |
 
 ## Start here
 
 | Resource | Description |
 |----------|-------------|
 | [Charter](../CHARTER.md) | Binding founding principles |
-| [Methodology](../METHODOLOGY.md) | Drafting, feedback, unintended consequences, bill scoring |
+| [Methodology](../METHODOLOGY.md) | Scoring, fix language, bipartisan comment |
 | [About](about.md) | Bootstrap story and call for aligned support |
+| [Formation checklist](../ops/formation-checklist.md) | 501(c)(3) default — attorney-review; no status claimed |
 | [Donor one-pager](../pitch/one-pager.md) | What exists at $0 and what support unlocks |
 
 ## Status
 
-Bootstrap phase. Zero budget. Independent. Public HTML site ready in `docs/` for GitHub Pages. Seeking aligned support under published anti-capture rules.
+Bootstrap phase. Zero budget. Independent. Public HTML site ready in `docs/` for GitHub Pages. Seeking aligned support under published anti-capture rules. **No tax status claimed.**
 
 [About CFMI →](about.md)

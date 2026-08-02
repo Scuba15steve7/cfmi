@@ -1,10 +1,10 @@
 # Constitutional Free Markets Institute (CFMI)
 
-**Using AI to help find free-market solutions to the biggest issues facing our nation.**
+**Using AI to score legislation, publish conflicts with free markets and constitutional limits, and offer open bipartisan fix language and sample bills.**
 
 ## Mission
 
-CFMI uses transparent, rules-bound AI to help find and address the biggest issues facing our nation with free-market solutions that respect constitutional limits. We expose corruption, conflicts, and artificial barriers that block honest fixes. We propose sample legislation, circulate it for AI-assisted and stakeholder feedback to improve quality and passage fitness **without abandoning our principles**, and work to minimize unintended consequences. We also review living bills so allies can amend or defeat legislation that expands anti-competitive privilege, opaque discretion, or constitutional overreach.
+CFMI is research-funded AI for legislative analysis: we score current bills against free markets and constitutional limits, publish conflicts with our Charter goals, and provide open alignment and fix language for proposed legislation. We publish sample acts for bipartisan review and comment, work to minimize unintended consequences, and bind every product to Charter principles. AI is a disclosed research aid under published rules—never an authority.
 
 **Status:** Bootstrap — mission locked; deployable public site in [`docs/`](docs/) (GitHub Pages). Zero budget. One founder. Built prompt-native in Cursor.
 
@@ -16,11 +16,11 @@ Binding principles: [CHARTER.md](CHARTER.md) · Go live: [ops/go-live.md](ops/go
 
 ## How we work
 
-1. **Find** — Use rules-bound AI to help identify major national problems suited to free-market, constitutional solutions.  
-2. **Expose** — Publish conflicts and rent-seeking language that block honest fixes.  
-3. **Propose** — Sample legislation with impact, constitutional basis, and unintended-consequences safeguards.  
-4. **Improve** — AI-assisted and stakeholder feedback (interest disclosure required); Charter still binds.  
-5. **Defend** — Score living bills; help change or defeat legislation that fails Charter filters.  
+1. **Score** — Use research-funded, rules-bound AI to score current legislation against Charter goals.  
+2. **Publish conflicts** — Disclose where bill text conflicts with free markets, constitutional limits, or anti-capture filters.  
+3. **Fix language** — Offer open alignment and amendment language for proposed bills.  
+4. **Sample acts** — Publish sample legislation for bipartisan review and comment; minimize unintended consequences.  
+5. **Bind** — Charter principles govern every score, draft, and comment cycle.  
 
 ## Core Principles
 
@@ -36,8 +36,8 @@ Binding principles: [CHARTER.md](CHARTER.md) · Go live: [ops/go-live.md](ops/go
 
 1. ✅ Mission  
 2. ✅ Online presence (static site in `docs/`; publish via [ops/go-live.md](ops/go-live.md))  
-3. Formation readiness  
-4. **Later:** sample-legislation feedback loops + live-bill AI reviews  
+3. Formation readiness ([ops/formation-checklist.md](ops/formation-checklist.md) — default **501(c)(3)** educational/research model; attorney-review required; no tax status claimed)  
+4. **Later:** steady scoring cadence, fix-language packs, and bipartisan sample-act comment loops  
 
 Playbook: [ops/prompt-playbook.md](ops/prompt-playbook.md)
 
@@ -46,12 +46,13 @@ Playbook: [ops/prompt-playbook.md](ops/prompt-playbook.md)
 | Document | Purpose |
 |----------|---------|
 | [CHARTER.md](CHARTER.md) | Binding founding charter |
-| [METHODOLOGY.md](METHODOLOGY.md) | Drafting, feedback, unintended consequences, scoring |
+| [METHODOLOGY.md](METHODOLOGY.md) | Scoring, fix language, bipartisan comment, unintended consequences |
 | [Live site (`docs/`)](docs/index.html) | GitHub Pages HTML (deploy from `/docs`) |
 | [Website sources](website/index.md) | Markdown sources kept in sync conceptually |
 | [About](website/about.md) | Bootstrap story |
 | [Go live](ops/go-live.md) | $0 GitHub Pages steps |
-| [Donor one-pager](pitch/one-pager.md) | Pitch for aligned support |
+| [Formation checklist](ops/formation-checklist.md) | 501(c)(3) default path — attorney-review; no status claimed |
+| [Donor one-pager](pitch/one-pager.md) | Pitch for aligned research support |
 
 ## Work product (later / samples)
 
@@ -60,7 +61,7 @@ Playbook: [ops/prompt-playbook.md](ops/prompt-playbook.md)
 
 ## Seeking aligned support
 
-Independent—not a party, PAC, or incumbent vehicle. Start with the [donor one-pager](pitch/one-pager.md).
+Independent educational/research project—not a party, PAC, or incumbent vehicle. Start with the [donor one-pager](pitch/one-pager.md).
 
 ---
 
