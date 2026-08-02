@@ -159,6 +159,7 @@ These are **campaign-finance industry codes**, not SAVE-specific earmarks. Usefu
 | Heritage Action (+ Concord Fund trail) | Election integrity / citizenship verification | Heritage Action ~$15.5M FY24 (c)(4); Concord Fund among disclosed grantmakers; Mercer on board | Opaque-funded conservative advocacy pushes FOR | **moderate** (advocacy + opaque upstream); **not established** (vote purchase) |
 | Sen. Murkowski | Federalism / rural Alaska / implementation | Oil & gas and other industry totals in cycle data | Donor mix unrelated or weakly related to SAVE text fight | **weak** / **not established** for corruption |
 | Sen. Tillis | No votes / timing / process | Career finance/real-estate/conservative industry totals | Strategic filibuster math, not a donor script | **not established** |
+| Sen. John Thune (Majority Leader) | Supports SAVE America; lacks votes to pass or nuke filibuster | FEC [S2SD00068](https://www.fec.gov/data/candidate/S2SD00068/); OS industries (finance/retired/real estate/leadership PACs/lobbyists aggregates) | Institutional filibuster preservation vs base demand—not a pay-to-kill chain | **weak** (donor→stall); **not established** (quid pro quo); full grades in [`claim-triage-thune-save-act.md`](claim-triage-thune-save-act.md) |
 | “Stall = purchased corruption” (viral claim) | — | No chain in this pass | — | **not established** |
 
 ---
@@ -180,6 +181,7 @@ These are **campaign-finance industry codes**, not SAVE-specific earmarks. Usefu
 | Product | Path |
 |---------|------|
 | Parent stall stress-test | [`save-act-senate-stall-stress-test.md`](save-act-senate-stall-stress-test.md) |
+| Claim triage: Thune “blocking” SAVE | [`claim-triage-thune-save-act.md`](claim-triage-thune-save-act.md) |
 | Election administration brief | [`issues/election-administration-integrity.md`](issues/election-administration-integrity.md) |
 | Influence template | [`influence-template.md`](influence-template.md) |
 | Architecture deep-records layer | [`ops/ai-investigation-architecture.md`](../ops/ai-investigation-architecture.md) §3.3a |

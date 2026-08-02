@@ -52,6 +52,18 @@ High-consensus slogans tested as hypotheses under [`ops/anti-narrative-capture.m
 
 ---
 
+## Viral / influencer claim triage (I5)
+
+Falsifiable sub-claims graded against public records under [`ops/claim-triage-from-viral-sources.md`](../ops/claim-triage-from-viral-sources.md)—dual steelman; no rumor laundering; no reflexive dismissal.
+
+| Origin claim / question | Result | Product |
+|-------------------------|--------|---------|
+| “Why is Sen. Thune blocking / not helping pass the SAVE Act?” | **NARROW** — supports + lacks 60 (**Supported**); policy opposition (**Contradicted**); corrupt blocking (**Not established**) | [claim-triage-thune-save-act.md](claim-triage-thune-save-act.md) |
+
+Related SAVE stall digs: [stress-test](save-act-senate-stall-stress-test.md) · [influence companion](influence-save-act-senate-stall.md)
+
+---
+
 ## Suggestions intake
 
 Public suggestions for bills/topics to screen: [suggestions/README.md](suggestions/README.md) · [QUEUE.md](suggestions/QUEUE.md)

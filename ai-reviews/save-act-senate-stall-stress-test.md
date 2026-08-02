@@ -6,6 +6,7 @@
 **Parent brief:** [`issues/election-administration-integrity.md`](issues/election-administration-integrity.md)  
 **Companion package:** [`issues/federal-election-transparency-package.md`](issues/federal-election-transparency-package.md)  
 **Deep records companion:** [`influence-save-act-senate-stall.md`](influence-save-act-senate-stall.md) (METHODOLOGY §7.6)  
+**Claim triage (Thune “blocking”):** [`claim-triage-thune-save-act.md`](claim-triage-thune-save-act.md) (viral/influencer lead → graded sub-claims)  
 **Review date:** 2026-08-02  
 **Human editor:** CFMI bootstrap  
 **AI assistance:** Orchestrated dig draft; human-edited; deep public-records pass added.  
@@ -138,7 +139,7 @@ These questions are **not** the same as: “Do you support H.R. 22 / S. 1383 inc
 
 | Actor | Public posture | Source |
 |-------|----------------|--------|
-| Sen. **John Thune** (R-SD), Majority Leader | Brought bill to floor for extended debate; has said votes are not there for passage or eliminating the filibuster; conference messaging urges candor that votes are lacking | [NOTUS](https://www.notus.org/senate/senate-republicans-tee-up-save-america-act) · [USA TODAY memo](https://www.usatoday.com/story/news/politics/2026/07/28/senate-gop-internal-messaging-save-america-act/91077137007/) · [PBS/AP](https://www.pbs.org/newshour/politics/trump-demands-senate-cancel-august-break-until-it-passes-the-save-america-act) |
+| Sen. **John Thune** (R-SD), Majority Leader | Brought bill to floor for extended debate; voted Yea on Mar 26, 2026 cloture (failed 53–47); has said votes are not there for passage or eliminating the filibuster; conference messaging urges candor that votes are lacking. Graded “blocking” claim: [`claim-triage-thune-save-act.md`](claim-triage-thune-save-act.md) | [NOTUS](https://www.notus.org/senate/senate-republicans-tee-up-save-america-act) · [USA TODAY memo](https://www.usatoday.com/story/news/politics/2026/07/28/senate-gop-internal-messaging-save-america-act/91077137007/) · [PBS/AP](https://www.pbs.org/newshour/politics/trump-demands-senate-cancel-august-break-until-it-passes-the-save-america-act) · [Senate roll call](https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00073.htm) |
 
 ---
 
@@ -224,6 +225,7 @@ Directionally: citizenship verification for **federal** registrants; alternative
 | Product | Path |
 |---------|------|
 | Deep public-records / influence companion | [`influence-save-act-senate-stall.md`](influence-save-act-senate-stall.md) |
+| Claim triage: Thune “blocking” SAVE | [`claim-triage-thune-save-act.md`](claim-triage-thune-save-act.md) |
 | Election administration brief | [`issues/election-administration-integrity.md`](issues/election-administration-integrity.md) |
 | Federal election transparency package | [`issues/federal-election-transparency-package.md`](issues/federal-election-transparency-package.md) |
 | Prior I4 (mail/rolls “secure”) | [`consensus-mail-ballots-voter-rolls-secure.md`](consensus-mail-ballots-voter-rolls-secure.md) |
