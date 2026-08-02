@@ -1,26 +1,27 @@
 # CFMI Donor One-Pager
 
 **Constitutional Free Markets Institute**  
-**Tagline:** Rules-bound AI. Free markets. Constitutional limits.  
+**Tagline:** Using AI to help find free-market solutions to the biggest issues facing our nation.  
 **Status:** Bootstrap · **$0** · **1 founder**
 
 ---
 
 ## Mission
 
-CFMI uses transparent, rules-bound AI to find political and policy problems, expose conflicts and corruption that block solutions, and develop free-market, constitutional answers. We propose sample legislation, circulate it for AI-assisted training and stakeholder feedback to improve quality and passage fitness without abandoning our principles, and minimize unintended consequences. We analyze current legislation for hostile wording and structures—and publish reviews that help amend or defeat bad bills.
+CFMI uses transparent, rules-bound AI to help find and address the biggest issues facing our nation with free-market solutions that respect constitutional limits. We expose corruption, conflicts, and artificial barriers that block honest fixes. We propose sample legislation, circulate it for AI-assisted and stakeholder feedback to improve quality and passage fitness without abandoning our principles, and work to minimize unintended consequences. We also review living bills so allies can amend or defeat legislation that expands anti-competitive privilege, opaque discretion, or constitutional overreach.
 
 ## Problem
 
-Corruption and anti-competitive privilege hide in bill text and process. Messaging alone does not produce better law—or stop bad law.
+Major national problems—and the corruption or barriers that block free-market, constitutional fixes—hide in bill text and process. Messaging alone does not produce better law—or stop bad law.
 
 ## Method
 
 | Lane | What donors get |
 |------|-----------------|
+| **Find** | Rules-bound AI to help identify major issues suited to free-market solutions |
+| **Expose** | Transparency on conflicts and rent-seeking language that block honest fixes |
 | **Propose** | Sample legislation with published safeguards and unintended-consequences analysis |
 | **Improve** | Feedback loops (AI + interested parties, interest-disclosed) that raise quality and honest passage odds |
-| **Expose** | Transparency on conflicts and rent-seeking language that block solutions |
 | **Defend** | AI scoring of live bills to change or defeat Charter-failing legislation |
 
 Charter filters always bind. “More likely to pass” never means adding subsidies, barriers, or opaque discretion to buy support.

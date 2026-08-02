@@ -1,13 +1,13 @@
 # Methodology  
 ## Constitutional Free Markets Institute (CFMI)
 
-This document explains how CFMI chooses problems, drafts legislation, pressure-tests bills, runs AI reviews, and accepts feedback. It implements [CHARTER.md](CHARTER.md).
+This document explains how CFMI uses rules-bound AI and open methods to help find and address major national problems with free-market, constitutional solutions; draft and pressure-test sample legislation; review living bills; and accept feedback. It implements [CHARTER.md](CHARTER.md).
 
 ---
 
 ## 1. How Problems Are Ranked
 
-Problems are ranked by a published score. Higher priority work comes first.
+Problems—especially those that distort free markets or stretch constitutional limits—are ranked by a published score. Higher priority work comes first.
 
 | Criterion | Weight | Question |
 |-----------|--------|----------|

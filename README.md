@@ -1,10 +1,10 @@
 # Constitutional Free Markets Institute (CFMI)
 
-**Rules-bound AI. Free markets. Constitutional limits.**
+**Using AI to help find free-market solutions to the biggest issues facing our nation.**
 
 ## Mission
 
-CFMI uses transparent, rules-bound AI to find political and policy problems, expose conflicts and corruption that block solutions, and develop free-market, constitutional answers. We propose sample legislation, circulate it for AI-assisted training and stakeholder feedback to improve quality and passage fitness **without abandoning our principles**, and work to minimize unintended consequences. We also analyze current legislation for language and structures that expand anti-competitive privilege, opaque discretion, or constitutional overreach—and publish reviews to help amend or defeat bad bills.
+CFMI uses transparent, rules-bound AI to help find and address the biggest issues facing our nation with free-market solutions that respect constitutional limits. We expose corruption, conflicts, and artificial barriers that block honest fixes. We propose sample legislation, circulate it for AI-assisted and stakeholder feedback to improve quality and passage fitness **without abandoning our principles**, and work to minimize unintended consequences. We also review living bills so allies can amend or defeat legislation that expands anti-competitive privilege, opaque discretion, or constitutional overreach.
 
 **Status:** Bootstrap — mission locked; deployable public site in [`docs/`](docs/) (GitHub Pages). Zero budget. One founder. Built prompt-native in Cursor.
 
@@ -16,11 +16,11 @@ Binding principles: [CHARTER.md](CHARTER.md) · Go live: [ops/go-live.md](ops/go
 
 ## How we work
 
-1. **Find** problems where corruption, barriers, or anti-competitive privilege thrive.  
-2. **Expose** conflicts and rent-seeking language that block solutions.  
-3. **Propose** sample legislation with impact, constitutional basis, and unintended-consequences safeguards.  
-4. **Improve** drafts through AI-assisted and stakeholder feedback (interest disclosure required).  
-5. **Defend** — score living bills; help change or defeat legislation that fails Charter filters.  
+1. **Find** — Use rules-bound AI to help identify major national problems suited to free-market, constitutional solutions.  
+2. **Expose** — Publish conflicts and rent-seeking language that block honest fixes.  
+3. **Propose** — Sample legislation with impact, constitutional basis, and unintended-consequences safeguards.  
+4. **Improve** — AI-assisted and stakeholder feedback (interest disclosure required); Charter still binds.  
+5. **Defend** — Score living bills; help change or defeat legislation that fails Charter filters.  
 
 ## Core Principles
 

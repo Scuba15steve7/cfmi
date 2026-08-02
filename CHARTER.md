@@ -8,13 +8,13 @@
 
 ### Purpose
 
-The Constitutional Free Markets Institute exists to increase transparency in the American political process and to develop, pressure-test, and advance legislation that:
+The Constitutional Free Markets Institute uses transparent, rules-bound AI to help find and address the biggest issues facing our nation with free-market solutions—consistent with constitutional limits and greater transparency in the American political process. Through analysis, sample legislation, feedback loops, and reviews of living bills, CFMI works to:
 
-1. Secures free markets as the primary mechanism of economic coordination;
-2. Upholds the U.S. Constitution’s limits on government power; and
-3. Removes artificial barriers and opportunities for corruption.
+1. Secure free markets as the primary mechanism of economic coordination;
+2. Uphold the U.S. Constitution’s limits on government power; and
+3. Remove artificial barriers and opportunities for corruption.
 
-CFMI uses AI as a transparent, rules-bound tool. Government intervention, where addressed at all, must remain minimal and consistent with the original constitutional design.
+AI is central to how CFMI works—helping find problems, pressure-testing drafts, and scoring living legislation—always as a disclosed aid under published rules, never as an authority. Government intervention, where addressed at all, must remain minimal and consistent with the original constitutional design.
 
 ---
 
@@ -59,7 +59,7 @@ Neutral, generally applicable rules that protect property, contract, and common-
 
 ### Rules for AI Use
 
-1. AI is a drafting and analysis aid, not an authority. Human accountability remains with CFMI authors.
+1. AI is central to CFMI’s mission—helping find problems, analyzing bills, and drafting options—but remains an aid, not an authority. Human accountability remains with CFMI authors.
 2. Scoring rubrics, system prompts, and material methodology changes are published in this repository (or a successor public archive).
 3. AI outputs used in public products must be reproducible: inputs, rubric version, and model/provider (when known) are disclosed.
 4. AI must not be used to obscure authorship, fabricate citations, or launder interest-group language into “neutral” text without disclosure.
