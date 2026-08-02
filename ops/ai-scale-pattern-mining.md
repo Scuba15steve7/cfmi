@@ -191,10 +191,13 @@ Deep public-records layer (§7.6 / architecture §3.3a) remains the **per-actor*
 
 ---
 
-## 9. Worked stub pointer (Thune / SAVE)
+## 9. Worked example (Thune / SAVE)
 
-What a human-scale dig checked vs what scale mining would run next:  
-[`ai-reviews/claim-triage-thune-save-act-deep.md`](../ai-reviews/claim-triage-thune-save-act-deep.md) — **Appendix A: Next scale queries**.
+Human-scale dig + shard status:  
+[`ai-reviews/claim-triage-thune-save-act-deep.md`](../ai-reviews/claim-triage-thune-save-act-deep.md) — **Appendix A**.
+
+Published I6 reduce product:  
+[`ai-reviews/pattern-mine-save-cloture-thune.md`](../ai-reviews/pattern-mine-save-cloture-thune.md) — Mar 26, 2026 cloture Nay bloc × Thune.
 
 ---
 

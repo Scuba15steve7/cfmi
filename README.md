@@ -66,6 +66,7 @@ Playbook: [ops/prompt-playbook.md](ops/prompt-playbook.md)
 - [AI review template](ai-reviews/sample-bill-review-template.md)  
 - [Influence memo template](ai-reviews/influence-template.md)  
 - [Bill reviews + influence companions](ai-reviews/README.md)  
+- [Scale pattern mine — SAVE cloture × Thune (I6)](ai-reviews/pattern-mine-save-cloture-thune.md)  
 - [Model legislation index](model-legislation/README.md)  
 
 ## Seeking aligned support

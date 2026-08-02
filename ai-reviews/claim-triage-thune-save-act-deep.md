@@ -4,7 +4,7 @@
 **Lane:** Viral / influencer claim triage — adversarial pass — [`ops/claim-triage-from-viral-sources.md`](../ops/claim-triage-from-viral-sources.md)  
 **Method note:** Leadership self-description (“we lack 60”) is a **lead to stress-test**, not a sufficient close ([`ops/ai-investigation-architecture.md`](../ops/ai-investigation-architecture.md) §3.2b · claim-triage adversarial pass)  
 **First-pass triage (credulous of stated reasons — superseded for motive digs):** [`claim-triage-thune-save-act.md`](claim-triage-thune-save-act.md)  
-**Companions:** [`ops/anti-narrative-capture.md`](../ops/anti-narrative-capture.md) · [`METHODOLOGY.md`](../METHODOLOGY.md) §7.5–§7.7 · [`ops/ai-scale-pattern-mining.md`](../ops/ai-scale-pattern-mining.md) · [`influence-save-act-senate-stall.md`](influence-save-act-senate-stall.md) · [`save-act-senate-stall-stress-test.md`](save-act-senate-stall-stress-test.md)  
+**Companions:** [`ops/anti-narrative-capture.md`](../ops/anti-narrative-capture.md) · [`METHODOLOGY.md`](../METHODOLOGY.md) §7.5–§7.7 · [`ops/ai-scale-pattern-mining.md`](../ops/ai-scale-pattern-mining.md) · [`pattern-mine-save-cloture-thune.md`](pattern-mine-save-cloture-thune.md) (I6 scale mine) · [`influence-save-act-senate-stall.md`](influence-save-act-senate-stall.md) · [`save-act-senate-stall-stress-test.md`](save-act-senate-stall-stress-test.md)  
 **Pass date:** 2026-08-02  
 **Human editor:** CFMI bootstrap  
 **Interest disclosure (editor):** none
@@ -268,11 +268,12 @@ Use this file—not the first-pass triage—when the question is *hidden drivers
 
 ---
 
-## Appendix A: Next scale queries (stub)
+## Appendix A: Scale pattern mining (I6) — shard status
 
-Capability: [`ops/ai-scale-pattern-mining.md`](../ops/ai-scale-pattern-mining.md) · playbook **I6**. This dig was **human-scale / single-actor deep**; the table below separates what was already checked from what a map-reduce scale pass would run next. Suspicion edges still ≠ quid pro quo.
+Capability: [`ops/ai-scale-pattern-mining.md`](../ops/ai-scale-pattern-mining.md) · playbook **I6**.  
+**Reduce product (published):** [`pattern-mine-save-cloture-thune.md`](pattern-mine-save-cloture-thune.md) — Mar 26, 2026 Husted cloture Nay bloc × Thune. Suspicion edges still ≠ quid pro quo.
 
-### What this dig already checked (not a full scale mine)
+### What this dig already checked (human-scale / single-actor)
 
 | Check | Scope | Result (summary) |
 |-------|-------|------------------|
@@ -284,27 +285,27 @@ Capability: [`ops/ai-scale-pattern-mining.md`](../ops/ai-scale-pattern-mining.md
 | STOCK Act / PFD → SAVE | Thune | **Not established in this pass** |
 | Schedule / priority / memo patterns | Process (D) | Theater + priority inversion flagged; not (C) |
 
-### Next scale queries (I6 shards — not yet run)
+### I6 shards — run status (2026-08-02)
 
-| Shard | Query sketch | Pattern class |
-|-------|--------------|---------------|
-| **FEC × cloture Nays** | Top-N itemized donors / PACs (cycle window) for **every senator who voted Nay** on Mar 26 Husted cloture (and related SAVE cloture/MTP roll calls)—cross-tab shared payors appearing on ≥K Nay senators | Donor ↔ vote timing |
-| **FEC × Yea + leadership** | Same top-N for Yea bloc + Thune; flag donors appearing on both sides (false-positive control) | Donor ↔ vote timing |
-| **LDA / OpenSecrets bill graph** | All LDA clients on H.R. 22 / SAVE America vehicles → edge to offices/staff who met or formerly lobbied for those clients (public LDA + Revolving Door only) | Advocacy overlaps · revolving door |
-| **990 funder overlaps** | Lead FOR and AGAINST advocacy orgs → shared 990 funders / officers → any edge to Nay offices (public 990s only) | Advocacy org ↔ member overlaps |
-| **Cosponsor / amendment clusters** | Congress.gov cosponsors + amendment sponsors on SAVE vehicles vs cloture blocs | Coalition / text strategy (context) |
-| **Bill-text clones** | If any industry or model-bill draft is public, side-by-side vs operative SAVE / SAVE America sections | Bill-text clones |
-| **Revolving door × Rules / Judiciary / Homeland** | Prior employers of relevant committee staff ↔ LDA clients on election/ID/immigration themes | Revolving door on relevant committees |
-| **IE / Super PAC keyed to SAVE + filibuster** | Disclosed IEs mentioning Thune or SAVE/filibuster in 2026—direction FOR vs AGAINST aggressiveness | Opaque vehicles (name only if disclosed) |
-| **State registries (SD)** | SD lobby / ethics portals for Thune-adjacent entities if federal filings are thin | State registries |
-| **Priority inversion quant** | Calendar days / floor hours: SAVE vs funding / crypto / sanctions / recess (Daily Press + floor record)—structured (D) edges only | Schedule priority inversion |
+| Shard | Status | Pattern class | Notes |
+|-------|--------|---------------|-------|
+| **FEC × cloture Nays** | **Partial** | Donor ↔ vote timing | Full 47 Nay names from Senate roll call; labor industry cross-tab + Schumer/Sanders samples — **not** full itemized ≥K shared-payor matrix |
+| **FEC × Yea + leadership** | **Run** | Donor ↔ vote timing | Thune industries + labor contrast vs Nay side |
+| **LDA / OpenSecrets bill graph** | **Partial** | Advocacy overlaps · revolving door | H.R. 22 client list + coalition overlap; LDA direction census + staff edges deferred |
+| **990 funder overlaps** | **Deferred** | Advocacy org ↔ member overlaps | Org funders in influence companion; office edges not run |
+| **Cosponsor / amendment clusters** | **Deferred** | Coalition / text strategy | — |
+| **Bill-text clones** | **Deferred** | Bill-text clones | — |
+| **Revolving door × Rules / Judiciary / Homeland** | **Partial** | Revolving door | Quick finds (leadership density, LWV, Heritage Gallman) only |
+| **IE / Super PAC keyed to SAVE + filibuster** | **Partial** | Opaque vehicles | No cloture-purchase IE established; Sentinel/SLF/Musk leads noted |
+| **State registries (SD)** | **Deferred** | State registries | — |
+| **Priority inversion quant** | **Cross-ref** | Schedule priority inversion | Covered in this dig’s timeline; not re-quantified in I6 product |
 
-**Reduce output expected:** conflict graph / pattern table with grades; FOIA handoffs for whip counts and paywalled data; explicit false-positive note (party aggregates, caucus discipline). Run via playbook **I6**—do not treat this appendix as completed evidence.
+**Top I6 flags (see pattern mine for dual Flag + Proof-status):** unified Nay caucus wall; labor + civil-rights LDA ecosystem ↔ Nay coalition; finance industries shared by Thune and Schumer (false-positive control); Thune Yea cuts against pay-to-kill-by-vote story.
 
 ---
 
 ## Disclosure
 
 - **Models/providers:** Cursor agent research pass (WebSearch + public page fetch), 2026-08-02.  
-- **Methods:** claim-triage-from-viral-sources (adversarial pass); METHODOLOGY §7.5–§7.7; anti-narrative-capture; scale pattern mining stub (Appendix A—queries not yet executed).  
+- **Methods:** claim-triage-from-viral-sources (adversarial pass); METHODOLOGY §7.5–§7.7; anti-narrative-capture; scale pattern mining **I6** ([`pattern-mine-save-cloture-thune.md`](pattern-mine-save-cloture-thune.md) — shards partial; see Appendix A status table).  
 - Re-verify Senate roll calls, Daily Press, OpenSecrets/FEC before donor-facing reuse. Thin claims marked **not established**.

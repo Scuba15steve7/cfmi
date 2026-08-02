@@ -65,6 +65,16 @@ Related SAVE stall digs: [stress-test](save-act-senate-stall-stress-test.md) · 
 
 ---
 
+## Scale pattern mining (I6)
+
+Cross-actor conflict graphs / pattern tables under [`ops/ai-scale-pattern-mining.md`](../ops/ai-scale-pattern-mining.md)—dual Flag + Proof-status; suspicion flags publishable; quid pro quo only with public-record chain.
+
+| Dig target | Result | Product |
+|------------|--------|---------|
+| Mar 26, 2026 SAVE America cloture Nay bloc × Thune (Yea / Leader) | Pattern table — unified Nay wall + labor/LDA coalition finance (**moderate** suspicion); shared Wall Street industries (**false-positive control**); quid pro quo **not established** | [pattern-mine-save-cloture-thune.md](pattern-mine-save-cloture-thune.md) |
+
+---
+
 ## Suggestions intake
 
 Public suggestions for bills/topics to screen: [suggestions/README.md](suggestions/README.md) · [QUEUE.md](suggestions/QUEUE.md)
