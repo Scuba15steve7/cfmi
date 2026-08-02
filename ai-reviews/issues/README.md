@@ -27,7 +27,8 @@ These demonstrate CFMI’s AI research mission. Public products are educational.
 | Industrial subsidies & privileges | [industrial-subsidies-privileges.md](industrial-subsidies-privileges.md) | Incumbent subsidies |
 | Opaque discretionary permitting | [opaque-discretionary-permitting.md](opaque-discretionary-permitting.md) | Waivers / process vetoes |
 | Exclusive franchises & closed AI rules | [exclusive-franchise-ai-markets.md](exclusive-franchise-ai-markets.md) | Legal monopolies / tech barriers |
+| Election administration integrity | [election-administration-integrity.md](election-administration-integrity.md) | Constitutional process / transparency (SAVE Act, lists, mail custody) |
 
 **Live site:** [docs/examples.html](../../docs/examples.html) · **Suggest / counterevidence:** [docs/feedback.html](../../docs/feedback.html) · **Bill reviews:** [../README.md](../README.md)
 
-**Related:** [METHODOLOGY.md §4.6–§4.7](../../METHODOLOGY.md) (steelman + hidden barrier analysis) · [CHARTER.md](../../CHARTER.md) · [counterevidence template](../../.github/ISSUE_TEMPLATE/counterevidence.yml)
+**Related:** [METHODOLOGY.md §4.6–§4.7](../../METHODOLOGY.md) (steelman + hidden barrier analysis) · [ops/anti-narrative-capture.md](../../ops/anti-narrative-capture.md) · [CHARTER.md](../../CHARTER.md) · [counterevidence template](../../.github/ISSUE_TEMPLATE/counterevidence.yml)

@@ -74,7 +74,7 @@ Do not push or commit unless I ask.
 
 ## Phase 2 — Scoring & sample acts (after presence)
 
-Only after Phase 1 feels solid. Investigation design: [`ops/ai-investigation-architecture.md`](ai-investigation-architecture.md) (bounded hierarchy—orchestrator + six specialist lanes + depth-limited digs).
+Only after Phase 1 feels solid. Investigation design: [`ops/ai-investigation-architecture.md`](ai-investigation-architecture.md) (bounded hierarchy—orchestrator + six specialist lanes + depth-limited digs) and [`ops/anti-narrative-capture.md`](anti-narrative-capture.md) (consensus claim tester).
 
 ### L1 — Start scoring cadence
 ```
@@ -110,6 +110,27 @@ ai-reviews/influence-template.md using only public LDA/OpenSecrets/sponsors. Pai
 Mark gaps "not established from public filings in this pass." No motive claims.
 ```
 
+### I4 — Consensus claim stress-test
+```
+Run the CFMI Consensus claim tester on this high-consensus claim (institutional or viral):
+
+"[PASTE CLAIM VERBATIM — e.g. 'Mail voting is secure' or 'The election was stolen']"
+
+Scope: [jurisdiction / process facet — e.g. federal registration / State X mail custody]
+
+Obey ops/anti-narrative-capture.md and ops/ai-investigation-architecture.md §3.2a / §9.
+Use the copy-paste prompt in anti-narrative-capture.md §6.
+
+Hard bans: no vibe-based reassurance; no vibe-based alarm; no unverified fraud rates or outcome
+conspiracies as fact; training-data prevalence ≠ truth.
+Require: definition of secure/unsafe; threat model; operative mechanisms; what audits measure vs don't;
+error vs fraud; state variation where relevant.
+Return the structured FOR/AGAINST block only. Escalate digs only on disclosed messaging funding,
+audit scope gaps, statute vs practice, or legal standards for challenging rolls.
+Mark gaps "not established from public sources in this pass." Do not publish—hand off for human edit.
+Worked example domain: ai-reviews/issues/election-administration-integrity.md
+```
+
 Full older drafting prompts (B1–B4, C1–C3, etc.) remain valid in git history / ask the agent to restore them when Phase 2 starts. Prefer the Phase 1 prompts above until then.
 
 ---
@@ -126,4 +147,4 @@ Prompt: `Prepare everything in-repo for [step]; give me the shortest manual chec
 
 ---
 
-*Playbook version: 0.3.1 — mission locked to score/conflicts/fix/sample; formation default 501(c)(3); Phase 2 I1–I3 investigation prompts.*
+*Playbook version: 0.3.2 — mission locked to score/conflicts/fix/sample; formation default 501(c)(3); Phase 2 I1–I4 (adds consensus claim stress-test).*

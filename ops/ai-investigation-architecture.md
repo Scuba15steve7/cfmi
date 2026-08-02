@@ -92,6 +92,16 @@ Run these six—not endless free-form roles. Parallelize when the tool allows (e
 
 Lane 3 is optional on pure issue briefs with no bill ID; when skipped, the orchestrator records “influence pass deferred—no bill hook / no Hard Flag trigger.”
 
+### 3.2a Parallel specialist: Consensus claim tester (when triggered)
+
+When Stage 2 surfaces a **high-consensus claim**—institutional (“the system is secure”) *or* viral (“the election was stolen”)—spawn a **Consensus claim tester** in parallel with lanes 1–6. Full rules: [anti-narrative-capture.md](anti-narrative-capture.md).
+
+**Mandate:** Find the strongest evidence **for** and **against** the claim; require operative mechanisms and a threat model before accepting “secure” or “unsafe.” Training-data prevalence ≠ truth.
+
+**Hard bans:** vibe-based reassurance; vibe-based alarm; authority laundering from any side.
+
+Lane output feeds the orchestrator’s Stage 2 table; it does not replace Text & mechanism or Steelman lanes.
+
 ### 3.3 Drill-down protocol (depth-limited)
 
 **When:** Orchestrator may spawn a sub-investigation only if:
@@ -200,7 +210,9 @@ Map packages into existing templates: issue brief, bill review, influence compan
 | Suggestion queue | [ops/suggestion-ranking.md](suggestion-ranking.md) · [`ai-reviews/suggestions/QUEUE.md`](../ai-reviews/suggestions/QUEUE.md) |
 | Counterevidence intake | [.github/ISSUE_TEMPLATE/counterevidence.yml](../.github/ISSUE_TEMPLATE/counterevidence.yml) · [docs/feedback.html](../docs/feedback.html) |
 | Unintended consequences | [docs/unintended-consequences-template.md](../docs/unintended-consequences-template.md) |
-| Cursor prompts | [ops/prompt-playbook.md](prompt-playbook.md) Phase 2 (I1–I3) |
+| Cursor prompts | [ops/prompt-playbook.md](prompt-playbook.md) Phase 2 (I1–I4) |
+| Narrative capture defenses | [ops/anti-narrative-capture.md](anti-narrative-capture.md) |
+| Worked example (elections / SAVE Act) | [ai-reviews/issues/election-administration-integrity.md](../ai-reviews/issues/election-administration-integrity.md) |
 
 ---
 
@@ -226,7 +238,11 @@ Architecture (mandatory):
    (1) Text & mechanism  (2) Root cause & incidence  (3) Influence & money
    (4) Steelman / counters  (5) Unintended consequences & safeguards
    (6) Fix language / sample amendments
+   If Stage 2 surfaces a high-consensus claim (institutional or viral), also spawn
+   Consensus claim tester per ops/anti-narrative-capture.md—do not invent other roles.
 3. Depth-limited digs only: max depth 2 (3 only if I approve). Each dig = one clause OR one agency OR one named program; narrow charter + structured return.
+   Prefer escalation digs on: disclosed messaging-org funding; what audits measure vs don't;
+   statutory gaps vs practice; legal standards for challenging rolls.
 4. Stop on evidence exhaustion, Charter disqualifier, diminishing returns, or human review gate.
 5. Synthesize one publish package: narrative vs mechanism, scores/Hard Flags (if bill), influence notes or deferred, rollback/fix language, safeguards, open questions.
 6. Do not publish. Hand off to a human editor. Mark unverified claims "not established from public sources in this pass."
@@ -266,8 +282,9 @@ Do not write the final publish package—that is the orchestrator’s job.
 
 1. Paste **§7.1** into the main agent (or a Task `generalPurpose` parent).  
 2. Have it launch up to six Task sub-agents with **§7.2** filled per lane.  
-3. For Hard-Flag digs, resume or launch a child Task with depth 1–2 and a one-clause charter.  
-4. Main agent synthesizes; founder/editor reviews before commit or site update.
+3. If a high-consensus claim appears, also launch Consensus claim tester ([anti-narrative-capture.md](anti-narrative-capture.md) §6 / playbook **I4**).  
+4. For Hard-Flag digs, resume or launch a child Task with depth 1–2 and a one-clause charter.  
+5. Main agent synthesizes; founder/editor reviews before commit or site update.
 
 ---
 
@@ -281,9 +298,27 @@ Do not write the final publish package—that is the orchestrator’s job.
 | Hard to reproduce for donors/public | Publish package maps to existing templates |
 | Easy to launder rent-seeking asks | Orchestrator refuses §1 disqualifiers |
 | “AI said so” authority creep | Human editor gate before publish |
+| Consensus slogans close inquiry | Parallel Consensus claim tester ([anti-narrative-capture.md](anti-narrative-capture.md)) |
 
 ---
 
-## 9. Version
+## 9. Resisting narrative capture
 
-*Architecture version: 0.1.0 — bounded hierarchical investigation for issues and legislation.*
+Full operating rules: **[anti-narrative-capture.md](anti-narrative-capture.md)**.
+
+**Short form for every investigation:**
+
+1. Treat high-consensus claims as **hypotheses**, not authorities.  
+2. Require **operative mechanisms + threat models** before accepting “secure” / “unsafe.”  
+3. Spawn the parallel **Consensus claim tester** when institutional or viral consensus would short-circuit analysis.  
+4. **Ban** vibe-based reassurance and vibe-based alarm.  
+5. Escalate digs on disclosed messaging funding, audit scope, statute vs practice—not on motive fiction.  
+6. **Training-data prevalence ≠ truth.**
+
+Worked example: election administration / list accuracy / mail custody / citizenship verification (SAVE Act)—see [election-administration-integrity.md](../ai-reviews/issues/election-administration-integrity.md). Domain note: constitutional process and anti-corruption transparency; free-market filters are secondary here.
+
+---
+
+## 10. Version
+
+*Architecture version: 0.2.0 — bounded hierarchy + anti-narrative-capture (consensus claim tester).*
