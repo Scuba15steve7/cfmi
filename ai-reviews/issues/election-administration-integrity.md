@@ -164,6 +164,11 @@ Under [ops/ai-investigation-architecture.md](../../ops/ai-investigation-architec
 **Published:** [consensus-mail-ballots-voter-rolls-secure.md](../consensus-mail-ballots-voter-rolls-secure.md) (2026-08-02) — claim *“Mail-in balloting and voter rolls are secure.”*  
 **Recommendation:** **NARROW** — layered controls are real; unqualified national “secure” is not established; no vibe reassurance and no stolen-election claims.
 
+### Senate stall / influence dig (SAVE family)
+
+**Published:** [save-act-senate-stall-stress-test.md](../save-act-senate-stall-stress-test.md) (2026-08-02) — why H.R. 22 / SAVE America Act vehicles remain unenacted; polling reality on “~80%”; procedure vs corruption standard.  
+**Recommendation:** **NARROW** the corruption + 80%-for-this-bill claim. Stall = cloture math + partisan opposition + some GOP federalism/implementation dissent; disclosed advocacy both sides; bribes **not established**.
+
 ---
 
 ## Federal transparency package (companion)
@@ -185,7 +190,9 @@ Constitutional path: Elections Clause floor for congressional (careful president
 7. Legal standards for private roll challenges (standing, notice, deadlines) by state sample?  
 8. Presidential-electors drafting: tightest severable federal floor that does not commandeer state offices—counsel review?  
 9. Cost of machine-readable data + custody logging: formula grants vs bare mandate for Senate passability?  
-10. Eligibility sampling distinct from RLA: feasible day-one floor or pilot-first?
+10. Eligibility sampling distinct from RLA: feasible day-one floor or pilot-first?  
+11. Senate SAVE stall dig follow-ups: official cloture tallies + amendment text; LDA *for/against* coding on [OpenSecrets H.R. 22](https://www.opensecrets.org/federal-lobbying/bills/summary?id=hr22-119); full questionnaires behind any “71%/80% for SAVE America Act” claim — see [stall stress-test](../save-act-senate-stall-stress-test.md).  
+12. Can a rural/name-change/anti-chill amendment package move cloture math without creating new opaque discretion?
 
 Invite answers via [docs/tool.html](../../docs/tool.html) or a [counterevidence issue](https://github.com/scuba15steve7/cfmi/issues/new?template=counterevidence.yml).
 

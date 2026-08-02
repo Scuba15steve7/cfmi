@@ -48,6 +48,7 @@ High-consensus slogans tested as hypotheses under [`ops/anti-narrative-capture.m
 | Claim | Result | Product |
 |-------|--------|---------|
 | “Mail-in balloting and voter rolls are secure.” | **NARROW** | [consensus-mail-ballots-voter-rolls-secure.md](consensus-mail-ballots-voter-rolls-secure.md) |
+| “SAVE Act stalled by corruption despite ~80% support.” | **NARROW** (procedure + partisan math; ~80% = principles ≠ bill) | [save-act-senate-stall-stress-test.md](save-act-senate-stall-stress-test.md) |
 
 ---
 
