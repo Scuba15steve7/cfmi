@@ -110,11 +110,11 @@ When intake is a **viral, influencer, or conspiracy-framed** claim—or Stage 2 
 
 **Mandate:** Treat the claim as a **lead/hypothesis**, not evidence. Extract falsifiable sub-claims → Deep public-records dig (§3.3a / METHODOLOGY §7.5–§7.6) → grade each **Supported / Partially supported / Not established / Contradicted**. Steelman mainstream denial **and** the claim.
 
-**Adversarial pass required:** Leadership / institutional **self-description** is never a sufficient close. Run (or require) an adversarial pass that starts from critical leads and hunts suspicious public data—schedule gaps, priority inversion, Action vs Rhetoric timelines—before accepting “vote count” or role-title explanations. Suspicion flags ≠ quid pro quo. See [claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md); example: [`ai-reviews/claim-triage-thune-save-act-deep.md`](../ai-reviews/claim-triage-thune-save-act-deep.md).
+**Adversarial pass required:** Leadership / institutional **self-description** is never a sufficient close. Run (or require) an adversarial pass that starts from critical leads and hunts suspicious public data—schedule gaps, priority inversion, Action vs Rhetoric timelines—before accepting “vote count” or role-title explanations. Suspicion flags are **publishable by design** and ≠ quid pro quo. See [claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md); example: [`ai-reviews/claim-triage-thune-save-act-deep.md`](../ai-reviews/claim-triage-thune-save-act-deep.md).
 
-**Hard bans:** laundering rumor into CFMI voice; reflexive “conspiracy theory = false”; motive fiction without a public-record chain.
+**Hard bans:** laundering rumor into CFMI voice as proven corruption; reflexive “conspiracy theory = false”; motive fiction without a public-record chain; burying Suspicion flags under a single “not established” close.
 
-**Output must include:** what would need to be true; what records would prove it; what was checked; open FOIA/journalist handoffs when records do not exist publicly. Civic Action Packs may carry an optional **Origin claim** field with triage grades.
+**Output must include:** dual **Flag + Proof-status**; what would need to be true; what records would prove it; what was checked; open FOIA/journalist handoffs when records do not exist publicly. Civic Action Packs require a **Suspicion flags** section; optional **Origin claim** field with triage grades.
 
 **Scale pattern mining:** When triage implies money, revolving door, or organized burial—or on any SAVE-class dig—also run (or require) [ai-scale-pattern-mining.md](ai-scale-pattern-mining.md) / playbook **I6** after falsifiable sub-claims. Adversarial process flags and cross-dataset edges stay separate from quid pro quo.
 
@@ -126,9 +126,9 @@ AI’s dig advantage is **volume + pattern detection** across public datasets. W
 
 **Pattern classes:** donor↔vote timing; advocacy org↔member overlaps; family/employer conflicts; schedule priority inversion; bill-text clones from lobby drafts (when public); revolving door on relevant committees.
 
-**Hard rule:** Never upgrade “suspicious pattern” to “corruption” without a quid-pro-quo chain. Mark paywalls, incomplete LDA, and dark-money opacity as **gap** + FOIA handoff. Be explicit about false positives.
+**Hard rule:** Never upgrade a **Suspicion flag** to **Corruption / quid pro quo** without a chain. Flags remain publishable; use dual Flag + Proof-status. Mark paywalls, incomplete LDA, and dark-money opacity as **gap** + FOIA handoff. Be explicit about false positives.
 
-**Output:** Pattern table (required) + optional graph; layers (A)/(B)/(C)/(D) separated per METHODOLOGY §7.5–§7.7.
+**Output:** Pattern table (required) + optional graph; public labels (Suspicion flag · Supported conflict disclosed · Corruption/quid pro quo) and layers (A)/(B)/(C)/(D) per METHODOLOGY §7.5–§7.7.
 
 ### 3.3a Deep public-records layer (mandatory after stated reasons)
 

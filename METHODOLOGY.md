@@ -283,13 +283,16 @@ If a claim cannot rest on rungs 1–4 (or a clearly labeled rung-5 company state
 
 Never blend motive mind-reading into the facts layer.
 
-**Always keep three claims separate in influence products:**
+**Always keep claims separate in influence products.** Absolute proof of corruption is **not** required to publish a flag. Core transparency product = **suspicion flags** from public data, labeled honestly.
 
-| Label | Meaning |
-|-------|---------|
-| **(A) Disclosed financial / organizational interest** | LDA clients & amounts, FEC/OpenSecrets donor industries or PACs, 990 funders, revolving-door employment—sourced and linked |
-| **(B) Stated policy reason** | On-the-record public justification (floor remarks, releases, hearings) |
-| **(C) Corruption = quid pro quo** | **Not established** unless a public-record chain connects payment/privilege to a specific official act |
+| Public label | Internal | Meaning | Publishable? |
+|--------------|----------|---------|--------------|
+| **Suspicion flag** | **(D)** | Pattern, opacity, incentive, or timing that looks off (schedule theater, priority inversion, opaque spending, clustered donor↔vote timing, unexplained gaps) | **Yes — by design; main transparency output** |
+| **Supported conflict of interest (disclosed)** | **(A)** | LDA clients & amounts, FEC/OpenSecrets donor industries or PACs, 990 funders, revolving-door employment—sourced and linked | **Yes — when filings support** |
+| **Stated policy reason** | **(B)** | On-the-record public justification (floor remarks, releases, hearings) | Yes (context) |
+| **Corruption / quid pro quo** | **(C)** | Payment/privilege tied to a specific official act | **Only when a public-record chain supports; rare.** Default: **not established** |
+
+**Dual output (mandatory):** Every material finding publishes **Flag** (what looks off / disclosed tie) **and** **Proof-status** (e.g. Supported conflict · Suspicion only · Quid pro quo not established · Quid pro quo supported). Do **not** let a single “not established” line bury publishable suspicion flags—that phrasing applies to the **corruption** bar, not to whether citizens may see the pattern.
 
 ### 7.6 Deep public-records layer (mandatory after stated reasons)
 
@@ -310,13 +313,13 @@ If a check yields nothing usable, write **“not established from public filings
 
 **Required output table** (influence digs / stall analyses that claim interest-group or corruption angles):
 
-| Actor | Stated reason | Disclosed $ / org ties | Conflict hypothesis | Evidence grade |
-|-------|---------------|------------------------|---------------------|----------------|
-| … | (B) | (A) | One-sentence hypothesis, labeled as hypothesis | **strong** / **moderate** / **weak** / **not established** |
+| Actor | Stated reason | Disclosed $ / org ties | **Flag** | **Proof-status** |
+|-------|---------------|------------------------|----------|------------------|
+| … | (B) | (A) | Suspicion flag and/or Supported conflict (disclosed)—one sentence | strong / moderate / weak *as suspicion or disclosed tie*; quid pro quo: **not established** \| **supported** |
 
-Evidence-grade meanings: **strong** = multi-source public chain to the contested act; **moderate** = clear disclosed interest + temporal/issue overlap without causation proof; **weak** = aggregate industry or org funding with no act-specific link; **not established** = no public chain (default for quid-pro-quo claims).
+Evidence-grade meanings: **strong** = multi-source public chain to the contested act *or* a high-confidence suspicion pattern with clear public signals; **moderate** = clear disclosed interest + temporal/issue overlap without causation proof; **weak** = aggregate industry or org funding with no act-specific link; **not established** (for quid pro quo) = no public chain—**still publish the Flag column**.
 
-Pipeline placement and dig prompts: [`ops/ai-investigation-architecture.md`](ops/ai-investigation-architecture.md) (Deep public-records layer). Publish gate: [`ops/civic-action-pack.md`](ops/civic-action-pack.md) — deep records layer completed before publishing influence claims. Viral/influencer/conspiracy-framed intake uses the same records layer after falsifiable sub-claims are extracted: [`ops/claim-triage-from-viral-sources.md`](ops/claim-triage-from-viral-sources.md). Cross-actor volume pass: §7.7.
+Pipeline placement and dig prompts: [`ops/ai-investigation-architecture.md`](ops/ai-investigation-architecture.md) (Deep public-records layer). Publish gate: [`ops/civic-action-pack.md`](ops/civic-action-pack.md) — deep records layer completed before publishing influence claims; packs require a **Suspicion flags** section even when corruption is not established. Viral/influencer/conspiracy-framed intake uses the same records layer after falsifiable sub-claims are extracted: [`ops/claim-triage-from-viral-sources.md`](ops/claim-triage-from-viral-sources.md). Cross-actor volume pass: §7.7.
 
 ### 7.7 Scale pattern mining (cross-dataset conflict graphs)
 
@@ -330,7 +333,8 @@ AI’s research advantage is **volume + pattern detection** across public datase
 
 **Hard rules:**
 
-- Never upgrade “suspicious pattern” to “corruption” / quid pro quo without a public-record chain (§7.5 (C) default: **not established**).  
+- Never upgrade a **Suspicion flag** to **Corruption / quid pro quo** without a public-record chain (§7.5 (C) default: **not established**).  
+- Suspicion flags remain **publishable by design**; use dual **Flag + Proof-status**—do not bury flags under “not established.”  
 - Paywalled data, incomplete LDA, and opaque political spending → mark **gap** and FOIA / journalist handoff—do not invent.  
 - State false-positive / alternative explanations (industry aggregates, caucus discipline, seasonal donation cycles).
 
@@ -355,4 +359,4 @@ Until funded:
 
 ---
 
-*Methodology version: 0.6.4 (bootstrap) — scoring + conflict publish + open fix language + influence/transparency research + §7.6 deep public-records layer + §7.7 scale pattern mining (conflict graphs) + viral claim triage pointer + bipartisan sample-act comment + issue-brief steelman / counterevidence loop + §4.7 hidden barrier analysis + §2.5 bounded multi-agent investigation pointer.*
+*Methodology version: 0.6.5 (bootstrap) — §7.5 public labels (Suspicion flag / Supported conflict disclosed / Corruption quid pro quo); dual Flag + Proof-status; suspicion flags publishable by design; scoring + conflict publish + open fix language + influence/transparency research + §7.6 deep public-records layer + §7.7 scale pattern mining + viral claim triage pointer + bipartisan sample-act comment + issue-brief steelman / counterevidence loop + §4.7 hidden barrier analysis + §2.5 bounded multi-agent investigation pointer.*

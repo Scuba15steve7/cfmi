@@ -18,9 +18,9 @@ CFMI is an **AI tool** that digs into legislation or public topics to help peopl
 
 1. **Understand** the operative issue (mechanisms, not slogans);
 2. **Find** constitutional / free-market / people-over-bureaucracy solutions; and
-3. **Expose** corruption surfaces or manipulation of the system—from **public records**, not private detective work.
+3. **Expose** what looks off—**suspicion flags** and disclosed conflicts from **public records**, labeled by proof level—not private detective work or unverified bribery claims.
 
-Free markets are a primary instrument against artificial barriers and cronyism. Charter principles bind every dig. AI is a disclosed aid under published rules—never an authority.
+Free markets are a primary instrument against artificial barriers and cronyism. Charter principles bind every dig. AI is a disclosed aid under published rules—never an authority. Absolute proof of corruption is **not** required to publish a suspicion flag (METHODOLOGY §7.5).
 
 ---
 
@@ -33,13 +33,29 @@ When a dig is accepted for publication (human editor required), the pack include
 | **Diagnosis** | Plain-language statement of the operative barrier, power shift (bureaucracy/privilege vs. accountable people), and who pays / who is blocked |
 | **Charter score** | Rubric scores and Hard Flags against [CHARTER.md](../CHARTER.md) / [METHODOLOGY.md](../METHODOLOGY.md) |
 | **Both sides** | Steelmanned arguments for reform and for the status quo, with linked evidence—not vibe or caucus scripts ([anti-narrative-capture.md](anti-narrative-capture.md)) |
-| **Influence leads** | Disclosed lobbying / money trails from **public filings** (LDA, OpenSecrets-style aggregators, FEC where relevant)—paired with Hard Flags; no doxxing, no unverified motive claims. When the pack claims influence or corruption surfaces, include a **conflict graph / pattern table** from [ai-scale-pattern-mining.md](ai-scale-pattern-mining.md) (suspicion ≠ quid pro quo) |
+| **Influence leads** | Disclosed lobbying / money trails from **public filings** (LDA, OpenSecrets-style aggregators, FEC where relevant)—paired with Hard Flags; no doxxing, no unverified motive claims. When the pack claims influence or corruption surfaces, include a **conflict graph / pattern table** from [ai-scale-pattern-mining.md](ai-scale-pattern-mining.md) |
+| **Suspicion flags** *(mandatory)* | Dual **Flag + Proof-status** table so citizens can scrutinize patterns even when corruption / quid pro quo is **not established**. Labels: **Suspicion flag** · **Supported conflict of interest (disclosed)** · **Corruption / quid pro quo** (rare). See §2.1 and METHODOLOGY §7.5 |
 | **Fix language** | Open alignment / amendment / least-coercive rollback language that does not create new rents, barriers, or opaque discretion |
 | **Legislator letter** | Sample constituent letter (educational template)—facts, Charter conflicts, asked fix; user adapts and sends |
 | **Social blurb** | Short shareable summary with links to the pack and sources—not a whip or GOTV script |
-| **Origin claim** *(optional)* | When the dig started from a viral/influencer/conspiracy-framed lead: short quote + link labeled as **lead, not CFMI finding**, plus per-sub-claim triage grades (Supported / Partially supported / Not established / Contradicted)—see [claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md) |
+| **Origin claim** *(optional)* | When the dig started from a viral/influencer/conspiracy-framed lead: short quote + link labeled as **lead, not CFMI finding**, plus per-sub-claim triage grades—see [claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md) |
 
 Optional companions when the dig warrants them: issue brief, influence memo, sample act outline for bipartisan comment.
+
+### 2.1 Suspicion flags section (template — mandatory)
+
+Every published Civic Action Pack (and influence dig companion) must include a **Suspicion flags** section—even when no corruption chain exists. Do not omit the section or replace it with a bare “not established.”
+
+```markdown
+## Suspicion flags
+
+| Flag (what looks off) | Public label | Proof-status | Sources |
+|-----------------------|--------------|--------------|---------|
+| … | Suspicion flag | strong / moderate / weak *as suspicion*; quid pro quo: not established | URL / filing |
+| … | Supported conflict of interest (disclosed) | Filings support disclosed tie; quid pro quo: not established \| supported | URL / filing |
+
+**Note:** Suspicion flags are publishable by design. “Not established” applies to corruption / quid pro quo unless a public-record chain supports it—it does not erase the Flag column.
+```
 
 ---
 
@@ -64,9 +80,11 @@ Before any Civic Action Pack (or companion) publishes influence, special-interes
 
 - [ ] Stated reasons documented for each key blocker / advocacy side  
 - [ ] **Deep records layer completed before publishing influence claims** (METHODOLOGY §7.6)  
-- [ ] **Scale pattern mine completed** when influence/corruption-surface claims appear (METHODOLOGY §7.7 · [ai-scale-pattern-mining.md](ai-scale-pattern-mining.md)) — conflict graph / pattern table with evidence grades  
-- [ ] Output table present: Actor | Stated reason | Disclosed $ / org ties | Conflict hypothesis | Evidence grade  
-- [ ] Layers separated: (A) disclosed interest · (B) stated reason · (C) quid pro quo **not established** unless chain exists; (D) suspicion patterns not upgraded to (C)  
+- [ ] **Scale pattern mine completed** when influence/corruption-surface claims appear (METHODOLOGY §7.7 · [ai-scale-pattern-mining.md](ai-scale-pattern-mining.md)) — conflict graph / pattern table with Flag + Proof-status  
+- [ ] Output table present: Actor | Stated reason | Disclosed $ / org ties | **Flag** | **Proof-status**  
+- [ ] **Suspicion flags** section present (§2.1)—even when quid pro quo is not established  
+- [ ] Layers separated with public labels: Suspicion flag · Supported conflict (disclosed) · Corruption/quid pro quo (rare; default not established); flags not upgraded to corruption without a chain  
+- [ ] Dual output used—flags not buried under a single “not established” close  
 - [ ] Aggregate/noisy donor data labeled as such—no vote-buying inference from industry totals alone; false-positive note present  
 - [ ] Human editor sign-off
 
@@ -78,7 +96,7 @@ Before any Civic Action Pack (or companion) publishes influence, special-interes
 - Asks for subsidies, entry barriers, opaque discretion, or named private privileges are **declined and logged**.  
 - Interest disclosure is mandatory on public suggestions (Methodology).  
 - Influence leads never become private investigation, harassment, or conspiracy fiction.  
-- Viral/conspiracy intake is a **lead** only—publish graded public-record facts, not unverified theories ([claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md)).  
+- Viral/conspiracy intake is a **lead** only—publish Suspicion flags + Proof-status and graded public-record facts; do not launder unverified theories as proven corruption ([claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md)).  
 - Open bipartisan comment never means adding rents to buy support.
 
 Full rules: Charter § Funding and Anti-Capture; Methodology stakeholder rules.

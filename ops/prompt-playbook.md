@@ -165,11 +165,13 @@ schedule priority inversion | bill-text clones | revolving door — all that app
 Obey ops/ai-scale-pattern-mining.md and METHODOLOGY §7.5–§7.7.
 Use the copy-paste prompt in ai-scale-pattern-mining.md §10.
 
-Hard bans: never upgrade "suspicious pattern" to corruption / quid pro quo without a
-public-record chain; no doxxing; news = leads only; mark paywalls / incomplete LDA /
+Hard bans: never upgrade a Suspicion flag to corruption / quid pro quo without a
+public-record chain; do not bury Flags under a single "not established"—use dual
+Flag + Proof-status; no doxxing; news = leads only; mark paywalls / incomplete LDA /
 opaque vehicles as gap + FOIA handoff; state false-positive risks.
 Require: multi-agent map-reduce (or sole-agent shard simulation); structured edges
-Actor A — Relation — Actor B — Source — Grade; conflict graph / pattern table;
+Actor A — Relation — Actor B — Source — Grade; conflict graph / pattern table with
+public labels (Suspicion flag · Supported conflict disclosed · Corruption/quid pro quo);
 layers (A)/(B)/(C)/(D) separated.
 Required on SAVE-class digs and Civic Action Packs with influence claims.
 Stub of checked vs next queries: ai-reviews/claim-triage-thune-save-act-deep.md Appendix A.
@@ -192,4 +194,4 @@ Prompt: `Prepare everything in-repo for [step]; give me the shortest manual chec
 
 ---
 
-*Playbook version: 0.3.4 — mission locked to score/conflicts/fix/sample; formation default 501(c)(3); Phase 2 I1–I6 (adds consensus claim stress-test + viral claim triage + scale pattern mine).*
+*Playbook version: 0.3.5 — suspicion flags publishable by design (Flag + Proof-status); mission locked to score/conflicts/fix/sample; formation default 501(c)(3); Phase 2 I1–I6.*

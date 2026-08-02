@@ -14,11 +14,25 @@ Educational research only—not legal advice, voting instructions, or counsel to
 
 AI’s advantage for CFMI digs is **volume + pattern detection** across public datasets faster than a human can manually cross-link. Scale pattern mining formalizes that advantage: shard queries across specialists, return structured edges, and surface **conflict graphs / pattern tables** that humans can audit.
 
+**Core product:** Flag **suspicious public data** that looks like an issue or like hiding—so citizens can see what politicians and institutions are doing that looks off. Absolute proof of corruption is **not** required to publish a flag.
+
 **What this is:** Cross-linking public filings and legislative records at scale to find suspicious overlaps politicians and institutions have little incentive to surface.
 
-**What this is not:** Private detective work, doxxing, motive fiction, or upgrading a suspicious pattern to “corruption” without a quid-pro-quo chain (METHODOLOGY §7.4–§7.5).
+**What this is not:** Private detective work, doxxing, motive fiction, or upgrading a suspicion flag to “corruption / quid pro quo” without a public-record chain (METHODOLOGY §7.4–§7.5).
 
-**Founder direction:** Dig through all available *public* information for conflicts and corruption-surface links. Mark gaps honestly. Hand off FOIA/journalism when public data stops.
+**Founder direction:** Dig through all available *public* information for conflicts and opacity. **Suspicion flags are publishable by design.** Label proof level honestly. Hand off FOIA/journalism when public data stops.
+
+### 1.1 Public labels (mandatory)
+
+Every published pattern product must use these labels—never bury a flag under a single “not established” close:
+
+| Label | Meaning | Publishable? |
+|-------|---------|--------------|
+| **Suspicion flag** | Pattern, opacity, incentive, or timing that looks off (schedule theater, priority inversion, opaque spending, clustered timing, unexplained gaps) | **Yes — main transparency output** |
+| **Supported conflict of interest (disclosed)** | Money / org / employment ties on the public record (LDA, FEC, 990, revolving door)—sourced and linked | **Yes — when filings support** |
+| **Corruption / quid pro quo** | Payment or privilege tied to a specific official act | **Only when a public-record chain supports; rare** |
+
+**Dual output (required):** For each material finding, publish **Flag** (what looks off) **and** **Proof-status** (Supported conflict / Suspicion only / Quid pro quo not established / Quid pro quo supported). “Not established” applies to the **corruption** bar—it must not erase or bury the suspicion flag.
 
 ---
 
@@ -54,7 +68,7 @@ Orchestrator assigns one or more classes per dig. Specialists search for **edges
 | **Bill-text clones from lobby drafts** | Operative language matches publicly released industry/model drafts | Side-by-side text when both drafts are public |
 | **Revolving door on relevant committees** | Staff/members ↔ regulated industry on the committee of jurisdiction | Revolving Door + committee assignment + LDA clients |
 
-**Suspicion flags ≠ corruption.** Pattern tables may label edges **suspicious / moderate / weak**. Corruption = quid pro quo remains **not established** unless a public-record chain connects payment or privilege to a specific official act (§7.5 (C)).
+**Suspicion flags ≠ corruption.** Pattern tables label edges as **Suspicion flag** and grade strength (**strong / moderate / weak** as *suspicion*). Separately grade **Supported conflict of interest (disclosed)** when filings show money/org ties. **Corruption / quid pro quo** remains **not established** unless a public-record chain connects payment or privilege to a specific official act (§7.5). Flags stay publishable even when (C) is not established.
 
 ---
 
@@ -114,22 +128,24 @@ Merge edges → pattern table (and optional graph sketch). Group by pattern clas
 
 **Minimum deliverable** — a pattern table:
 
-| Pattern class | Actor A | Relation | Actor B | Timing / window | Source | Evidence grade | Notes |
-|---------------|---------|----------|---------|-----------------|--------|----------------|-------|
-| … | … | … | … | … | … | strong / moderate / weak / not established / gap | Suspicion only unless (C) chain |
+| Pattern class | Actor A | Relation | Actor B | Timing / window | Source | **Flag** (public label) | **Proof-status** | Notes |
+|---------------|---------|----------|---------|-----------------|--------|--------------------------|------------------|-------|
+| … | … | … | … | … | … | Suspicion flag / Supported conflict (disclosed) | strong–weak *as suspicion*; quid pro quo: not established \| supported | Dual output required |
 
 **Optional:** adjacency-list or mermaid graph of the same edges for dense digs.
 
-**Hard rule:** Never upgrade “suspicious pattern” to “corruption” or “quid pro quo” without a public-record chain (payment/privilege → specific official act). Default for (C): **not established**.
+**Hard rule:** Never upgrade a **Suspicion flag** to **Corruption / quid pro quo** without a public-record chain (payment/privilege → specific official act). Default for quid pro quo: **not established**. Do **not** use that default to suppress publishing the flag.
 
-Separate layers in every product (METHODOLOGY §7.5):
+Separate layers in every product (METHODOLOGY §7.5)—map to public labels in §1.1:
 
-| Label | Meaning |
-|-------|---------|
-| **(A)** | Disclosed financial / organizational interest |
-| **(B)** | Stated policy reason |
-| **(C)** | Corruption = quid pro quo — **not established** by default |
-| **(D)** | Suspicion / process pattern — flagged, not equated to (C) |
+| Internal | Public label | Meaning |
+|----------|--------------|---------|
+| **(A)** | **Supported conflict of interest (disclosed)** | Money / org ties on record |
+| **(B)** | Stated policy reason | On-the-record justification |
+| **(C)** | **Corruption / quid pro quo** | Rare; chain required |
+| **(D)** | **Suspicion flag** | Pattern / opacity / incentive / timing — **publishable by design** |
+
+**Dual columns on the pattern table (or companion):** Flag · Proof-status.
 
 ---
 
@@ -199,7 +215,9 @@ Shards (orchestrator assigns): [FEC top-N | LDA/OS | Congress.gov votes/cosponso
 990s | STOCK/PFD | revolving door | state registries]
 
 Hard bans:
-- Never upgrade "suspicious pattern" to corruption / quid pro quo without a public-record chain.
+- Never upgrade a Suspicion flag to corruption / quid pro quo without a public-record chain.
+- Do not bury publishable Suspicion flags under a single "not established" close—use dual
+  output: Flag + Proof-status.
 - No doxxing, private motives, or invented citations.
 - News corpora = leads only; resolve edges to filings/official records.
 - Training-data prevalence ≠ truth. Mark false-positive risks explicitly.
@@ -208,11 +226,13 @@ Pipeline:
 1. Run assigned shards; return ONLY structured edges:
    Actor A — Relation — Actor B — Source — Grade
 2. Orchestrator (or you if sole agent) merges into a conflict graph / pattern table
-   with evidence grades (strong / moderate / weak / not established / gap).
-3. Separate (A) disclosed interest · (B) stated reason · (C) quid pro quo (default
-   not established) · (D) suspicion flags.
-4. List FOIA/journalist handoffs for gaps (paywall, incomplete LDA, opaque vehicles).
-5. Short false-positive / alternative-explanations note.
+   with Flag + Proof-status columns (strong / moderate / weak as suspicion; gap).
+3. Label every material finding with public labels (§1.1):
+   Suspicion flag · Supported conflict of interest (disclosed) · Corruption / quid pro quo
+   (rare; default not established).
+4. Separate (A)/(B)/(C)/(D); (D) flags remain publishable when (C) is not established.
+5. List FOIA/journalist handoffs for gaps (paywall, incomplete LDA, opaque vehicles).
+6. Short false-positive / alternative-explanations note.
 
 Return the pattern table (+ optional mermaid graph). Do not publish—hand off for human edit.
 Stub example of checked vs next queries: ai-reviews/claim-triage-thune-save-act-deep.md Appendix A.
@@ -222,4 +242,4 @@ Stub example of checked vs next queries: ai-reviews/claim-triage-thune-save-act-
 
 ## 11. Version
 
-*AI scale pattern mining version: 0.1.0 — cross-dataset map-reduce; structured edges; conflict graph / pattern table; suspicion ≠ corruption; required on SAVE-class and influence Civic Action Packs.*
+*AI scale pattern mining version: 0.1.1 — suspicion flags publishable by design; dual Flag + Proof-status; public labels (Suspicion flag / Supported conflict disclosed / Corruption quid pro quo); required on SAVE-class and influence Civic Action Packs.*

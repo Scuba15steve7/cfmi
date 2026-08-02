@@ -34,7 +34,7 @@ Agents **must not**:
 3. **Authority laundering** — Quoting CISA, NASS, Heritage, Brennan Center, or viral threads as closing the question. Quote them as **sources with incentives**; test their claims.  
 4. **Definition smuggling** — Accepting “secure” without asking: secure *against which adversary*, under *which state’s rules*, measured by *which audit*, with *what residual risk*.
 
-When evidence is thin, write **“not established from public sources in this pass.”** Do not fill gaps with either reassurance or panic.
+When evidence for a **proven claim** is thin, write **“not established from public sources in this pass.”** Do not fill gaps with either reassurance or panic. Do **not** use that phrase to bury **Suspicion flags** (pattern / opacity / incentive / timing) that public data supports for scrutiny—publish dual **Flag + Proof-status** (METHODOLOGY §7.5). “Not established” is the corruption / outcome-conspiracy bar, not a reason to hide what looks off.
 
 ---
 
@@ -116,9 +116,9 @@ Full rules: **[claim-triage-from-viral-sources.md](claim-triage-from-viral-sourc
 | Lane | Job |
 |------|-----|
 | **Consensus claim tester** (this doc) | Steelman FOR/AGAINST high-consensus “secure/unsafe” framing |
-| **Viral claim triage** | Extract falsifiable sub-claims → §7.6 dig → Supported / Partially supported / Not established / Contradicted |
+| **Viral claim triage** | Extract falsifiable sub-claims → §7.6 dig → Supported / Partially supported / Not established / Contradicted; dual **Flag + Proof-status**; Suspicion flags publishable by design |
 
-Both ban vibe-based reassurance and vibe-based alarm. Triage additionally bans laundering rumor into CFMI voice **and** reflexive “conspiracy theory = false.”
+Both ban vibe-based reassurance and vibe-based alarm. Triage additionally bans laundering rumor into CFMI voice as proven corruption **and** reflexive “conspiracy theory = false.” Neither lane may bury publishable suspicion flags under a single “not established” close.
 
 ---
 
@@ -156,4 +156,4 @@ Do not write the final publish package.
 
 ## 7. Version
 
-*Anti-narrative-capture version: 0.1.1 — consensus-as-hypothesis; mechanism-before-secure; parallel claim tester; pointer to viral claim triage.*
+*Anti-narrative-capture version: 0.1.2 — consensus-as-hypothesis; mechanism-before-secure; dual Flag + Proof-status (do not bury suspicion flags); pointer to viral claim triage.*

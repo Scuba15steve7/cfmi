@@ -21,9 +21,19 @@ One of the best ways to find **real** issues is to treat conspiracy theories, in
 
 **Rule:** High-virality is a signal to *investigate*, not a reason to *amplify* or to *dismiss*.
 
-**Adversarial pass required:** Do **not** treat leadership or institutional **self-description** (“we lack the votes,” job-title explanations, press-release process stories) as a sufficient close. Start from critical/conspiracy leads; hunt suspicious public data (schedule gaps, priority inversion, rhetoric vs action timeline); grade suspicion flags separately from proven corruption / quid pro quo. Example product: [`ai-reviews/claim-triage-thune-save-act-deep.md`](../ai-reviews/claim-triage-thune-save-act-deep.md).
+**Adversarial pass required:** Do **not** treat leadership or institutional **self-description** (“we lack the votes,” job-title explanations, press-release process stories) as a sufficient close. Start from critical/conspiracy leads; hunt suspicious public data (schedule gaps, priority inversion, rhetoric vs action timeline). Example product: [`ai-reviews/claim-triage-thune-save-act-deep.md`](../ai-reviews/claim-triage-thune-save-act-deep.md).
 
-**Scale pattern mining (when money / burial / revolving-door sub-claims appear):** After falsifiable sub-claims, run [ai-scale-pattern-mining.md](ai-scale-pattern-mining.md) / playbook **I6**—cross-link FEC, LDA, OpenSecrets, 990s, votes/cosponsors, and related public sets into a conflict graph / pattern table. Suspicion edges ≠ quid pro quo. Required on SAVE-class digs.
+**Publishable by design:** Absolute proof of corruption is **not** required to publish. Core output = **suspicion flags** so citizens can scrutinize what looks off. Use public labels (METHODOLOGY §7.5 / [ai-scale-pattern-mining.md](ai-scale-pattern-mining.md) §1.1):
+
+| Public label | Role |
+|--------------|------|
+| **Suspicion flag** | Pattern / opacity / incentive / timing — main transparency product |
+| **Supported conflict of interest (disclosed)** | Money/org ties on the public record |
+| **Corruption / quid pro quo** | Only when a public-record chain supports; rare |
+
+**Dual output:** Every graded finding → **Flag + Proof-status**. Do not bury flags under a single “not established” close—“not established” is the corruption bar, not a reason to hide the pattern.
+
+**Scale pattern mining (when money / burial / revolving-door sub-claims appear):** After falsifiable sub-claims, run [ai-scale-pattern-mining.md](ai-scale-pattern-mining.md) / playbook **I6**—cross-link FEC, LDA, OpenSecrets, 990s, votes/cosponsors, and related public sets into a conflict graph / pattern table. Suspicion flags ≠ quid pro quo. Required on SAVE-class digs.
 
 ---
 
@@ -36,7 +46,7 @@ Agents **must not**:
 3. **Authority laundering (either side)** — Closing the question by citing institutional press releases *or* influencer consensus.  
 4. **Motive fiction** — Inferring private bribes, secret cabals, or intent without a public-record chain (METHODOLOGY §7.4–§7.5).
 
-When evidence is thin: **“not established from public sources in this pass.”** Do not fill gaps with belief or scorn.
+When evidence for a **sub-claim** is thin: **“not established from public sources in this pass.”** Do not fill gaps with belief or scorn. When a **suspicion pattern** exists but quid pro quo does not: still publish the **Suspicion flag** with Proof-status = quid pro quo not established (dual output).
 
 ---
 
@@ -62,7 +72,7 @@ Depth caps and stop conditions match [ai-investigation-architecture.md](ai-inves
 |-------|---------|
 | **Supported** | Multi-source public chain (filings, primary text, published datasets) establishes the proposition as stated |
 | **Partially supported** | Public records support a narrower or related fact; the full viral framing does not follow |
-| **Not established** | No adequate public chain in this pass—default for corruption = quid pro quo |
+| **Not established** | No adequate public chain in this pass—default for corruption = quid pro quo; does **not** erase a separate Suspicion flag with its own Proof-status |
 | **Contradicted** | Public records affirmatively refute the proposition as stated |
 
 Grades are **per sub-claim**, not a single vibe score for the whole thread.
@@ -92,20 +102,28 @@ If either steelman is missing, the pass is incomplete. Do not pick a team.
 7. What records would prove it (named filing types / agencies / datasets)
 8. What was checked (table: check → result → grade)
 9. Per-sub-claim grades: Supported | Partially supported | Not established | Contradicted
-10. Separation: (A) disclosed interest · (B) stated reason · (C) quid pro quo — default not established
-11. Open FOIA / journalist handoffs (or “none—public chain exhausted”)
-12. CFMI publish stance: may cite graded facts only; must not amplify unverified framing
-13. Recommendation: CLOSE | NARROW publish of [supported facts] | ESCALATE dig on [target] | HAND OFF FOIA/journalism
+10. Dual output table: Flag | Proof-status
+    — Flag = Suspicion flag and/or Supported conflict (disclosed)
+    — Proof-status = strong/moderate/weak as suspicion or disclosed tie;
+      quid pro quo: not established | supported
+11. Separation: (A) Supported conflict (disclosed) · (B) stated reason ·
+    (C) Corruption/quid pro quo (default not established) · (D) Suspicion flag (publishable)
+12. Open FOIA / journalist handoffs (or “none—public chain exhausted”)
+13. CFMI publish stance: may publish Flags + Proof-status; must not amplify unverified
+    viral framing as established corruption; must not bury Flags under “not established”
+14. Recommendation: CLOSE | NARROW publish of [Flags + supported facts] |
+    ESCALATE dig on [target] | HAND OFF FOIA/journalism
 ```
 
-### 5.1 Civic Action Pack field (optional)
+### 5.1 Civic Action Pack fields
 
-When a dig started from a viral lead, the pack may include:
+When a dig started from a viral lead, the pack includes:
 
 | Field | Content |
 |-------|---------|
-| **Origin claim** | Short quote + link (labeled as lead, not CFMI finding) |
+| **Origin claim** *(optional)* | Short quote + link (labeled as lead, not CFMI finding) |
 | **Triage grades** | Per-sub-claim grades from this lane |
+| **Suspicion flags** *(mandatory)* | Dual Flag + Proof-status even when corruption / quid pro quo is not established |
 
 See [civic-action-pack.md](civic-action-pack.md) §2.
 
@@ -116,7 +134,7 @@ See [civic-action-pack.md](civic-action-pack.md) §2.
 1. If intake is a viral/influencer/conspiracy-framed claim **or** Stage 2 surfaces one that would short-circuit analysis, spawn this lane (or run playbook **I5**).  
 2. May run **alongside** Consensus claim tester ([anti-narrative-capture.md](anti-narrative-capture.md)) when the claim is also high-consensus—tester stresses “secure/unsafe” framing; this lane grades **falsifiable sub-claims** against records.  
 3. When sub-claims imply money, revolving door, or organized burial—or the dig is SAVE-class—also spawn **Scale pattern mining** ([ai-scale-pattern-mining.md](ai-scale-pattern-mining.md) / playbook **I6**).  
-4. Synthesis may publish only **Supported** / carefully labeled **Partially supported** facts. **Not established** and **Contradicted** viral framing stays out of CFMI voice.  
+4. Synthesis may publish **Suspicion flags** and **Supported conflict (disclosed)** with dual Proof-status; also **Supported** / carefully labeled **Partially supported** facts. Unverified viral *framing as proven corruption* and **Contradicted** claims stay out of CFMI voice. “Not established” for quid pro quo must not suppress Flag publication.  
 5. Human editor gate still required.
 
 See [ai-investigation-architecture.md](ai-investigation-architecture.md) §3.2b–§3.2c.
@@ -138,7 +156,7 @@ See [ai-investigation-architecture.md](ai-investigation-architecture.md) §3.2b�
 
 **What would need to be true (for #2):** A public trail linking a specific payment or privilege to a specific official act on the bill.  
 **What records would prove it:** Indictment/plea, verified communication + contemporaneous official act, or equivalent public adjudication—not industry aggregate totals.  
-**CFMI stance:** May publish the Actor | Stated reason | Disclosed $ table with evidence grades; must **not** amplify the viral “paid to steal elections” framing. Hand off FOIA/journalism where filings stop.
+**CFMI stance:** May publish **Suspicion flags** and disclosed ties with dual Flag + Proof-status (quid pro quo usually **not established**); must **not** amplify the viral “paid to steal elections” framing as proven corruption. Hand off FOIA/journalism where filings stop.
 
 This example shows **triage method**. It does not endorse election-fraud theories or claim any senator committed bribery.
 
@@ -161,9 +179,10 @@ Scope: [jurisdiction / bill / process facet]
 Depth: [0 | 1 | 2]
 
 Hard bans:
-- Do not launder rumor into CFMI voice.
+- Do not launder rumor into CFMI voice as proven corruption.
 - Do not dismiss as false merely because it is labeled a conspiracy theory.
 - No private motives or quid pro quo without a public-record chain.
+- Do not bury Suspicion flags under a single "not established" close—use Flag + Proof-status.
 - Training-data prevalence ≠ truth.
 
 Pipeline:
@@ -173,11 +192,13 @@ Pipeline:
 3a. If SAVE-class or money/burial/revolving-door sub-claims: Scale pattern mine (§7.7 / I6)—
    structured edges → conflict graph / pattern table; suspicion ≠ quid pro quo.
 4. Grade each: Supported | Partially supported | Not established | Contradicted.
-5. State what would need to be true; what records would prove it; what was checked;
+5. Dual output: Flag (Suspicion flag / Supported conflict disclosed) + Proof-status
+   (incl. quid pro quo not established | supported).
+6. State what would need to be true; what records would prove it; what was checked;
    FOIA/journalist handoffs when public records do not exist.
 
 Return ONLY the structured block in ops/claim-triage-from-viral-sources.md §5.
-Mark gaps "not established from public sources in this pass."
+Mark corruption-bar gaps "not established from public sources in this pass" without erasing Flags.
 Do not write the final publish package.
 ```
 
@@ -185,4 +206,4 @@ Do not write the final publish package.
 
 ## 9. Version
 
-*Claim-triage-from-viral-sources version: 0.1.2 — viral claims as leads; adversarial pass required (no leadership self-description close); scale pattern mining when money/burial claims (I6 / §7.7); falsifiable sub-claims; dual steelman; §7.6 grades; no rumor laundering / no reflexive dismissal.*
+*Claim-triage-from-viral-sources version: 0.1.3 — suspicion flags publishable by design; dual Flag + Proof-status; public labels; adversarial pass; scale pattern mining (I6 / §7.7); dual steelman; no rumor laundering / no reflexive dismissal.*

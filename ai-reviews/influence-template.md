@@ -35,19 +35,33 @@ Use precise verbs: **reported lobbying**, **disclosed spending**, **listed as cl
 
 ### 2a. Deep public-records layer (mandatory — METHODOLOGY §7.6)
 
-After stated reasons, attempt: OpenSecrets/LDA amounts; FEC top donors/PACs (link FEC or OpenSecrets); disclosed IE / opaque vehicles (name them); STOCK Act/PFDs if findable; 990 funders (ProPublica); revolving door. Separate **(A)** disclosed interest · **(B)** stated reason · **(C)** quid pro quo not established without a chain.
+After stated reasons, attempt: OpenSecrets/LDA amounts; FEC top donors/PACs (link FEC or OpenSecrets); disclosed IE / opaque vehicles (name them); STOCK Act/PFDs if findable; 990 funders (ProPublica); revolving door. Dual output: **Flag + Proof-status**. Public labels: **Suspicion flag** · **Supported conflict of interest (disclosed)** · **Corruption / quid pro quo** (rare).
 
-| Actor | Stated reason | Disclosed $ / org ties | Conflict hypothesis | Evidence grade |
-|-------|---------------|------------------------|---------------------|----------------|
-| … | | | | strong / moderate / weak / not established |
+| Actor | Stated reason | Disclosed $ / org ties | **Flag** | **Proof-status** |
+|-------|---------------|------------------------|----------|------------------|
+| … | (B) | (A) | Suspicion flag and/or Supported conflict (disclosed) | strong / moderate / weak *as suspicion or disclosed tie*; quid pro quo: not established \| supported |
+
+---
+
+## 2b. Suspicion flags (mandatory — even when corruption not established)
+
+Do **not** omit this section or replace it with a bare “not established.” Suspicion flags are publishable by design (METHODOLOGY §7.5 · [ops/civic-action-pack.md](../ops/civic-action-pack.md) §2.1).
+
+| Flag (what looks off) | Public label | Proof-status | Sources |
+|-----------------------|--------------|--------------|---------|
+| … | Suspicion flag | strong / moderate / weak *as suspicion*; quid pro quo: not established | URL / filing |
+| … | Supported conflict of interest (disclosed) | Filings support disclosed tie; quid pro quo: not established \| supported | URL / filing |
+
+**Note:** “Not established” applies to corruption / quid pro quo unless a public-record chain supports it—it does not erase the Flag column.
 
 ---
 
 ## 3. What we do not allege
 
 - Causation from dollars to a specific statutory line without a public-record chain.  
-- Private motives or conspiracy claims.  
-- Personal non-public data.
+- Private motives or conspiracy claims as established fact.  
+- Personal non-public data.  
+- Burying publishable suspicion flags under a single “not established” close.
 
 ---
 
