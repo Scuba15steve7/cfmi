@@ -5,6 +5,7 @@
 **Architecture:** [ai-investigation-architecture.md](ai-investigation-architecture.md)  
 **Narrative discipline:** [anti-narrative-capture.md](anti-narrative-capture.md)  
 **Viral / conspiracy leads:** [claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md)  
+**Scale pattern mining:** [ai-scale-pattern-mining.md](ai-scale-pattern-mining.md)  
 **Sources:** [external-sources-and-grokipedia.md](external-sources-and-grokipedia.md)
 
 Educational research only—not legal advice, voting instructions, or counsel to any person. **CFMI does not claim IRS tax-exempt status.**
@@ -32,7 +33,7 @@ When a dig is accepted for publication (human editor required), the pack include
 | **Diagnosis** | Plain-language statement of the operative barrier, power shift (bureaucracy/privilege vs. accountable people), and who pays / who is blocked |
 | **Charter score** | Rubric scores and Hard Flags against [CHARTER.md](../CHARTER.md) / [METHODOLOGY.md](../METHODOLOGY.md) |
 | **Both sides** | Steelmanned arguments for reform and for the status quo, with linked evidence—not vibe or caucus scripts ([anti-narrative-capture.md](anti-narrative-capture.md)) |
-| **Influence leads** | Disclosed lobbying / money trails from **public filings** (LDA, OpenSecrets-style aggregators, FEC where relevant)—paired with Hard Flags; no doxxing, no unverified motive claims |
+| **Influence leads** | Disclosed lobbying / money trails from **public filings** (LDA, OpenSecrets-style aggregators, FEC where relevant)—paired with Hard Flags; no doxxing, no unverified motive claims. When the pack claims influence or corruption surfaces, include a **conflict graph / pattern table** from [ai-scale-pattern-mining.md](ai-scale-pattern-mining.md) (suspicion ≠ quid pro quo) |
 | **Fix language** | Open alignment / amendment / least-coercive rollback language that does not create new rents, barriers, or opaque discretion |
 | **Legislator letter** | Sample constituent letter (educational template)—facts, Charter conflicts, asked fix; user adapts and sends |
 | **Social blurb** | Short shareable summary with links to the pack and sources—not a whip or GOTV script |
@@ -52,6 +53,7 @@ Bounded hierarchical investigation ([ai-investigation-architecture.md](ai-invest
 4. **Anti-narrative filter** — high-consensus and viral claims are hypotheses to test ([anti-narrative-capture.md](anti-narrative-capture.md)).  
 5. **Viral claim triage** (when intake is conspiracy-framed or influencer-driven) — falsifiable sub-claims → records dig → grades; dual steelman; no rumor laundering and no reflexive dismissal ([claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md)).  
 6. **Deep public-records layer** — after stated reasons, attempt LDA/OpenSecrets, FEC, disclosed IE/opaque vehicles, 990 funders, revolving door, STOCK Act/PFDs where findable ([METHODOLOGY.md](../METHODOLOGY.md) §7.6 · architecture §3.3a).  
+6a. **Scale pattern mining** — required when the pack will publish influence / special-interest / corruption-surface claims: map-reduce cross-dataset edges into a conflict graph / pattern table ([ai-scale-pattern-mining.md](ai-scale-pattern-mining.md) · METHODOLOGY §7.7 · playbook **I6**).  
 7. **Human editor** accepts, revises, or rejects before anything is a public CFMI product.
 
 Public intake: GitHub Issues — suggest a review, request an action pack dig, or submit counterevidence (see [docs/tool.html](../docs/tool.html)).
@@ -62,9 +64,10 @@ Before any Civic Action Pack (or companion) publishes influence, special-interes
 
 - [ ] Stated reasons documented for each key blocker / advocacy side  
 - [ ] **Deep records layer completed before publishing influence claims** (METHODOLOGY §7.6)  
+- [ ] **Scale pattern mine completed** when influence/corruption-surface claims appear (METHODOLOGY §7.7 · [ai-scale-pattern-mining.md](ai-scale-pattern-mining.md)) — conflict graph / pattern table with evidence grades  
 - [ ] Output table present: Actor | Stated reason | Disclosed $ / org ties | Conflict hypothesis | Evidence grade  
-- [ ] Layers separated: (A) disclosed interest · (B) stated reason · (C) quid pro quo **not established** unless chain exists  
-- [ ] Aggregate/noisy donor data labeled as such—no vote-buying inference from industry totals alone  
+- [ ] Layers separated: (A) disclosed interest · (B) stated reason · (C) quid pro quo **not established** unless chain exists; (D) suspicion patterns not upgraded to (C)  
+- [ ] Aggregate/noisy donor data labeled as such—no vote-buying inference from industry totals alone; false-positive note present  
 - [ ] Human editor sign-off
 
 ---
@@ -105,6 +108,7 @@ Until counsel advises otherwise, treat Civic Action Packs as **educational resea
 | [ai-investigation-architecture.md](ai-investigation-architecture.md) | How digs are orchestrated |
 | [anti-narrative-capture.md](anti-narrative-capture.md) | Resist vibe capture from either side |
 | [claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md) | Viral/conspiracy claims as leads; records grades; optional Origin claim field |
+| [ai-scale-pattern-mining.md](ai-scale-pattern-mining.md) | Cross-dataset map-reduce; conflict graph / pattern table; required on influence packs |
 | [external-sources-and-grokipedia.md](external-sources-and-grokipedia.md) | Source hierarchy; Grokipedia as non-API secondary |
 | [suggestion-ranking.md](suggestion-ranking.md) | How public suggestions are screened |
 | [docs/tool.html](../docs/tool.html) | Public Tool page |

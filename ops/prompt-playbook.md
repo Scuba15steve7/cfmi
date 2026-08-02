@@ -74,7 +74,7 @@ Do not push or commit unless I ask.
 
 ## Phase 2 — Scoring & sample acts (after presence)
 
-Only after Phase 1 feels solid. Investigation design: [`ops/ai-investigation-architecture.md`](ai-investigation-architecture.md) (bounded hierarchy—orchestrator + six specialist lanes + depth-limited digs), [`ops/anti-narrative-capture.md`](anti-narrative-capture.md) (consensus claim tester), and [`ops/claim-triage-from-viral-sources.md`](claim-triage-from-viral-sources.md) (viral/conspiracy claim triage).
+Only after Phase 1 feels solid. Investigation design: [`ops/ai-investigation-architecture.md`](ai-investigation-architecture.md) (bounded hierarchy—orchestrator + six specialist lanes + depth-limited digs), [`ops/anti-narrative-capture.md`](anti-narrative-capture.md) (consensus claim tester), [`ops/claim-triage-from-viral-sources.md`](claim-triage-from-viral-sources.md) (viral/conspiracy claim triage), and [`ops/ai-scale-pattern-mining.md`](ai-scale-pattern-mining.md) (scale pattern mining / conflict graphs).
 
 ### L1 — Start scoring cadence
 ```
@@ -153,6 +153,29 @@ Return the structured triage block only. Optional Civic Action Pack field: Origi
 Do not publish—hand off for human edit. Method sample (not an endorsement): claim-triage §7.
 ```
 
+### I6 — Scale pattern mine
+```
+Run CFMI scale pattern mining on:
+
+Target: [BILL ID / ISSUE / NAMED ACTORS]
+Date window: [e.g. 2024–2026]
+Pattern classes: [donor↔vote timing | advocacy overlaps | family/employer |
+schedule priority inversion | bill-text clones | revolving door — all that apply]
+
+Obey ops/ai-scale-pattern-mining.md and METHODOLOGY §7.5–§7.7.
+Use the copy-paste prompt in ai-scale-pattern-mining.md §10.
+
+Hard bans: never upgrade "suspicious pattern" to corruption / quid pro quo without a
+public-record chain; no doxxing; news = leads only; mark paywalls / incomplete LDA /
+opaque vehicles as gap + FOIA handoff; state false-positive risks.
+Require: multi-agent map-reduce (or sole-agent shard simulation); structured edges
+Actor A — Relation — Actor B — Source — Grade; conflict graph / pattern table;
+layers (A)/(B)/(C)/(D) separated.
+Required on SAVE-class digs and Civic Action Packs with influence claims.
+Stub of checked vs next queries: ai-reviews/claim-triage-thune-save-act-deep.md Appendix A.
+Do not publish—hand off for human edit.
+```
+
 Full older drafting prompts (B1–B4, C1–C3, etc.) remain valid in git history / ask the agent to restore them when Phase 2 starts. Prefer the Phase 1 prompts above until then.
 
 ---
@@ -169,4 +192,4 @@ Prompt: `Prepare everything in-repo for [step]; give me the shortest manual chec
 
 ---
 
-*Playbook version: 0.3.3 — mission locked to score/conflicts/fix/sample; formation default 501(c)(3); Phase 2 I1–I5 (adds consensus claim stress-test + viral claim triage).*
+*Playbook version: 0.3.4 — mission locked to score/conflicts/fix/sample; formation default 501(c)(3); Phase 2 I1–I6 (adds consensus claim stress-test + viral claim triage + scale pattern mine).*

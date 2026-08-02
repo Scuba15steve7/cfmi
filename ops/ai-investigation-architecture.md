@@ -116,6 +116,20 @@ When intake is a **viral, influencer, or conspiracy-framed** claim—or Stage 2 
 
 **Output must include:** what would need to be true; what records would prove it; what was checked; open FOIA/journalist handoffs when records do not exist publicly. Civic Action Packs may carry an optional **Origin claim** field with triage grades.
 
+**Scale pattern mining:** When triage implies money, revolving door, or organized burial—or on any SAVE-class dig—also run (or require) [ai-scale-pattern-mining.md](ai-scale-pattern-mining.md) / playbook **I6** after falsifiable sub-claims. Adversarial process flags and cross-dataset edges stay separate from quid pro quo.
+
+### 3.2c Parallel capability: Scale pattern mining (when required)
+
+AI’s dig advantage is **volume + pattern detection** across public datasets. When influence, special-interest, or corruption-surface claims are in scope—especially SAVE-class digs and Civic Action Packs with influence claims—run **Scale pattern mining** as a map-reduce pass alongside (or immediately after) Lane 3 / Deep public-records. Full rules: [ai-scale-pattern-mining.md](ai-scale-pattern-mining.md).
+
+**Mandate:** Shard queries across LDA, FEC, OpenSecrets, 990s, Congress.gov votes/cosponsors, STOCK/PFDs where available, revolving door, state registries; news corpora as **leads only**. Specialists return structured edges (`Actor A — Relation — Actor B — Source — Grade`). Orchestrator merges into a **conflict graph / pattern table**.
+
+**Pattern classes:** donor↔vote timing; advocacy org↔member overlaps; family/employer conflicts; schedule priority inversion; bill-text clones from lobby drafts (when public); revolving door on relevant committees.
+
+**Hard rule:** Never upgrade “suspicious pattern” to “corruption” without a quid-pro-quo chain. Mark paywalls, incomplete LDA, and dark-money opacity as **gap** + FOIA handoff. Be explicit about false positives.
+
+**Output:** Pattern table (required) + optional graph; layers (A)/(B)/(C)/(D) separated per METHODOLOGY §7.5–§7.7.
+
 ### 3.3a Deep public-records layer (mandatory after stated reasons)
 
 **When:** Any dig that will publish **influence**, **special interest**, or **corruption-surface** claims—including stall analyses that name blockers—must run this layer **after** documenting stated reasons. Public quotes alone are not enough.
@@ -145,6 +159,8 @@ When intake is a **viral, influencer, or conspiracy-framed** claim—or Stage 2 
 Mark exhausted checks “not established from public filings in this pass.” Aggregate industry totals are **noisy** and do not prove vote-buying.
 
 Full rules: [METHODOLOGY.md](../METHODOLOGY.md) §7.5–§7.6. Publish gate: [civic-action-pack.md](civic-action-pack.md).
+
+**Cross-actor scale pass:** Per-actor §3.3a rows do not replace [scale pattern mining](ai-scale-pattern-mining.md) (§3.2c / METHODOLOGY §7.7) when the dig claims influence across multiple actors or vote blocs.
 
 ### 3.3 Drill-down protocol (depth-limited)
 
@@ -255,9 +271,10 @@ Map packages into existing templates: issue brief, bill review, influence compan
 | Suggestion queue | [ops/suggestion-ranking.md](suggestion-ranking.md) · [`ai-reviews/suggestions/QUEUE.md`](../ai-reviews/suggestions/QUEUE.md) |
 | Counterevidence intake | [.github/ISSUE_TEMPLATE/counterevidence.yml](../.github/ISSUE_TEMPLATE/counterevidence.yml) · [docs/tool.html](../docs/tool.html) |
 | Unintended consequences | [docs/unintended-consequences-template.md](../docs/unintended-consequences-template.md) |
-| Cursor prompts | [ops/prompt-playbook.md](prompt-playbook.md) Phase 2 (I1–I5) |
+| Cursor prompts | [ops/prompt-playbook.md](prompt-playbook.md) Phase 2 (I1–I6) |
 | Narrative capture defenses | [ops/anti-narrative-capture.md](anti-narrative-capture.md) |
 | Viral / conspiracy claim triage | [ops/claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md) |
+| Scale pattern mining (conflict graph) | [ops/ai-scale-pattern-mining.md](ai-scale-pattern-mining.md) |
 | Worked example (elections / SAVE Act) | [ai-reviews/issues/election-administration-integrity.md](../ai-reviews/issues/election-administration-integrity.md) |
 
 ---
@@ -295,6 +312,10 @@ Architecture (mandatory):
    OpenSecrets/LDA; FEC top donors/PACs; disclosed IE/opaque vehicles (name them);
    STOCK Act/PFDs if findable; 990 funders; revolving door. Output Actor | Stated reason |
    Disclosed $ / org ties | Conflict hypothesis | Evidence grade. Separate (A)/(B)/(C).
+3b. On SAVE-class digs or any product with influence/corruption-surface claims, also run Scale pattern
+   mining (§3.2c / ops/ai-scale-pattern-mining.md / METHODOLOGY §7.7 / playbook I6): shard
+   cross-dataset queries; merge structured edges into a conflict graph / pattern table; never
+   upgrade suspicion to quid pro quo without a public-record chain; mark gaps + FOIA handoffs.
 4. Stop on evidence exhaustion, Charter disqualifier, diminishing returns, or human review gate.
 5. Synthesize one publish package: narrative vs mechanism, scores/Hard Flags (if bill), influence notes or deferred, rollback/fix language, safeguards, open questions.
 6. Do not publish. Hand off to a human editor. Mark unverified claims "not established from public sources in this pass."
@@ -338,8 +359,9 @@ Do not write the final publish package—that is the orchestrator’s job.
 2. Have it launch up to six Task sub-agents with **§7.2** filled per lane.  
 3. If a high-consensus claim appears, also launch Consensus claim tester ([anti-narrative-capture.md](anti-narrative-capture.md) §6 / playbook **I4**).  
 4. If intake is viral/influencer/conspiracy-framed, also launch Viral claim triage ([claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md) §8 / playbook **I5**).  
-5. For Hard-Flag digs, resume or launch a child Task with depth 1–2 and a one-clause charter.  
-6. Main agent synthesizes; founder/editor reviews before commit or site update.
+5. On SAVE-class or influence/corruption-surface digs, also launch Scale pattern mining ([ai-scale-pattern-mining.md](ai-scale-pattern-mining.md) / playbook **I6**).  
+6. For Hard-Flag digs, resume or launch a child Task with depth 1–2 and a one-clause charter.  
+7. Main agent synthesizes; founder/editor reviews before commit or site update.
 
 ---
 
@@ -355,12 +377,13 @@ Do not write the final publish package—that is the orchestrator’s job.
 | “AI said so” authority creep | Human editor gate before publish |
 | Consensus slogans close inquiry | Parallel Consensus claim tester ([anti-narrative-capture.md](anti-narrative-capture.md)) |
 | Viral claims become CFMI voice—or are waved away | Viral claim triage ([claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md)): leads → records → grades |
+| Single-actor filing skim misses cross-dataset patterns | Scale pattern mining ([ai-scale-pattern-mining.md](ai-scale-pattern-mining.md)): map-reduce edges → conflict graph |
 
 ---
 
 ## 9. Resisting narrative capture
 
-Full operating rules: **[anti-narrative-capture.md](anti-narrative-capture.md)**. Viral/conspiracy leads: **[claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md)**.
+Full operating rules: **[anti-narrative-capture.md](anti-narrative-capture.md)**. Viral/conspiracy leads: **[claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md)**. Cross-dataset conflicts: **[ai-scale-pattern-mining.md](ai-scale-pattern-mining.md)**.
 
 **Short form for every investigation:**
 
@@ -368,9 +391,10 @@ Full operating rules: **[anti-narrative-capture.md](anti-narrative-capture.md)**
 2. Require **operative mechanisms + threat models** before accepting “secure” / “unsafe.”  
 3. Spawn the parallel **Consensus claim tester** when institutional or viral consensus would short-circuit analysis.  
 4. Spawn **Viral claim triage** when intake is conspiracy-framed or influencer-driven—grade sub-claims against records; do not launder rumor or dismiss by label.  
-5. **Ban** vibe-based reassurance and vibe-based alarm.  
-6. Escalate digs on disclosed messaging funding, audit scope, statute vs practice—not on motive fiction.  
-7. **Training-data prevalence ≠ truth.**
+5. On SAVE-class / influence digs, run **Scale pattern mining**—volume cross-links with graded edges; suspicion ≠ corruption.  
+6. **Ban** vibe-based reassurance and vibe-based alarm.  
+7. Escalate digs on disclosed messaging funding, audit scope, statute vs practice—not on motive fiction.  
+8. **Training-data prevalence ≠ truth.**
 
 Worked example: election administration / list accuracy / mail custody / citizenship verification (SAVE Act)—see [election-administration-integrity.md](../ai-reviews/issues/election-administration-integrity.md). Triage method sample (not an endorsement of fraud theories): [claim-triage-from-viral-sources.md](claim-triage-from-viral-sources.md) §7. Domain note: constitutional process and anti-corruption transparency; free-market filters are secondary here.
 
@@ -378,4 +402,4 @@ Worked example: election administration / list accuracy / mail custody / citizen
 
 ## 10. Version
 
-*Architecture version: 0.2.4 — bounded hierarchy + anti-narrative-capture + viral claim triage (§3.2b, adversarial pass required) + Deep public-records layer (§3.3a) + optional external-source pointer (Grokipedia lead-only).*
+*Architecture version: 0.2.5 — bounded hierarchy + anti-narrative-capture + viral claim triage (§3.2b, adversarial pass required) + scale pattern mining (§3.2c / I6) + Deep public-records layer (§3.3a) + optional external-source pointer (Grokipedia lead-only).*

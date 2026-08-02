@@ -2,8 +2,8 @@
 
 **Status:** Operating lane for CFMI AI research  
 **Parent:** [ai-investigation-architecture.md](ai-investigation-architecture.md)  
-**Companion:** [anti-narrative-capture.md](anti-narrative-capture.md)  
-**Implements:** [CHARTER.md](../CHARTER.md), [METHODOLOGY.md](../METHODOLOGY.md) §4.7, §7.5–§7.6  
+**Companions:** [anti-narrative-capture.md](anti-narrative-capture.md) · [ai-scale-pattern-mining.md](ai-scale-pattern-mining.md)  
+**Implements:** [CHARTER.md](../CHARTER.md), [METHODOLOGY.md](../METHODOLOGY.md) §4.7, §7.5–§7.7  
 **Publish gate:** [civic-action-pack.md](civic-action-pack.md)
 
 Educational research only—not legal advice, voting instructions, or counsel to any person.
@@ -22,6 +22,8 @@ One of the best ways to find **real** issues is to treat conspiracy theories, in
 **Rule:** High-virality is a signal to *investigate*, not a reason to *amplify* or to *dismiss*.
 
 **Adversarial pass required:** Do **not** treat leadership or institutional **self-description** (“we lack the votes,” job-title explanations, press-release process stories) as a sufficient close. Start from critical/conspiracy leads; hunt suspicious public data (schedule gaps, priority inversion, rhetoric vs action timeline); grade suspicion flags separately from proven corruption / quid pro quo. Example product: [`ai-reviews/claim-triage-thune-save-act-deep.md`](../ai-reviews/claim-triage-thune-save-act-deep.md).
+
+**Scale pattern mining (when money / burial / revolving-door sub-claims appear):** After falsifiable sub-claims, run [ai-scale-pattern-mining.md](ai-scale-pattern-mining.md) / playbook **I6**—cross-link FEC, LDA, OpenSecrets, 990s, votes/cosponsors, and related public sets into a conflict graph / pattern table. Suspicion edges ≠ quid pro quo. Required on SAVE-class digs.
 
 ---
 
@@ -48,6 +50,7 @@ Run in order. Skip a step only with an explicit note.
 | 2 | **Extract falsifiable sub-claims** | Split slogans into checkable propositions (who / what / when / where / how much) |
 | 3 | **Steelman both sides** | Strongest honest case for mainstream denial **and** for the claim (mechanisms, not vibes) |
 | 4 | **Deep public-records dig** | METHODOLOGY §7.5–§7.6 / architecture §3.3a on each sub-claim that implies influence, corruption, or official misconduct |
+| 4a | **Scale pattern mine** *(when required)* | Cross-actor map-reduce per [ai-scale-pattern-mining.md](ai-scale-pattern-mining.md) / §7.7 — conflict graph / pattern table; SAVE-class or influence/burial claims |
 | 5 | **Grade each sub-claim** | Supported / Partially supported / Not established / Contradicted |
 | 6 | **Handoffs** | FOIA targets, journalist tips, or “stop—no public chain” when records do not exist publicly |
 
@@ -112,10 +115,11 @@ See [civic-action-pack.md](civic-action-pack.md) §2.
 
 1. If intake is a viral/influencer/conspiracy-framed claim **or** Stage 2 surfaces one that would short-circuit analysis, spawn this lane (or run playbook **I5**).  
 2. May run **alongside** Consensus claim tester ([anti-narrative-capture.md](anti-narrative-capture.md)) when the claim is also high-consensus—tester stresses “secure/unsafe” framing; this lane grades **falsifiable sub-claims** against records.  
-3. Synthesis may publish only **Supported** / carefully labeled **Partially supported** facts. **Not established** and **Contradicted** viral framing stays out of CFMI voice.  
-4. Human editor gate still required.
+3. When sub-claims imply money, revolving door, or organized burial—or the dig is SAVE-class—also spawn **Scale pattern mining** ([ai-scale-pattern-mining.md](ai-scale-pattern-mining.md) / playbook **I6**).  
+4. Synthesis may publish only **Supported** / carefully labeled **Partially supported** facts. **Not established** and **Contradicted** viral framing stays out of CFMI voice.  
+5. Human editor gate still required.
 
-See [ai-investigation-architecture.md](ai-investigation-architecture.md) §3.2b.
+See [ai-investigation-architecture.md](ai-investigation-architecture.md) §3.2b–§3.2c.
 
 ---
 
@@ -145,8 +149,9 @@ This example shows **triage method**. It does not endorse election-fraud theorie
 ```
 You are CFMI specialist: Viral / conspiracy claim triage (parallel lane).
 
-Obey CHARTER.md, METHODOLOGY.md §4.7 and §7.5–§7.6, ops/claim-triage-from-viral-sources.md,
-and ops/anti-narrative-capture.md. Educational research only—not legal advice or voting instructions.
+Obey CHARTER.md, METHODOLOGY.md §4.7 and §7.5–§7.7, ops/claim-triage-from-viral-sources.md,
+ops/anti-narrative-capture.md, and ops/ai-scale-pattern-mining.md when money/burial claims appear.
+Educational research only—not legal advice or voting instructions.
 
 Origin claim (quote exactly):
 "[CLAIM]"
@@ -165,6 +170,8 @@ Pipeline:
 1. Extract falsifiable sub-claims.
 2. Steelman mainstream denial AND steelman the claim.
 3. Deep public-records dig (§7.6) on each sub-claim that implies influence or misconduct.
+3a. If SAVE-class or money/burial/revolving-door sub-claims: Scale pattern mine (§7.7 / I6)—
+   structured edges → conflict graph / pattern table; suspicion ≠ quid pro quo.
 4. Grade each: Supported | Partially supported | Not established | Contradicted.
 5. State what would need to be true; what records would prove it; what was checked;
    FOIA/journalist handoffs when public records do not exist.
@@ -178,4 +185,4 @@ Do not write the final publish package.
 
 ## 9. Version
 
-*Claim-triage-from-viral-sources version: 0.1.1 — viral claims as leads; adversarial pass required (no leadership self-description close); falsifiable sub-claims; dual steelman; §7.6 grades; no rumor laundering / no reflexive dismissal.*
+*Claim-triage-from-viral-sources version: 0.1.2 — viral claims as leads; adversarial pass required (no leadership self-description close); scale pattern mining when money/burial claims (I6 / §7.7); falsifiable sub-claims; dual steelman; §7.6 grades; no rumor laundering / no reflexive dismissal.*
