@@ -29,6 +29,8 @@ These demonstrate CFMI’s AI research mission. Public products are educational.
 | Exclusive franchises & closed AI rules | [exclusive-franchise-ai-markets.md](exclusive-franchise-ai-markets.md) | Legal monopolies / tech barriers |
 | Election administration integrity | [election-administration-integrity.md](election-administration-integrity.md) | Constitutional process / transparency (SAVE Act, lists, mail custody) |
 
+**I4 companion:** [consensus-mail-ballots-voter-rolls-secure.md](../consensus-mail-ballots-voter-rolls-secure.md) — stress-test of “Mail-in balloting and voter rolls are secure” (**NARROW**).
+
 **Live site:** [docs/examples.html](../../docs/examples.html) · **Suggest / counterevidence:** [docs/feedback.html](../../docs/feedback.html) · **Bill reviews:** [../README.md](../README.md)
 
 **Related:** [METHODOLOGY.md §4.6–§4.7](../../METHODOLOGY.md) (steelman + hidden barrier analysis) · [ops/anti-narrative-capture.md](../../ops/anti-narrative-capture.md) · [CHARTER.md](../../CHARTER.md) · [counterevidence template](../../.github/ISSUE_TEMPLATE/counterevidence.yml)

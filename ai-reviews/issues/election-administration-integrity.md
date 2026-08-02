@@ -159,6 +159,25 @@ Under [ops/ai-investigation-architecture.md](../../ops/ai-investigation-architec
 4. **Offer open fix language** that improves auditability and verification while protecting eligible registrants (cure, alternative evidence, published criteria).  
 5. **Circulate** for bipartisan comment; human editor required; mark thin claims “not established.”
 
+### I4 stress-test completed (mail ballots + rolls)
+
+**Published:** [consensus-mail-ballots-voter-rolls-secure.md](../consensus-mail-ballots-voter-rolls-secure.md) (2026-08-02) — claim *“Mail-in balloting and voter rolls are secure.”*  
+**Recommendation:** **NARROW** — layered controls are real; unqualified national “secure” is not established; no vibe reassurance and no stolen-election claims.
+
+---
+
+## Open questions (from I4 + ongoing)
+
+1. Best public methodologies for state-comparable inactive / duplicate / death rates after ERIC exits?  
+2. Empirical signature false-accept rates under production workloads (not only false-reject / cure stories)?  
+3. Materiality of drop-box and chain-of-custody incidents after bipartisan canvass—case studies with official records?  
+4. SAVE Act alternative-evidence path: workable in practice, or chilled by penalties on officials?  
+5. Which states already publish list-quality KPIs (notices, removals, interstate matches, appeals) in machine-readable form?  
+6. Named-state dig: what did 2022–2024 post-election audits **measure vs not** (ERIC member vs exit vs all-mail)?  
+7. Legal standards for private roll challenges (standing, notice, deadlines) by state sample?
+
+Invite answers via [docs/feedback.html](../../docs/feedback.html) or a [counterevidence issue](https://github.com/scuba15steve7/cfmi/issues/new?template=counterevidence.yml).
+
 ---
 
 ## What would make reform passable

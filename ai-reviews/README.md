@@ -35,8 +35,19 @@ Short briefs with issue description, how government blocks market solutions, CFM
 | Industrial subsidies & privileges | [issues/industrial-subsidies-privileges.md](issues/industrial-subsidies-privileges.md) |
 | Opaque discretionary permitting | [issues/opaque-discretionary-permitting.md](issues/opaque-discretionary-permitting.md) |
 | Exclusive franchises & closed AI rules | [issues/exclusive-franchise-ai-markets.md](issues/exclusive-franchise-ai-markets.md) |
+| Election administration integrity | [issues/election-administration-integrity.md](issues/election-administration-integrity.md) |
 
 Full index: [issues/README.md](issues/README.md)
+
+---
+
+## Consensus claim stress-tests (I4)
+
+High-consensus slogans tested as hypotheses under [`ops/anti-narrative-capture.md`](../ops/anti-narrative-capture.md)—strongest FOR and AGAINST, threat model required, no vibe reassurance or vibe alarm.
+
+| Claim | Result | Product |
+|-------|--------|---------|
+| “Mail-in balloting and voter rolls are secure.” | **NARROW** | [consensus-mail-ballots-voter-rolls-secure.md](consensus-mail-ballots-voter-rolls-secure.md) |
 
 ---
 
