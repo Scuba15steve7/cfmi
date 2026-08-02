@@ -1,11 +1,19 @@
 # Issue briefs — government as bottleneck
 
-Short research briefs illustrating where **artificial government barriers**—not open competition—block progress and free-market solutions. Each brief includes:
+Short research briefs illustrating where **artificial government barriers**—not open competition—block progress and free-market solutions. Briefs steelman **both sides**, link evidence, and invite counterevidence so reforms stay passable and Charter-aligned.
 
-1. Issue description  
+**Template:** [`_brief-template.md`](_brief-template.md) · **Exemplar:** [`occupational-licensing.md`](occupational-licensing.md)
+
+Each brief includes:
+
+1. Issue at a glance  
 2. How government blocks free-market solutions  
-3. CFMI proposed approach (score bills, publish conflicts, open fix language, sample text for bipartisan comment)  
-4. Success looks like  
+3. Voices & evidence — Supporting reform (linked)  
+4. Voices & evidence — Counterarguments / defense of status quo (steelman, linked)  
+5. CFMI response (Charter filters + least-coercive path)  
+6. Proposed approach (score / publish / fix language / bipartisan comment)  
+7. What would make reform passable  
+8. Improve this brief (feedback + counterevidence template)
 
 These demonstrate CFMI’s AI research mission. Public products are educational. They are not legal advice, voting instructions, or counsel to any person.
 
@@ -20,6 +28,6 @@ These demonstrate CFMI’s AI research mission. Public products are educational.
 | Opaque discretionary permitting | [opaque-discretionary-permitting.md](opaque-discretionary-permitting.md) | Waivers / process vetoes |
 | Exclusive franchises & closed AI rules | [exclusive-franchise-ai-markets.md](exclusive-franchise-ai-markets.md) | Legal monopolies / tech barriers |
 
-**Live site:** [docs/examples.html](../../docs/examples.html) · **Bill reviews:** [../README.md](../README.md)
+**Live site:** [docs/examples.html](../../docs/examples.html) · **Suggest / counterevidence:** [docs/feedback.html](../../docs/feedback.html) · **Bill reviews:** [../README.md](../README.md)
 
-**Related:** [sample bill review template](../sample-bill-review-template.md) · [METHODOLOGY.md](../../METHODOLOGY.md) · [CHARTER.md](../../CHARTER.md)
+**Related:** [METHODOLOGY.md §4.6](../../METHODOLOGY.md) · [CHARTER.md](../../CHARTER.md) · [counterevidence template](../../.github/ISSUE_TEMPLATE/counterevidence.yml)

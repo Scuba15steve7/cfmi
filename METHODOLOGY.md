@@ -137,6 +137,19 @@ Before “circulate v1” and before “comment-ready”:
 - Prefer narrower operative text, objective criteria, sunsets, and reporting over broad grants of power.  
 - Recheck after each major comment round; bump PATCH/MINOR accordingly.
 
+### 4.6 Issue briefs: steelman, evidence links, bipartisan comment
+
+Issue briefs (see [`ai-reviews/issues/_brief-template.md`](ai-reviews/issues/_brief-template.md)) are research products that show where government—not open competition—blocks progress. Before a brief is treated as **adoption-ready** (homepage exemplar, sample-act lead-in, or “circulate for bipartisan comment”):
+
+1. **Steelman counters required.** Publish a Counterarguments / defense of status quo section with linked sources. Strawmen fail the test.  
+2. **Both-sides evidence links.** Supporting reform and counterarguments must cite papers, agency reports, association statements, or clearly labeled affected-people sources. No fake or unverified links.  
+3. **CFMI response.** Weigh both sides against Charter filters and state the least-coercive path—not a party line.  
+4. **Passability without Charter breach.** Address legitimate counterarguments in design (narrow scope, evidence thresholds, sunsets, objective criteria). “More likely to pass” never justifies new rents, barriers, or opaque discretion.  
+5. **Bipartisan comment path.** Fix language and sample acts circulate for cross-aisle review under §4.4; interest disclosure applies (§5).  
+6. **Feedback loop.** Counterevidence and brief-improvement suggestions use the public [counterevidence](.github/ISSUE_TEMPLATE/counterevidence.yml) template and [ops/suggestion-ranking.md](ops/suggestion-ranking.md) §1b so AI-assisted research can update Voices & evidence tables.
+
+Exemplar: [`ai-reviews/issues/occupational-licensing.md`](ai-reviews/issues/occupational-licensing.md).
+
 ---
 
 ## 5. Stakeholder Feedback Rules
@@ -230,4 +243,4 @@ Until funded:
 
 ---
 
-*Methodology version: 0.4.0 (bootstrap) — scoring + conflict publish + open fix language + influence/transparency research + bipartisan sample-act comment.*
+*Methodology version: 0.5.0 (bootstrap) — scoring + conflict publish + open fix language + influence/transparency research + bipartisan sample-act comment + issue-brief steelman / counterevidence loop.*

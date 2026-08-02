@@ -1,45 +1,69 @@
 # Suggestion ranking process
 
-How CFMI turns public intake into a ranked research queue. Implements [CHARTER.md](../CHARTER.md) and [METHODOLOGY.md](../METHODOLOGY.md) §1 (problem ranking). Educational research only—not legal advice or voting instructions.
+How CFMI turns public intake into a ranked research queue—and routes counterevidence into issue briefs. Implements [CHARTER.md](../CHARTER.md) and [METHODOLOGY.md](../METHODOLOGY.md) §1 (problem ranking) and §4.6 (issue briefs / steelman). Educational research only—not legal advice or voting instructions.
 
-**Intake channel:** GitHub Issues with the [Suggest a review](../.github/ISSUE_TEMPLATE/suggest-review.yml) template. No paid intake services.
+**Intake channels:** GitHub Issues with:
+
+| Template | Labels | Purpose |
+|----------|--------|---------|
+| [Suggest a review](../.github/ISSUE_TEMPLATE/suggest-review.yml) | `suggestion` | New bill, regulation, or topic |
+| [Suggest a correction / counterargument](../.github/ISSUE_TEMPLATE/counterevidence.yml) | `counterevidence`, `suggestion` | Evidence or steelman to improve a brief/review |
+
+No paid intake services.
 
 **Public artifacts:**
 
 | Artifact | Role |
 |----------|------|
-| GitHub Issues (label `suggestion`) | Raw public suggestions |
-| [`ai-reviews/suggestions/QUEUE.md`](../ai-reviews/suggestions/QUEUE.md) | Status table: Pending / Ranked / Declined |
+| GitHub Issues (label `suggestion`) | Raw public suggestions (reviews + counterevidence) |
+| GitHub Issues (label `counterevidence`) | Brief-improvement / both-sides feedback |
+| [`ai-reviews/suggestions/QUEUE.md`](../ai-reviews/suggestions/QUEUE.md) | Status table: Pending / Ranked / Declined (review topics) |
+| Issue briefs under [`ai-reviews/issues/`](../ai-reviews/issues/) | Destination for accepted counterevidence |
 | [`ai-reviews/suggestions/`](../ai-reviews/suggestions/) | Optional dated ranking notes when a batch is scored |
 
 ---
 
 ## 1. Flow
 
-1. **Suggest** — Anyone opens an issue with the template. Interest disclosure is required.
+### 1a. New review topics (`suggest-review.yml`)
+
+1. **Suggest** — Anyone opens an issue with the review template. Interest disclosure is required.
 2. **Screen** — AI (disclosed model/provider when known) plus a human editor check completeness, Charter fit, and disqualifiers.
 3. **Rank** — Survivors are scored with Methodology §1 weights (below). Results are written to `QUEUE.md` (and optionally a note under `ai-reviews/suggestions/`).
 4. **Queue** — Ranked items may become issue briefs, bill reviews, or sample-act tracks when capacity allows. Declines publish a short reason.
 
-Party affiliation, donor status, and volume of comments do **not** change rank. Charter fit and published weights do.
+### 1b. Counterevidence / brief improvement (`counterevidence.yml`)
+
+First-class intake—not a side channel.
+
+1. **Submit** — Issue slug, evidence link, which side (reform / status-quo steelman / affected people / correction), what CFMI should change, interest disclosure.
+2. **Screen** — Completeness (real public URL, identifiable slug), disclosure, and Charter disqualifiers (rent asks still declined).
+3. **Classify** — Map to the brief’s Supporting reform, Counterarguments, or factual-correction path. Affected-people sources must be labeled clearly.
+4. **Integrate or decline** — Accepted items update the brief (and CFMI response / passability section when material). Declines get a short public reason on the issue. These do **not** require a Methodology §1 composite rank unless they also propose a new review topic.
+5. **Comment** — Link the updated brief (or decline reason) on the GitHub issue.
+
+Party affiliation, donor status, and volume of comments do **not** change rank or acceptance. Charter fit, evidence quality, and published weights do.
 
 ---
 
-## 2. Intake screen (before ranking)
+## 2. Intake screen (before ranking or brief update)
 
 Reject or hold as **Declined** (with reason) when:
 
 | Check | Fail condition |
 |-------|----------------|
-| **Completeness** | No identifiable bill/regulation/topic, or no usable public pointer |
+| **Completeness** | No identifiable bill/regulation/topic/slug, or no usable public pointer |
 | **Interest disclosure** | Missing or evasive disclosure (Methodology §5) |
 | **Rent ask** | Primary goal is a subsidy, barrier, privilege, or named private benefit |
 | **Commandeering** | Ask requires federal commandeering of states |
 | **Opacity** | Ask depends on open-ended agency discretion without objective criteria |
 | **Publication** | Requester demands private/non-public handling of substantive work |
 | **Off-mission** | No plausible link to free markets, constitutional limits, or anti-capture |
+| **Counterevidence URL** | Link is missing, broken, or not a public source (for `counterevidence` issues) |
 
 Incomplete but salvageable issues may stay **Pending** with a request for clarification on the issue thread.
+
+**Note:** A strong steelman *defense of current licensing or regulation* is on-mission when it improves the brief’s Counterarguments section. Declining that evidence as “pro-status-quo” is a process failure. Declining a request that CFMI *endorse a new barrier* is correct.
 
 ---
 
@@ -100,12 +124,15 @@ When ranking one or more suggestions:
 
 ---
 
-## 7. Operator prompt (copy-paste)
+## 7. Operator prompts (copy-paste)
+
+**Review topics:**
 
 ```
 Rank open CFMI suggestions labeled "suggestion" that are still Pending in
 ai-reviews/suggestions/QUEUE.md (and any new GitHub issues using
-.github/ISSUE_TEMPLATE/suggest-review.yml).
+.github/ISSUE_TEMPLATE/suggest-review.yml). Skip pure counterevidence issues
+(label counterevidence)—handle those with the brief-improvement prompt.
 
 Follow ops/suggestion-ranking.md:
 1) Screen for disclosure, completeness, and Methodology disqualifiers.
@@ -115,5 +142,25 @@ Follow ops/suggestion-ranking.md:
 5) Comment on each issue with the result link.
 
 Disclose model/provider if known. Human editor must accept before publishing Ranked/Declined.
+Do not commit or push unless I ask.
+```
+
+**Counterevidence / brief improvement:**
+
+```
+Process open GitHub issues labeled "counterevidence" (template
+.github/ISSUE_TEMPLATE/counterevidence.yml).
+
+Follow ops/suggestion-ranking.md §1b and METHODOLOGY.md §4.6:
+1) Screen disclosure, public URL, and identifiable issue slug.
+2) Classify: Supporting reform / Counterarguments / Affected people / Correction.
+3) For accepted items, update the matching ai-reviews/issues/*.md Voices &
+   evidence tables; revise CFMI response or passability section if material.
+4) Decline rent asks and fake/unverifiable links with a public reason.
+5) Comment on each issue with the brief link or decline reason.
+
+Steelman counters are required for adoption-ready briefs—do not dismiss
+pro-status-quo evidence that improves the Counterarguments section.
+Disclose model/provider if known. Human editor must accept before merging.
 Do not commit or push unless I ask.
 ```

@@ -1,0 +1,82 @@
+name: Suggest a correction / counterargument
+description: Submit counterevidence or a steelman so CFMI can improve an issue brief or review
+title: "[Counterevidence]: "
+labels: ["counterevidence", "suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help CFMI keep issue briefs and reviews accurate on **both sides**. Use this template for missing papers, steelman defenses of the status quo, affected-people sources, or factual corrections.
+
+        Suggestions are public. AI may draft updates; a human editor accepts before publication. Interest disclosure is mandatory.
+
+        Process: [ops/suggestion-ranking.md](https://github.com/scuba15steve7/cfmi/blob/main/ops/suggestion-ranking.md) · Principles: [CHARTER.md](https://github.com/scuba15steve7/cfmi/blob/main/CHARTER.md)
+
+  - type: input
+    id: issue-slug
+    attributes:
+      label: Issue or review slug
+      description: Filename stem under ai-reviews/issues/ or the bill review id (e.g. occupational-licensing).
+      placeholder: occupational-licensing
+    validations:
+      required: true
+
+  - type: input
+    id: evidence-link
+    attributes:
+      label: Link to evidence
+      description: Paper, article, agency report, court filing, news profile, or public social post. Must be a real public URL.
+      placeholder: https://
+    validations:
+      required: true
+
+  - type: dropdown
+    id: which-side
+    attributes:
+      label: Which side does this support?
+      description: How should CFMI classify this source when updating the brief?
+      options:
+        - Supporting reform (barriers are overbroad / least-coercive alternatives exist)
+        - Counterargument / defense of status quo (steelman for current rules)
+        - Affected people (lived experience; label clearly in the brief)
+        - Neutral / factual correction only
+        - Unclear — CFMI should classify
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-to-change
+    attributes:
+      label: What should CFMI change?
+      description: Which section of the brief or review should move, and how? Be concrete (add source, soften claim, strengthen steelman, revise least-coercive path).
+      placeholder: e.g. Add this study under Counterarguments; revise the claim that quality never improves…
+    validations:
+      required: true
+
+  - type: textarea
+    id: interest-disclosure
+    attributes:
+      label: Interest disclosure (required)
+      description: Employment, client relationships, subsidies, association membership, or other material interests related to this subject within the prior 24 months. Write “None” if you have none.
+      placeholder: e.g. Licensed [occupation] in [state]; employed by ____; none
+    validations:
+      required: true
+
+  - type: dropdown
+    id: source-type
+    attributes:
+      label: Source type (optional)
+      options:
+        - Peer-reviewed paper / working paper
+        - Government / agency report
+        - Professional association or board statement
+        - News profile / affected-people story
+        - Court filing or case page
+        - Public social post (expert or affected person)
+        - Other
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else (optional)
+      description: Quote the key finding, note paywalls, or point to related briefs. Not a request for private privilege.

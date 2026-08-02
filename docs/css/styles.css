@@ -516,6 +516,40 @@ a:hover {
   color: var(--ink);
 }
 
+/* Two voices — columns with a rule, not cards */
+.issue-voices {
+  display: grid;
+  gap: 1rem 1.75rem;
+  margin: 0.35rem 0 1rem;
+  max-width: 44rem;
+}
+
+.issue-voice p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+
+.issue-sources {
+  margin: 0 0 0.85rem;
+  max-width: 44rem;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+
+.issue-sources a {
+  font-weight: 500;
+}
+
+.issue-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  align-items: baseline;
+}
+
 .issue-item p:last-child {
   margin-bottom: 0;
 }
@@ -529,6 +563,11 @@ a:hover {
 
 .issue-link:hover {
   border-bottom-color: var(--accent);
+}
+
+.issue-link-secondary {
+  font-weight: 500;
+  color: var(--ink-soft);
 }
 
 .examples-note {
@@ -581,14 +620,43 @@ a:hover {
   margin-top: 0;
 }
 
+@media (min-width: 640px) {
+  .issue-voices {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.75rem;
+    padding-top: 0.15rem;
+  }
+
+  .issue-voice + .issue-voice {
+    border-left: 1px solid var(--line);
+    padding-left: 1.75rem;
+  }
+}
+
 @media (min-width: 820px) {
   .issue-list {
     grid-template-columns: 1fr 1fr;
     column-gap: 3rem;
   }
 
+  .issue-item-featured {
+    grid-column: 1 / -1;
+    max-width: none;
+  }
+
+  .issue-item-featured .issue-desc,
+  .issue-item-featured .issue-approach,
+  .issue-item-featured .issue-voices,
+  .issue-item-featured .issue-sources {
+    max-width: 48rem;
+  }
+
   .issue-item:nth-child(1),
   .issue-item:nth-child(2) {
+    padding-top: 1.25rem;
+  }
+
+  .issue-item-featured:nth-child(1) {
     padding-top: 1.25rem;
   }
 }
