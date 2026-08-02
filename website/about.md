@@ -13,6 +13,10 @@ CFMI is research-funded AI for legislative analysis: we score current bills agai
 
 Full binding principles: [CHARTER.md](../CHARTER.md)
 
+## How we investigate
+
+Deeper issue and bill work uses hierarchical AI investigation under public rubrics: an orchestrator frames the problem, specialist lanes cover text, root cause, disclosed influence, counters, safeguards, and fix language, and a human editor accepts or revises before anything is published. See [ops/ai-investigation-architecture.md](../ops/ai-investigation-architecture.md).
+
 ## Bootstrap story
 
 CFMI began as a one-founder, zero-budget project. The bet: research-funded AI that scores legislation, publishes conflicts with free markets and constitutional limits, and offers open bipartisan fix language and sample bills should show up first as a clear mission, a public charter, and an online presence—**before** a large budget.

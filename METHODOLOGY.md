@@ -70,6 +70,10 @@ See [`ai-reviews/sample-bill-review-template.md`](ai-reviews/sample-bill-review-
 
 A named human editor accepts, revises, or rejects AI draft reviews before publication. Disagreements with AI scores are noted in the review.
 
+### 2.5 Multi-agent investigation (operating design)
+
+For deeper issue and bill work, CFMI uses a **bounded hierarchical investigation**: one orchestrator agent, six fixed specialist lanes (text/mechanism, root cause, influence, steelman, safeguards, fix language), and depth-limited digs (max 2–3) when Hard Flags fire—not unconstrained agent trees. Pipeline, stop conditions, and copy-paste prompts live in [`ops/ai-investigation-architecture.md`](ops/ai-investigation-architecture.md). Human editor gate still applies (§2.4). Influence work remains bound by §7; hidden-barrier analysis by §4.7.
+
 ---
 
 ## 3. Open Fix and Alignment Language
@@ -282,4 +286,4 @@ Until funded:
 
 ---
 
-*Methodology version: 0.6.0 (bootstrap) — scoring + conflict publish + open fix language + influence/transparency research + bipartisan sample-act comment + issue-brief steelman / counterevidence loop + §4.7 hidden barrier analysis.*
+*Methodology version: 0.6.1 (bootstrap) — scoring + conflict publish + open fix language + influence/transparency research + bipartisan sample-act comment + issue-brief steelman / counterevidence loop + §4.7 hidden barrier analysis + §2.5 bounded multi-agent investigation pointer.*

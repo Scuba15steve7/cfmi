@@ -74,7 +74,7 @@ Do not push or commit unless I ask.
 
 ## Phase 2 — Scoring & sample acts (after presence)
 
-Only after Phase 1 feels solid:
+Only after Phase 1 feels solid. Investigation design: [`ops/ai-investigation-architecture.md`](ai-investigation-architecture.md) (bounded hierarchy—orchestrator + six specialist lanes + depth-limited digs).
 
 ### L1 — Start scoring cadence
 ```
@@ -87,6 +87,27 @@ primary in website/ and pitch/.
 ```
 Draft [licensing / housing / other] sample act to CFMI standards for open bipartisan review and comment.
 Keep website messaging mission-first; link the bill as work product, not the hero.
+```
+
+### I1 — Run bounded investigation (orchestrator)
+```
+Run a CFMI bounded hierarchical investigation on [BILL ID or ISSUE SLUG] per
+ops/ai-investigation-architecture.md. Use the §7.1 orchestrator prompt. Spawn the six fixed
+specialist lanes (Task/sub-agents); depth-limited digs only on Hard Flags (max depth 2 unless I approve 3).
+Synthesize a publish package; do not publish—hand off for human edit. Obey CHARTER.md and METHODOLOGY.md.
+```
+
+### I2 — Specialist lane (paste per sub-agent)
+```
+Use the specialist template in ops/ai-investigation-architecture.md §7.2 for lane [N: NAME] on
+[narrow scope]. Return the structured findings block only. No further spawning unless depth dig was requested.
+```
+
+### I3 — Influence companion after Hard Flags
+```
+Parent review has Hard Flags on [bill]. Draft an influence memo per METHODOLOGY §7 and
+ai-reviews/influence-template.md using only public LDA/OpenSecrets/sponsors. Pair with open fix language.
+Mark gaps "not established from public filings in this pass." No motive claims.
 ```
 
 Full older drafting prompts (B1–B4, C1–C3, etc.) remain valid in git history / ask the agent to restore them when Phase 2 starts. Prefer the Phase 1 prompts above until then.
@@ -105,4 +126,4 @@ Prompt: `Prepare everything in-repo for [step]; give me the shortest manual chec
 
 ---
 
-*Playbook version: 0.3.0 — mission locked to score/conflicts/fix/sample; formation default 501(c)(3).*
+*Playbook version: 0.3.1 — mission locked to score/conflicts/fix/sample; formation default 501(c)(3); Phase 2 I1–I3 investigation prompts.*
