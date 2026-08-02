@@ -150,6 +150,45 @@ Issue briefs (see [`ai-reviews/issues/_brief-template.md`](ai-reviews/issues/_br
 
 Exemplar: [`ai-reviews/issues/occupational-licensing.md`](ai-reviews/issues/occupational-licensing.md).
 
+### 4.7 Looking past talking points — hidden barrier analysis
+
+Crooked anti-free-market problems are often buried. Public narratives (“safety,” “character,” “affordability,” “environment,” “infrastructure”) can be sincere, manufactured, or both. CFMI research—especially AI-assisted problem finding—must separate **what people say** from **what the rulebook does**, and search for operative legal and economic mechanisms that raise rivals’ costs or freeze supply while sounding like public goods.
+
+**Required separation (every issue brief and sample-act problem statement):**
+
+| Layer | Question |
+|-------|----------|
+| **Public narrative** | What official rationale and talking points dominate hearings, press, and campaign language? |
+| **Operative mechanism** | What statute, code, map, fee schedule, timeline, or discretionary standard actually blocks voluntary exchange? |
+
+Do not treat slogans as evidence. Do not assume the narrative is false—steelman it—then test whether the operative design matches the claimed purpose.
+
+**Checklist of common hiding places** (scan every domain; housing is the prototype):
+
+1. **Discretionary standards** — “character,” “compatibility,” “harmony,” “public interest,” “as appropriate,” without published objective criteria.  
+2. **Process delay as veto** — sequential reviews, completeness games, endless resubmittals, no deemed-approved shot clock.  
+3. **Fees and exactions** — permit fees, impact fees, in-lieu payments structured to price out marginal projects.  
+4. **Parking and quantitative minimums** — unit-count, lot-size, setback, or parking floors that freeze density without naming exclusion.  
+5. **HOA / covenant overlays** — private restrictions stacked on local ordinances (map both layers).  
+6. **Environmental review misuse as entry barrier** — process and litigation risk used to raise rivals’ costs (state-aware: CEQA-style regimes where relevant; do not treat California as the only case or as dogma).  
+7. **Growth moratoria and concurrency traps** — temporary freezes or “adequate facilities” tests that never clear for new supply.  
+8. **Impact fees as exclusion** — fees that fail nexus/proportionality or that fund general budgets under a growth label.  
+9. **“Inclusionary” / affordability rules that tax supply** — set-asides and in-lieu taxes that raise the cost of every new unit while claiming to help affordability.  
+10. **Grandfathering incumbents** — existing uses protected; only new entrants face the full barrier stack.  
+11. **Opaque variance / waiver markets** — project-specific deals unavailable on equal, published terms.  
+12. **State preemption gaps** — state law appears to open entry; local ordinances, design codes, or fees quietly close it.  
+13. **Local cartel dynamics (homevoters)** — concentrated homeowner political power protecting scarcity rents; document incentives, not conspiracy narratives.
+
+**Analysis requirements before a brief is adoption-ready:**
+
+1. **Steelman the official rationale** — strongest honest case for the status quo, with linked sources (planning literature, local-government associations, safety or environmental claims).  
+2. **Search for who benefits from the status quo** — incumbents, homevoters, permitted rivals, fee-funded agencies; use public filings, maps, prices, and timelines—not motive mind-reading.  
+3. **Evidence standard** — statute/code cites, permit timelines, fee schedules, price–cost gaps, production data. Slogans and unverified social posts are not enough.  
+4. **Bipartisan frames when both point at artificial scarcity** — include progressive YIMBY / supply evidence and conservative property-rights / anti-exaction frames when both identify the same operative barriers. Reject either side’s ask for new rents, opaque discretion, or named privileges.  
+5. **Publish in the brief** — a dedicated **Hidden barriers / buried mechanisms** section (see [`ai-reviews/issues/_brief-template.md`](ai-reviews/issues/_brief-template.md)).
+
+This section applies to **all CFMI issue domains**, not only housing. Licensing boards, CON, water transfers, franchises, and industrial privileges use the same narrative-vs-mechanism discipline.
+
 ---
 
 ## 5. Stakeholder Feedback Rules
@@ -243,4 +282,4 @@ Until funded:
 
 ---
 
-*Methodology version: 0.5.0 (bootstrap) — scoring + conflict publish + open fix language + influence/transparency research + bipartisan sample-act comment + issue-brief steelman / counterevidence loop.*
+*Methodology version: 0.6.0 (bootstrap) — scoring + conflict publish + open fix language + influence/transparency research + bipartisan sample-act comment + issue-brief steelman / counterevidence loop + §4.7 hidden barrier analysis.*

@@ -21,6 +21,24 @@ Educational research only—not legal advice, voting instructions, or counsel to
 
 ---
 
+## Hidden barriers / buried mechanisms
+
+**Required for all briefs.** Look past manufactured or incomplete talking points to operative legal and economic mechanisms (METHODOLOGY §4.7).
+
+| Public narrative (what is said) | Operative mechanism (what the rulebook does) | Who benefits from status quo | Evidence (cite code, timeline, price—not slogans) |
+|--------------------------------|----------------------------------------------|------------------------------|---------------------------------------------------|
+| … | … | … | … |
+
+**Checklist scan** (mark each as present / absent / unclear for this domain): discretionary standards (“character,” “compatibility”); process delay as veto; fees/exactions; parking or quantitative minimums; HOA/covenant overlays; environmental review misuse as entry barrier; growth moratoria / concurrency traps; impact fees structured as exclusion; “inclusionary” or affordability rules that tax supply; grandfathering incumbents; opaque variance/waiver markets; state preemption gaps; local cartel / homevoter dynamics.
+
+**Required analysis:**
+
+1. **Steelman official rationale** — one short paragraph with linked sources.  
+2. **Who benefits** — incumbents, homevoters, gatekeepers, fee recipients; document incentives from public facts, not motive fiction.  
+3. **Bipartisan frames** — when progressive open-supply and conservative property-rights arguments both identify artificial scarcity, note both with links.
+
+---
+
 ## Voices & evidence — Supporting reform
 
 Link papers, articles, agency reports, and (where appropriate) social posts from **experts** and **people affected**. Prefer primary or high-quality secondary sources. Label source type. No fake or unverified links.

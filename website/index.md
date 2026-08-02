@@ -20,7 +20,7 @@ CFMI is research-funded AI for legislative analysis: we score current bills agai
 ## How we work
 
 1. **Score** — Use research-funded, rules-bound AI to score current legislation against Charter goals.  
-2. **Publish conflicts** — Disclose where bill text conflicts with free markets, constitutional limits, or anti-capture filters—and disclosed influence trails where public filings allow.  
+2. **Publish conflicts** — Disclose where bill text conflicts with free markets, constitutional limits, or anti-capture filters—and disclosed influence trails where public filings allow. Look past talking points to operative barriers.  
 3. **Fix language** — Offer open alignment and amendment language for proposed bills; pair influence maps with alternatives.  
 4. **Sample acts** — Publish sample legislation for bipartisan review and comment; minimize unintended consequences.  
 5. **Bind** — Charter principles govern every score, draft, and comment cycle.  

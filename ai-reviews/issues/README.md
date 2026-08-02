@@ -30,4 +30,4 @@ These demonstrate CFMI’s AI research mission. Public products are educational.
 
 **Live site:** [docs/examples.html](../../docs/examples.html) · **Suggest / counterevidence:** [docs/feedback.html](../../docs/feedback.html) · **Bill reviews:** [../README.md](../README.md)
 
-**Related:** [METHODOLOGY.md §4.6](../../METHODOLOGY.md) · [CHARTER.md](../../CHARTER.md) · [counterevidence template](../../.github/ISSUE_TEMPLATE/counterevidence.yml)
+**Related:** [METHODOLOGY.md §4.6–§4.7](../../METHODOLOGY.md) (steelman + hidden barrier analysis) · [CHARTER.md](../../CHARTER.md) · [counterevidence template](../../.github/ISSUE_TEMPLATE/counterevidence.yml)
