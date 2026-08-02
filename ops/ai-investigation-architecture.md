@@ -87,7 +87,7 @@ Run these six—not endless free-form roles. Parallelize when the tool allows (e
 |---|------|---------|-------------------|
 | 1 | **Text & mechanism** | Operative legal language; hidden barriers vs talking points | Bill text, code cites, §4.7 checklist |
 | 2 | **Root cause & incidence** | Who pays, who is blocked; least-coercive rollback options ranked | Problem statement, incidence notes |
-| 3 | **Influence & money** | Public LDA / OpenSecrets / sponsors only; METHODOLOGY §7 rules | Influence memo draft |
+| 3 | **Influence & money** | Public LDA / OpenSecrets / sponsors only; METHODOLOGY §7 rules. Optional encyclopedias (incl. Grokipedia) are lead-discovery only—never sole evidence; see [external-sources-and-grokipedia.md](external-sources-and-grokipedia.md) | Influence memo draft |
 | 4 | **Steelman / counterarguments** | Strongest honest defense of status quo; passability without Charter breach | Counters section |
 | 5 | **Unintended consequences & safeguards** | What rollback could make worse; sunsets, thresholds, rural/consumer protections | Safeguards section |
 | 6 | **Fix language / sample amendments** | Open bipartisan comment language; no new rents | Fix pack / amendment sketches |
@@ -206,7 +206,7 @@ Map packages into existing templates: issue brief, bill review, influence compan
 |---------|----------|
 | Scoring rubric & Hard Flags | [METHODOLOGY.md](../METHODOLOGY.md) §2 |
 | Hidden barriers / talking points | [METHODOLOGY.md](../METHODOLOGY.md) §4.7 · [issue brief template](../ai-reviews/issues/_brief-template.md) |
-| Influence & money rules | [METHODOLOGY.md](../METHODOLOGY.md) §7 · [influence-template.md](../ai-reviews/influence-template.md) |
+| Influence & money rules | [METHODOLOGY.md](../METHODOLOGY.md) §7 · [influence-template.md](../ai-reviews/influence-template.md) · optional external leads: [external-sources-and-grokipedia.md](external-sources-and-grokipedia.md) |
 | Bill review shape | [sample-bill-review-template.md](../ai-reviews/sample-bill-review-template.md) |
 | Issue briefs / steelman | [METHODOLOGY.md](../METHODOLOGY.md) §4.6 · [`ai-reviews/issues/`](../ai-reviews/issues/) |
 | Suggestion queue | [ops/suggestion-ranking.md](suggestion-ranking.md) · [`ai-reviews/suggestions/QUEUE.md`](../ai-reviews/suggestions/QUEUE.md) |
@@ -265,6 +265,7 @@ Scope (narrow): [bill section / agency / program / issue facet only]
 Parent question: [one sentence from orchestrator]
 Depth: [0 parent lane | 1 | 2]
 Evidence standard: public primary text, LDA/OpenSecrets/sponsors (lane 3), published data.
+Lane 3 may use Wikipedia/Grokipedia only to harvest candidate cites; resolve every influence fact to §7 rungs (see ops/external-sources-and-grokipedia.md). “Why” only with a public-record chain; else not established.
 Obey METHODOLOGY §4.7 (narrative vs mechanism) and §7 (influence—no motive fiction).
 Charter disqualifiers and anti-capture apply. Educational research only.
 
@@ -323,4 +324,4 @@ Worked example: election administration / list accuracy / mail custody / citizen
 
 ## 10. Version
 
-*Architecture version: 0.2.0 — bounded hierarchy + anti-narrative-capture (consensus claim tester).*
+*Architecture version: 0.2.1 — bounded hierarchy + anti-narrative-capture + optional external-source pointer (Grokipedia lead-only).*
