@@ -5,9 +5,10 @@
 **Rules:** [`ops/anti-narrative-capture.md`](../ops/anti-narrative-capture.md) · [`METHODOLOGY.md`](../METHODOLOGY.md) §7  
 **Parent brief:** [`issues/election-administration-integrity.md`](issues/election-administration-integrity.md)  
 **Companion package:** [`issues/federal-election-transparency-package.md`](issues/federal-election-transparency-package.md)  
+**Deep records companion:** [`influence-save-act-senate-stall.md`](influence-save-act-senate-stall.md) (METHODOLOGY §7.6)  
 **Review date:** 2026-08-02  
 **Human editor:** CFMI bootstrap  
-**AI assistance:** Orchestrated dig draft; human-edited.  
+**AI assistance:** Orchestrated dig draft; human-edited; deep public-records pass added.  
 **Interest disclosure (editor):** none
 
 Educational research only—not legal advice, voting instructions, or counsel to any person.
@@ -20,7 +21,7 @@ Educational research only—not legal advice, voting instructions, or counsel to
 
 **Who blocks?** Publicly: the **Democratic caucus** (Leader Schumer and colleagues), citing access/suppression and registration-friction concerns; plus **Republican skeptics** on design/federalism/timing—most clearly Sen. **Lisa Murkowski** (opposes the SAVE America Act as drafted while supporting citizen-only voting and voter ID in principle) and Sen. **Thom Tillis** (calls the floor push a “waste of time,” cites no path to 60 and implementation math). Blocking the *legislative vehicle* is not the same as opposing “only citizens should vote.”
 
-**Corruption / special interests?** Disclosed **advocacy coalitions** lobby hard on both sides (civil-rights / voting-access orgs against; Heritage Action and allied integrity groups for). That is influence, not established payola. **No public-record chain in this pass** shows that a named senator’s “no” was purchased. Treat bribe narratives as **not established**.
+**Corruption / special interests?** Disclosed **advocacy coalitions** lobby hard on both sides—with real budgets and named funders in public 990s/annual reports (see [`influence-save-act-senate-stall.md`](influence-save-act-senate-stall.md)). That is influence, not established payola. Aggregate FEC industry totals for named senators are **noisy** and do not prove vote-buying. **No public-record chain in this pass** shows that a named senator’s “no” was purchased. Treat bribe narratives as **not established**.
 
 **~80% public support?** **Partly true for principles; not established for this bill.** Nonpartisan Gallup/Pew-style questions on *photo ID* and *proof of citizenship for first-time registration* often land ~80–84%. Polls that name the SAVE Act or describe its full package land lower (e.g. Rasmussen ~63% for the SAVE Act, March 2026). Do not equate slogan polls with support for every operative clause.
 
@@ -143,39 +144,49 @@ These questions are **not** the same as: “Do you support H.R. 22 / S. 1383 inc
 
 ## 6. Influence / special interests
 
-### Standard (METHODOLOGY §7)
+### Standard (METHODOLOGY §7 / §7.6)
 
-- Publish **disclosed** lobbying and on-the-record advocacy.  
+- Publish **disclosed** lobbying and on-the-record advocacy—then complete the **Deep public-records layer** (not quotes alone).  
 - LDA / OpenSecrets “lobbying on” ≠ wrote the clause ≠ bought the vote.  
+- Separate **(A)** disclosed $ / org ties · **(B)** stated reason · **(C)** quid pro quo (**not established** without a chain).  
 - Private motives / bribes: **not established** unless a public-record chain exists.  
-- Do not launder either Brennan Center or Heritage Action as neutral closing authorities.
+- Do not launder either Brennan Center or Heritage Action as neutral closing authorities.  
+- Full tables, URLs, and evidence grades: [`influence-save-act-senate-stall.md`](influence-save-act-senate-stall.md).
 
-### Advocacy AGAINST (disclosed / on-record)
+### Advocacy AGAINST (disclosed / on-record + funding scale)
 
-| Org / coalition | Role | Evidence rung |
-|-----------------|------|---------------|
-| [Brennan Center](https://www.brennancenter.org/our-work/research-reports/brennan-center-letter-congress-opposing-save-act) | Public opposition letters; claims large eligible-citizen document gaps; “solution in search of a problem” | Advocacy + research org statements |
-| [League of Women Voters](https://www.lwv.org/fighting-voter-suppression/lwvus-joins-letter-congress-opposing-save-act) + Declaration for American Democracy coalition | Coalition letter opposing H.R. 22 | Org statements · [OpenSecrets LWV bills list includes H.R. 22](https://www.opensecrets.org/federal-lobbying/clients/bills?cycle=2025&id=D000052977) |
-| ACLU, Common Cause, Leadership Conference on Civil & Human Rights, Campaign Legal Center, SPLC, unions (AFT, SEIU, AFL-CIO), others | Appear among clients reporting lobbying on H.R. 22 | [OpenSecrets H.R. 22 bill profile](https://www.opensecrets.org/federal-lobbying/bills/summary?id=hr22-119) (~46 unique orgs listed on the aggregator page in this pass) |
+| Org / coalition | Role | Disclosed scale (public) | Evidence rung |
+|-----------------|------|--------------------------|---------------|
+| [Brennan Center](https://www.brennancenter.org/our-work/research-reports/brennan-center-letter-congress-opposing-save-act) | Opposition letters; document-gap claims | FY24 revenue **~$58M** ([ProPublica](https://projects.propublica.org/nonprofits/organizations/133839293)); 2024 report lists **$1M+** supporters incl. Ford Foundation, Arnold Ventures; OSF/Carnegie in mid-six-figure recognition bands ([annual report](https://www.brennancenter.org/sites/default/files/2025-06/2024_annual-report_pages_combined_digital.pdf)) | 990 + org report + advocacy statements |
+| [League of Women Voters](https://www.lwv.org/fighting-voter-suppression/lwvus-joins-letter-congress-opposing-save-act) + coalition | Coalition letter opposing H.R. 22; LDA client | Combined FY24 support **~$22.6M** ([LWV FY24 report](https://www.lwv.org/sites/default/files/2025-10/FY24%20Annual%20Report.pdf)) · [OpenSecrets LWV / H.R. 22](https://www.opensecrets.org/federal-lobbying/clients/bills?cycle=2025&id=D000052977) | 990/annual + LDA |
+| ACLU, Common Cause, Leadership Conference, Campaign Legal Center, SPLC, unions (AFT, SEIU, AFL-CIO), others | Clients reporting lobbying on H.R. 22 | ACLU Inc FY25 revenue **~$222M** ([ProPublica](https://projects.propublica.org/nonprofits/organizations/133871360)); **46** unique orgs on bill page | [OpenSecrets H.R. 22](https://www.opensecrets.org/federal-lobbying/bills/summary?id=hr22-119) |
 
-### Advocacy FOR (disclosed / on-record)
+### Advocacy FOR (disclosed / on-record + funding scale)
 
-| Org / actor | Role | Evidence rung |
-|-------------|------|---------------|
-| [Heritage Action](https://heritageaction.com/press/heritage-action-commends-house-passage-of-the-save-act) | Key-vote scoring; grassroots pressure; myth/fact materials; urges Senate passage | Advocacy org statements ([myth/fact](https://heritageaction.com/blog/myth-vs-fact-the-safeguard-american-voter-eligibility-act-h-r-22-s-128)) |
-| Federation for American Immigration Reform (FAIR), Association of Mature American Citizens, Gun Owners of America, others | Appear among clients reporting lobbying on H.R. 22 (direction not always labeled on the summary table—check individual LDA reports before asserting “for” vs “against”) | [OpenSecrets H.R. 22](https://www.opensecrets.org/federal-lobbying/bills/summary?id=hr22-119) |
-| Sponsors / champions | Rep. Chip Roy; Sen. Mike Lee; White House / President Trump priority messaging | Legislative record + public statements |
+| Org / actor | Role | Disclosed scale (public) | Evidence rung |
+|-------------|------|--------------------------|---------------|
+| [Heritage Action](https://heritageaction.com/press/heritage-action-commends-house-passage-of-the-save-act) | Key-vote scoring; grassroots; myth/fact | **501(c)(4)** FY24 revenue **~$15.5M** ([ProPublica](https://projects.propublica.org/nonprofits/organizations/272244700)); donor list mostly opaque; **Concord Fund** among grantmakers reported via other orgs’ 990s | 990 + grantmaker trail + advocacy statements |
+| FAIR, AMAC, Gun Owners of America, others | Appear on H.R. 22 LDA client list (confirm FOR/AGAINST on report images) | Bill-level LDA only in this pass | [OpenSecrets H.R. 22](https://www.opensecrets.org/federal-lobbying/bills/summary?id=hr22-119) |
+| Sponsors / champions | Rep. Chip Roy; Sen. Mike Lee; White House / President Trump priority messaging | Legislative record + public statements | Congress.gov + releases |
+
+### Sample senator donor ecosystems (aggregate — not SAVE earmarks)
+
+| Senator | OpenSecrets / FEC hook | Note |
+|---------|------------------------|------|
+| Schumer | [Industries 2019–24](https://www.opensecrets.org/members-of-congress/charles-e-schumer/industries?cycle=2024) · [FEC S8NY00082](https://www.fec.gov/data/candidate/S8NY00082/) | Top coded industries include securities, lawyers, retired, real estate—**noisy**; not a SAVE bribe ledger |
+| Murkowski | [Industries](https://www.opensecrets.org/members-of-congress/lisa-murkowski/industries?cycle=2022) · oil & gas among cycle totals | Stated SAVE America opposition is federalism/rural—donor→vote chain **not established** |
+| Tillis | [Career industries](https://www.opensecrets.org/members-of-congress/thom-tillis/industries?cycle=CAREER) | Public posture is path-to-60 / timing—**not established** as donor-driven |
 
 ### Corruption standard — applied
 
 | Allegation style | This pass |
 |------------------|-----------|
-| Civil-rights NGOs lobby Democrats against the bill | **Established as advocacy/lobbying**; incentives exist; not proof of bribery |
-| Heritage Action / integrity groups lobby Republicans for the bill | **Established as advocacy**; same standard |
+| Civil-rights NGOs lobby Democrats against the bill | **Established as advocacy/lobbying** with large disclosed budgets; not proof of bribery |
+| Heritage Action / integrity groups lobby Republicans for the bill | **Established as advocacy**; (c)(4) + Concord Fund grant trail = opaque upstream pattern, still not vote purchase |
 | A senator’s vote was purchased by a donor or contractor | **Not established from public filings in this pass** |
 | Stall = “deep state” alone, independent of filibuster math | **Reject as mechanism** — procedure is the binding constraint |
 
-**Influence conclusion:** The stall is best explained as **ideological + access + federalism conflict under a 60-vote rule**, amplified by professional advocacy ecosystems on both sides. Label that **interest-group politics**. Do **not** upgrade it to “corruption” without a filing/FEC/indictment chain.
+**Influence conclusion:** The stall is best explained as **ideological + access + federalism conflict under a 60-vote rule**, amplified by professional advocacy ecosystems on both sides with **real, publicly disclosed money**. Label that **interest-group politics**. Do **not** upgrade it to “corruption” without a filing/FEC/indictment chain.
 
 ---
 
@@ -203,7 +214,8 @@ Directionally: citizenship verification for **federal** registrants; alternative
 3. LDA report-level coding: which OpenSecrets H.R. 22 clients lobbied *for* vs *against* (summary tables often omit direction).  
 4. Empirical false-exclusion vs false-inclusion rates under SAVE-style documentary rules (not slogan estimates).  
 5. Whether a reconciliation-limited citizenship module can survive Byrd Rule / parliamentarian review—**legal/process dig, counsel**.  
-6. Net effect of Murkowski-style rural accommodation amendments on Charter scores and passability.
+6. Net effect of Murkowski-style rural accommodation amendments on Charter scores and passability.  
+7. Bill-specific IE totals (if any) around March 2026 cloture; opposing-side revolving-door census; STOCK Act/PFD hooks—see open gaps in [`influence-save-act-senate-stall.md`](influence-save-act-senate-stall.md) §9.
 
 ---
 
@@ -211,6 +223,7 @@ Directionally: citizenship verification for **federal** registrants; alternative
 
 | Product | Path |
 |---------|------|
+| Deep public-records / influence companion | [`influence-save-act-senate-stall.md`](influence-save-act-senate-stall.md) |
 | Election administration brief | [`issues/election-administration-integrity.md`](issues/election-administration-integrity.md) |
 | Federal election transparency package | [`issues/federal-election-transparency-package.md`](issues/federal-election-transparency-package.md) |
 | Prior I4 (mail/rolls “secure”) | [`consensus-mail-ballots-voter-rolls-secure.md`](consensus-mail-ballots-voter-rolls-secure.md) |
@@ -221,6 +234,6 @@ Directionally: citizenship verification for **federal** registrants; alternative
 ## Disclosure
 
 - **Models/providers:** Cursor agent research pass (web search + public pages), 2026-08-02.  
-- **Rubric / methods:** METHODOLOGY §7; anti-narrative-capture v0.1.0; architecture v0.2.1.  
+- **Rubric / methods:** METHODOLOGY §7 / §7.6; anti-narrative-capture v0.1.0; architecture v0.2.2.  
 - **Human editor:** CFMI bootstrap.  
-- Thin claims marked **not established**. Re-verify Congress.gov and poll questionnaires before donor-facing reuse.
+- Thin claims marked **not established**. Re-verify Congress.gov, poll questionnaires, OpenSecrets/FEC/990 figures before donor-facing reuse.

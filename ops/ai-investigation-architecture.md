@@ -87,7 +87,7 @@ Run these six—not endless free-form roles. Parallelize when the tool allows (e
 |---|------|---------|-------------------|
 | 1 | **Text & mechanism** | Operative legal language; hidden barriers vs talking points | Bill text, code cites, §4.7 checklist |
 | 2 | **Root cause & incidence** | Who pays, who is blocked; least-coercive rollback options ranked | Problem statement, incidence notes |
-| 3 | **Influence & money** | Public LDA / OpenSecrets / sponsors only; METHODOLOGY §7 rules. Optional encyclopedias (incl. Grokipedia) are lead-discovery only—never sole evidence; see [external-sources-and-grokipedia.md](external-sources-and-grokipedia.md) | Influence memo draft |
+| 3 | **Influence & money** | Public LDA / OpenSecrets / sponsors **plus** mandatory [Deep public-records layer](#33a-deep-public-records-layer-mandatory-after-stated-reasons) (METHODOLOGY §7.5–§7.6). Optional encyclopedias (incl. Grokipedia) are lead-discovery only—never sole evidence; see [external-sources-and-grokipedia.md](external-sources-and-grokipedia.md) | Influence memo draft |
 | 4 | **Steelman / counterarguments** | Strongest honest defense of status quo; passability without Charter breach | Counters section |
 | 5 | **Unintended consequences & safeguards** | What rollback could make worse; sunsets, thresholds, rural/consumer protections | Safeguards section |
 | 6 | **Fix language / sample amendments** | Open bipartisan comment language; no new rents | Fix pack / amendment sketches |
@@ -104,13 +104,44 @@ When Stage 2 surfaces a **high-consensus claim**—institutional (“the system 
 
 Lane output feeds the orchestrator’s Stage 2 table; it does not replace Text & mechanism or Steelman lanes.
 
+### 3.3a Deep public-records layer (mandatory after stated reasons)
+
+**When:** Any dig that will publish **influence**, **special interest**, or **corruption-surface** claims—including stall analyses that name blockers—must run this layer **after** documenting stated reasons. Public quotes alone are not enough.
+
+**For each key blocker / advocacy side, attempt:**
+
+1. **OpenSecrets / LDA** — clients & report counts (and amounts when published) on the bill or closely related election bills.  
+2. **FEC** — top donors / PACs to named senators (or sponsors) in relevant cycles; link [FEC](https://www.fec.gov/) and/or OpenSecrets member pages.  
+3. **Independent expenditures / opaque vehicles** — if disclosed, **name the vehicle**; do not invent “dark money” without a sourced pattern (prefer “opaque political spending” when unsure—METHODOLOGY §7.1).  
+4. **Personal financial disclosures / STOCK Act** — where relevant and findable.  
+5. **Nonprofit 990 funders** of lead advocacy orgs — [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/) and org-published 990s/annual reports.  
+6. **Revolving door** — prior public employer of staff/sponsors/lobbyists when disclosed (OpenSecrets Revolving Door or equivalent).
+
+**Always separate:**
+
+| | Claim type |
+|---|------------|
+| **(A)** | Disclosed financial / organizational interest |
+| **(B)** | Stated policy reason |
+| **(C)** | Corruption = quid pro quo — **not established** unless a public-record chain exists |
+
+**Required return table:**
+
+| Actor | Stated reason | Disclosed $ / org ties | Conflict hypothesis | Evidence grade (strong / moderate / weak / **not established**) |
+|-------|---------------|------------------------|---------------------|------------------------------------------------------------------|
+
+Mark exhausted checks “not established from public filings in this pass.” Aggregate industry totals are **noisy** and do not prove vote-buying.
+
+Full rules: [METHODOLOGY.md](../METHODOLOGY.md) §7.5–§7.6. Publish gate: [civic-action-pack.md](civic-action-pack.md).
+
 ### 3.3 Drill-down protocol (depth-limited)
 
 **When:** Orchestrator may spawn a sub-investigation only if:
 
 - A dimension score would be ≤ 1 (**Hard Flag**), or  
 - Artificial-manipulation language matches the Charter definition, or  
-- A specific clause, agency, named program, or fee schedule is the contested mechanism and public data exists to dig.
+- A specific clause, agency, named program, or fee schedule is the contested mechanism and public data exists to dig, or  
+- An influence/stall product needs the **Deep public-records layer** (§3.3a) on a named actor or org.
 
 **Limits:**
 
@@ -245,6 +276,10 @@ Architecture (mandatory):
 3. Depth-limited digs only: max depth 2 (3 only if I approve). Each dig = one clause OR one agency OR one named program; narrow charter + structured return.
    Prefer escalation digs on: disclosed messaging-org funding; what audits measure vs don't;
    statutory gaps vs practice; legal standards for challenging rolls.
+3a. After stated reasons, run Deep public-records layer (§3.3a / METHODOLOGY §7.6) before any influence or corruption-surface claim:
+   OpenSecrets/LDA; FEC top donors/PACs; disclosed IE/opaque vehicles (name them);
+   STOCK Act/PFDs if findable; 990 funders; revolving door. Output Actor | Stated reason |
+   Disclosed $ / org ties | Conflict hypothesis | Evidence grade. Separate (A)/(B)/(C).
 4. Stop on evidence exhaustion, Charter disqualifier, diminishing returns, or human review gate.
 5. Synthesize one publish package: narrative vs mechanism, scores/Hard Flags (if bill), influence notes or deferred, rollback/fix language, safeguards, open questions.
 6. Do not publish. Hand off to a human editor. Mark unverified claims "not established from public sources in this pass."
@@ -266,7 +301,8 @@ Parent question: [one sentence from orchestrator]
 Depth: [0 parent lane | 1 | 2]
 Evidence standard: public primary text, LDA/OpenSecrets/sponsors (lane 3), published data.
 Lane 3 may use Wikipedia/Grokipedia only to harvest candidate cites; resolve every influence fact to §7 rungs (see ops/external-sources-and-grokipedia.md). “Why” only with a public-record chain; else not established.
-Obey METHODOLOGY §4.7 (narrative vs mechanism) and §7 (influence—no motive fiction).
+Lane 3 must complete Deep public-records layer (§3.3a) after stated reasons—not quotes alone.
+Obey METHODOLOGY §4.7 (narrative vs mechanism) and §7 / §7.6 (influence—no motive fiction).
 Charter disqualifiers and anti-capture apply. Educational research only.
 
 Return ONLY this structure:
@@ -324,4 +360,4 @@ Worked example: election administration / list accuracy / mail custody / citizen
 
 ## 10. Version
 
-*Architecture version: 0.2.1 — bounded hierarchy + anti-narrative-capture + optional external-source pointer (Grokipedia lead-only).*
+*Architecture version: 0.2.2 — bounded hierarchy + anti-narrative-capture + Deep public-records layer (§3.3a) + optional external-source pointer (Grokipedia lead-only).*

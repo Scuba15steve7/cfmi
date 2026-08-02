@@ -33,6 +33,14 @@ Use precise verbs: **reported lobbying**, **disclosed spending**, **listed as cl
 
 **Opaque political spending:** Use only with sources for non-disclosing 501(c)(4)/super PAC patterns; otherwise omit or say not established in this pass.
 
+### 2a. Deep public-records layer (mandatory — METHODOLOGY §7.6)
+
+After stated reasons, attempt: OpenSecrets/LDA amounts; FEC top donors/PACs (link FEC or OpenSecrets); disclosed IE / opaque vehicles (name them); STOCK Act/PFDs if findable; 990 funders (ProPublica); revolving door. Separate **(A)** disclosed interest · **(B)** stated reason · **(C)** quid pro quo not established without a chain.
+
+| Actor | Stated reason | Disclosed $ / org ties | Conflict hypothesis | Evidence grade |
+|-------|---------------|------------------------|---------------------|----------------|
+| … | | | | strong / moderate / weak / not established |
+
 ---
 
 ## 3. What we do not allege

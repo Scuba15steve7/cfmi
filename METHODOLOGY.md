@@ -283,7 +283,42 @@ If a claim cannot rest on rungs 1–4 (or a clearly labeled rung-5 company state
 
 Never blend motive mind-reading into the facts layer.
 
-### 7.6 Product placement
+**Always keep three claims separate in influence products:**
+
+| Label | Meaning |
+|-------|---------|
+| **(A) Disclosed financial / organizational interest** | LDA clients & amounts, FEC/OpenSecrets donor industries or PACs, 990 funders, revolving-door employment—sourced and linked |
+| **(B) Stated policy reason** | On-the-record public justification (floor remarks, releases, hearings) |
+| **(C) Corruption = quid pro quo** | **Not established** unless a public-record chain connects payment/privilege to a specific official act |
+
+### 7.6 Deep public-records layer (mandatory after stated reasons)
+
+After documenting **stated reasons** for each key blocker or advocacy side, investigators **must attempt** a deeper pass over harder-to-find but **publicly available** data. Public statements alone are insufficient for influence claims.
+
+For each key blocker / advocacy side, attempt:
+
+| Check | Sources (examples) |
+|-------|-------------------|
+| LDA / OpenSecrets clients & amounts on the bill or closely related election bills | [OpenSecrets bill pages](https://www.opensecrets.org/), Senate/House LDA |
+| FEC: top donors / PACs to named senators in relevant cycles | [FEC](https://www.fec.gov/) candidate pages · OpenSecrets industry/PAC tables (link both when used) |
+| Independent expenditures / opaque (“dark money”) vehicles **if disclosed** | Name the vehicle from filings or reputable aggregator pages; **do not invent** |
+| Personal financial disclosures / STOCK Act filings where relevant and findable | Senate/House disclosure portals |
+| Nonprofit 990 funders of lead advocacy orgs | [ProPublica Nonprofit Explorer](https://projects.propublica.org/nonprofits/), org-published annual reports / 990s |
+| Revolving door: prior employer of staff/sponsors if public | OpenSecrets Revolving Door · bio pages tied to LDA |
+
+If a check yields nothing usable, write **“not established from public filings in this pass”** for that cell—do not pad with quotes.
+
+**Required output table** (influence digs / stall analyses that claim interest-group or corruption angles):
+
+| Actor | Stated reason | Disclosed $ / org ties | Conflict hypothesis | Evidence grade |
+|-------|---------------|------------------------|---------------------|----------------|
+| … | (B) | (A) | One-sentence hypothesis, labeled as hypothesis | **strong** / **moderate** / **weak** / **not established** |
+
+Evidence-grade meanings: **strong** = multi-source public chain to the contested act; **moderate** = clear disclosed interest + temporal/issue overlap without causation proof; **weak** = aggregate industry or org funding with no act-specific link; **not established** = no public chain (default for quid-pro-quo claims).
+
+Pipeline placement and dig prompts: [`ops/ai-investigation-architecture.md`](ops/ai-investigation-architecture.md) (Deep public-records layer). Publish gate: [`ops/civic-action-pack.md`](ops/civic-action-pack.md) — deep records layer completed before publishing influence claims.
+
+### 7.7 Product placement
 
 - Template: [`ai-reviews/influence-template.md`](ai-reviews/influence-template.md)  
 - Companions: `ai-reviews/influence-*.md` linked from parent reviews and [`docs/reviews.html`](docs/reviews.html)  
@@ -301,4 +336,4 @@ Until funded:
 
 ---
 
-*Methodology version: 0.6.1 (bootstrap) — scoring + conflict publish + open fix language + influence/transparency research + bipartisan sample-act comment + issue-brief steelman / counterevidence loop + §4.7 hidden barrier analysis + §2.5 bounded multi-agent investigation pointer.*
+*Methodology version: 0.6.2 (bootstrap) — scoring + conflict publish + open fix language + influence/transparency research + §7.6 deep public-records layer (after stated reasons) + bipartisan sample-act comment + issue-brief steelman / counterevidence loop + §4.7 hidden barrier analysis + §2.5 bounded multi-agent investigation pointer.*

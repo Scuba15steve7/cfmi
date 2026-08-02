@@ -48,9 +48,21 @@ Bounded hierarchical investigation ([ai-investigation-architecture.md](ai-invest
 2. **Specialist lanes** (in parallel as needed): text/mechanism, root cause, influence/money from public records, counters, safeguards, fix language.  
 3. **Source discipline** — primary filings and statutes first; encyclopedias and secondary explainers (including Grokipedia when used) are **non-authoritative** context under [external-sources-and-grokipedia.md](external-sources-and-grokipedia.md).  
 4. **Anti-narrative filter** — high-consensus and viral claims are hypotheses to test ([anti-narrative-capture.md](anti-narrative-capture.md)).  
-5. **Human editor** accepts, revises, or rejects before anything is a public CFMI product.
+5. **Deep public-records layer** — after stated reasons, attempt LDA/OpenSecrets, FEC, disclosed IE/opaque vehicles, 990 funders, revolving door, STOCK Act/PFDs where findable ([METHODOLOGY.md](../METHODOLOGY.md) §7.6 · architecture §3.3a).  
+6. **Human editor** accepts, revises, or rejects before anything is a public CFMI product.
 
 Public intake: GitHub Issues — suggest a review, request an action pack dig, or submit counterevidence (see [docs/tool.html](../docs/tool.html)).
+
+### 3.1 Pre-publish checklist (influence claims)
+
+Before any Civic Action Pack (or companion) publishes influence, special-interest, or corruption-surface claims:
+
+- [ ] Stated reasons documented for each key blocker / advocacy side  
+- [ ] **Deep records layer completed before publishing influence claims** (METHODOLOGY §7.6)  
+- [ ] Output table present: Actor | Stated reason | Disclosed $ / org ties | Conflict hypothesis | Evidence grade  
+- [ ] Layers separated: (A) disclosed interest · (B) stated reason · (C) quid pro quo **not established** unless chain exists  
+- [ ] Aggregate/noisy donor data labeled as such—no vote-buying inference from industry totals alone  
+- [ ] Human editor sign-off
 
 ---
 
